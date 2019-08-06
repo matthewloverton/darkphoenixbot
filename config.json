@@ -1,0 +1,15 @@
+{
+    "discord": {
+        "clientId": "583899882952327178",
+        "clientSecret": "Ws_PoVl4ePGDnPbxagipySoXX0YMhj3T",
+        "owner": "126901744780181504",
+        "token": "NTgzODk5ODgyOTUyMzI3MTc4.XUgD8A.x9abmspiUhvoDMUV74eOAJF-bKY"
+    },
+    "db": {
+        "user": "admin",
+        "pwrd": "Con=spirator3",
+        "name": "db_mayhem",
+        "host": "localhost",
+        "port": "5432"
+    }
+  }
