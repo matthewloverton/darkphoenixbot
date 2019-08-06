@@ -4,11 +4,11 @@ from discord.ext import commands
 import json
 
 config = json.load(open('../config.json', 'r'))
-client = commands.Bot(command_prefix = '.')
+client = commands.Bot(command_prefix = '?')
 
 @client.event
 async def on_ready():
-    print('PHOENIX BOT STARTED..')
+    print('AKU\'s MINION STARTED..')
 
 @client.event
 async def on_member_join(member):
@@ -31,13 +31,18 @@ async def on_message(message):
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
-@client.command(aliases=['8ball', 'test'])
+@client.command(aliases=['8ball'])
 async def _8ball(ctx, *, question):
     responses = ['It is certain.',
                  'It is doubtful.',
                  'No way.',
                  'Absolutely.',
-                 'Definitely Not.']
+                 'Definitely Not.',
+                 'I guess so.',
+                 'Maybe.',
+                 'I\'m not sure, let me think about it.',
+                 'Ask another question, I don\'t like that one.',
+                 'Wait, were you talking to me?']
     await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
 
 client.run(config['discord']['token'])
