@@ -1,1 +1,1 @@
-python3 : mayhembot.py
+worker: python3 mayhembot.py
