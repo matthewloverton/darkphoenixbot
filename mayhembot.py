@@ -6,43 +6,41 @@ import json
 config = json.load(open('config.json', 'r'))
 client = commands.Bot(command_prefix = '?')
 
-@client.event
-async def on_ready():
-    print('AKU\'s MINION STARTED..')
+image_channels = ['resource-channel']
+image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
 @client.event
-async def on_member_join(member):
-    print(member.joined_at)
+async def on_ready():
+    print('MINION OF AKU STARTED..')
 
 @client.event
 async def on_message(message):
-    channel = message.channel
     if message.author == client.user:
         return
     
-    if message.content.startswith('$hello'):
-        async with channel.typing():
-            await message.channel.send('Hello!')
-            print('HELLO SENT.')
-
+    if message.channel.name in image_channels:
+        if message.content:
+            await message.delete()
+        elif not message.attachments:
+            await message.delete()
+        else:
+            try:
+                for attachment in message.attachments:
+                    if attachment.filename.split('.')[-1] not in image_types:
+                        await message.delete()
+            except:
+                print('Unknown error')
+    
     await client.process_commands(message)
 
 @client.command()
 async def ping(ctx):
     await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
 
-@client.command(aliases=['8ball'])
-async def _8ball(ctx, *, question):
-    responses = ['It is certain.',
-                 'It is doubtful.',
-                 'No way.',
-                 'Absolutely.',
-                 'Definitely Not.',
-                 'I guess so.',
-                 'Maybe.',
-                 'I\'m not sure, let me think about it.',
-                 'Ask another question, I don\'t like that one.',
-                 'Wait, were you talking to me?']
-    await ctx.send(f'Question: {question}\nAnswer: {random.choice(responses)}')
+@client.command()
+async def joined(ctx, *, member: discord.Member):
+    for role in ctx.author.roles:
+        if role.name == 'Administrator':
+            await ctx.author.send('{0} joined on {0.joined_at}'.format(member))
 
 client.run(config['discord']['token'])
