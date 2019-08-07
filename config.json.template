@@ -5,11 +5,4 @@
         "owner": "<<OWNER_DISCORD_ID>>",
         "token": "<<BOT_TOKEN>>"
     },
-    "db": {
-        "user": "<<USER>>",
-        "pwrd": "<<PASSWORD>>",
-        "name": "<<DATABASE_NAME>>",
-        "host": "<<HOST_ADDRESS>>",
-        "port": "<<PORT>>"
-    }
-  }
+}
