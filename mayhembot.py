@@ -4,7 +4,7 @@ from discord.ext import commands
 import json
 
 config = json.load(open('config.json', 'r'))
-client = commands.Bot(command_prefix = 'm.')
+client = commands.Bot(command_prefix = '/')
 
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
@@ -30,6 +30,13 @@ async def on_message(message):
                 print('Unknown error')
     
     await client.process_commands(message)
+
+@client.command()
+async def snap(ctx, *, member: discord.Member):
+    for role in ctx.author.roles:
+        if role.name == 'Administrator':
+            await member.kick()
+            await ctx.send('{0} has been dusted.. :Thanos:'.format(member))
 
 @client.command()
 async def ping(ctx):
