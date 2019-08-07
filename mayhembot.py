@@ -19,9 +19,7 @@ async def on_message(message):
         return
     
     if message.channel.name in image_channels:
-        if message.content:
-            await message.delete()
-        elif not message.attachments:
+        if not message.attachments:
             await message.delete()
         else:
             try:
