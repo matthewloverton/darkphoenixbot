@@ -3,7 +3,7 @@ import random
 from discord.ext import commands
 import json
 
-config = json.load(open('../config.json', 'r'))
+config = json.load(open('config.json', 'r'))
 client = commands.Bot(command_prefix = '?')
 
 @client.event
