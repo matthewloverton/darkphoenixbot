@@ -4,7 +4,7 @@ from discord.ext import commands
 import json
 
 config = json.load(open('config.json', 'r'))
-client = commands.Bot(command_prefix = '?')
+client = commands.Bot(command_prefix = 'm.')
 
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
