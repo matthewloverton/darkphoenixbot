@@ -20,11 +20,13 @@ async def on_message(message):
     
     if message.channel.name in image_channels:
         if not message.attachments:
+            await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
             await message.delete()
         else:
             try:
                 for attachment in message.attachments:
                     if attachment.filename.split('.')[-1] not in image_types:
+                        await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
                         await message.delete()
             except:
                 print('Unknown error')
@@ -34,9 +36,9 @@ async def on_message(message):
 @client.command()
 async def snap(ctx, *, member: discord.Member):
     for role in ctx.author.roles:
-        if role.name == 'Administrator':
+        if role.name in ['Administrator']:
             await member.kick()
-            await ctx.send('{0} has been dusted.. :Thanos:'.format(member))
+            await ctx.send('{0} has been dusted by.. @MEE6#4876'.format(member))
 
 @client.command()
 async def ping(ctx):
@@ -45,7 +47,7 @@ async def ping(ctx):
 @client.command()
 async def joined(ctx, *, member: discord.Member):
     for role in ctx.author.roles:
-        if role.name == 'Administrator':
+        if role.name in ['Administrator']:
             await ctx.author.send('{0} joined on {0.joined_at}'.format(member))
 
 client.run(config['discord']['token'])

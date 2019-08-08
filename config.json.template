@@ -4,5 +4,5 @@
         "clientSecret": "<<CLIENT_SECRET>>",
         "owner": "<<OWNER_DISCORD_ID>>",
         "token": "<<BOT_TOKEN>>"
-    },
+    }
 }
