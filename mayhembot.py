@@ -26,6 +26,7 @@ async def on_message(message):
                 for attachment in message.attachments:
                     if attachment.filename.split('.')[-1] not in image_types:
                         await message.delete()
+                        await message.author.send('{0.channel.name} accepts only images. Please send an image!'.format(message))
             except:
                 print('Unknown error')
     
