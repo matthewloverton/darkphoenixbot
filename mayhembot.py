@@ -25,7 +25,7 @@ async def on_message(message):
         else:
             try:
                 for attachment in message.attachments:
-                    if attachment.filename.split('.')[-1] not in image_types:
+                    if attachment.filename.split('.')[-1] not in image_types or not attatchment.url:
                         await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
                         await message.delete()
             except:
@@ -38,7 +38,7 @@ async def snap(ctx, *, member: discord.Member):
     for role in ctx.author.roles:
         if role.name in ['Administrator']:
             await member.kick()
-            await ctx.send('{0} has been dusted by.. @MEE6#4876'.format(member))
+            await ctx.send('{0} has been dusted by.. '.format(member))
 
 @client.command()
 async def ping(ctx):
