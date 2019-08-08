@@ -19,13 +19,13 @@ async def on_message(message):
         return
     
     if message.channel.name in image_channels:
-        if not message.attachments:
+        if not message.attachments and not message.content.startswith('http'):
             await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
             await message.delete()
         else:
             try:
                 for attachment in message.attachments:
-                    if attachment.filename.split('.')[-1] not in image_types or not attatchment.url:
+                    if attachment.filename.split('.')[-1] not in image_types:
                         await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
                         await message.delete()
             except:
@@ -35,10 +35,11 @@ async def on_message(message):
 
 @client.command()
 async def snap(ctx, *, member: discord.Member):
+    mentionid = client.get_user(159985870458322944)
     for role in ctx.author.roles:
-        if role.name in ['Administrator']:
+        if role.name in ['Administrator', 'The Seven', 'Alliance Leader']:
             await member.kick()
-            await ctx.send('{0} has been dusted by.. '.format(member))
+            await ctx.send('{0} has been dusted by.. {1}'.format(member, mentionid.mention))
 
 @client.command()
 async def ping(ctx):
@@ -47,7 +48,7 @@ async def ping(ctx):
 @client.command()
 async def joined(ctx, *, member: discord.Member):
     for role in ctx.author.roles:
-        if role.name in ['Administrator']:
+        if role.name in ['Administrator', 'The Seven', 'Alliance Leader']:
             await ctx.author.send('{0} joined on {0.joined_at}'.format(member))
 
 client.run(config['discord']['token'])
