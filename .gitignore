@@ -66,3 +66,6 @@ typings/
 # Python stuff
 __pycache__
 *.pyc
+
+# config
+config.json
