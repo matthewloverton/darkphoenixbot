@@ -19,7 +19,6 @@ async def on_message(message):
         return
     
     if message.channel.name in image_channels:
-
         if not message.attachments and not message.content.startswith('http'):
             await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
             await message.delete()
