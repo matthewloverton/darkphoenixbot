@@ -1,54 +1,42 @@
 import discord
 import random
 from discord.ext import commands
-import json
+import json, sys, traceback
 
 config = json.load(open('config.json', 'r'))
-client = commands.Bot(command_prefix = '/')
 
+#Define channels to auto-delete messages that do not contain the image_types.
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
+#FUNCTIONS
+def get_prefix(bot, message):
+    prefixes = ['/']
+
+    if not message.guild:
+        return '?'
+
+    return commands.when_mentioned_or(*prefixes)(bot, message)
+
+initial_extensions = ['cogs.members',
+                      'cogs.moderation',
+                      'cogs.owner']
+
+#INITIALIZE BOT CLIENT
+client = commands.Bot(command_prefix = get_prefix, description = "Minion of Aku, the Mayhem empire's very own server manager.")
+
+#LOAD COGS
+if __name__ == '__main__':
+    for extension in initial_extensions:
+        client.load_extension(extension)
+
+# Print information about the bot if it successfully activates.
 @client.event
 async def on_ready():
-    print('MINION OF AKU STARTED..')
+    print (f'\n\nLogged in as: {client.user.name} - {client.user.id}\nVersion: {discord.__version__}\n')
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-    
-    if message.channel.name in image_channels:
-        if not message.attachments and not message.content.startswith('http'):
-            await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
-            await message.delete()
-        else:
-            try:
-                for attachment in message.attachments:
-                    if attachment.filename.split('.')[-1] not in image_types:
-                        await message.author.send('#{0.channel.name} accepts only images. Please send an image!'.format(message))
-                        await message.delete()
-            except:
-                print('Unknown error')
-    
-    await client.process_commands(message)
+    # Change the bot status
+    await client.change_presence(activity=discord.Game(name='with the Mayhem Server'))
+    print(f'Successfully logged in and running...!')
 
-@client.command()
-async def snap(ctx, *, member: discord.Member):
-    mentionid = client.get_user(159985870458322944)
-    for role in ctx.author.roles:
-        if role.name in ['Administrator', 'The Seven', 'Alliance Leader']:
-            await member.kick()
-            await ctx.send('{0} has been dusted by.. {1}'.format(member, mentionid.mention))
-
-@client.command()
-async def ping(ctx):
-    await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
-
-@client.command()
-async def joined(ctx, *, member: discord.Member):
-    for role in ctx.author.roles:
-        if role.name in ['Administrator', 'The Seven', 'Alliance Leader']:
-            await ctx.author.send('{0} joined on {0.joined_at}'.format(member))
-
-client.run(config['discord']['token'])
+client.run(config['discord']['token'], bot = True, reconnect = True)
