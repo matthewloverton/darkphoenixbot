@@ -75,7 +75,7 @@ class MembersCog(commands.Cog):
         embed.set_thumbnail(url=f'{ctx.guild.icon_url}')
         embed.set_footer(text=f'Server ID: {ctx.guild.id}', icon_url=f'{ctx.author.avatar_url}')
         embed.add_field(name='Region', value=f'{ctx.guild.region}')
-        embed.add_field(name='Users', value=f'{ctx.guild.member_count}/{ctx.guild.max_members}')
+        embed.add_field(name='Users', value=f'{ctx.guild.member_count}')
         embed.add_field(name='Text Channels', value=f'{len(ctx.guild.text_channels)}')
         embed.add_field(name='Voice Channels', value=f'{len(ctx.guild.voice_channels)}')
         embed.add_field(name='Roles', value=f'{len(ctx.guild.roles)}')
