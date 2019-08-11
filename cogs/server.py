@@ -48,7 +48,18 @@ class ServerCog(commands.Cog):
     async def user_info_handler(self, ctx, error):
         if isinstance(error, commands.BadArgument):
             await ctx.send("Could not find that member, please try again.")
+    
+    @commands.command(aliases=['creator', 'owner', 'contact', 'suggestion', 'feedback'])
+    async def contact_owner(self, ctx, *, content):
+        honcho = self.client.get_user(126901744780181504)
+        embed = discord.Embed(title=f'**{ctx.author}**', colour=ctx.author.colour, description=f'User ID: {ctx.author.id}', timestamp=datetime.datetime.now())
+        embed.set_thumbnail(url=f'{ctx.author.avatar_url}')
+        embed.set_footer(text=f'Server ID: {ctx.guild.id}', icon_url=f'{ctx.guild.icon_url}')
+        embed.add_field(name='Server', value=f'{ctx.guild.name}')
+        embed.add_field(name='Role', value=f'{ctx.author.top_role}')
+        embed.add_field(name='Message', value=f'{content}')
+        await honcho.send(embed=embed)
 
-#SETUP function to add this cog to the client when loaded.
+    #SETUP function to add this cog to the client when loaded.
 def setup(client):
     client.add_cog(ServerCog(client))
