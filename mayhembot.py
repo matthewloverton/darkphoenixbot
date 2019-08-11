@@ -32,6 +32,7 @@ def get_prefix(bot, message):
 
 initial_extensions = ['cogs.members',
                       'cogs.moderation',
+                      'cogs.server',
                       'cogs.owner']
 
 client = commands.Bot(command_prefix = get_prefix, description = "Minion of Aku, the Mayhem empire's very own server manager.")
