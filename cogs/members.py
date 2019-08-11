@@ -66,6 +66,22 @@ class MembersCog(commands.Cog):
         await member.remove_roles(role)
         await ctx.send(f'{member.mention} has been unmuted.')
 
+    @commands.command(aliases=['serverinfo', 'guildinfo'])
+    async def server_info(self, ctx):
+        now = datetime.datetime.now()
+        creation = ctx.guild.created_at
+        difference = now - creation
+        embed = discord.Embed(title=f'**{ctx.guild.name}**', colour=discord.Colour(0x9013fe), description=f'Since {creation.strftime("%d %B %Y %H:%M")}. That\'s over {difference.days} days ago since the creation of {ctx.guild.name}!', timestamp=datetime.datetime.now())
+        embed.set_thumbnail(url=f'{ctx.guild.icon_url}')
+        embed.set_footer(text=f'Server ID: {ctx.guild.id}', icon_url=f'{ctx.author.avatar_url}')
+        embed.add_field(name='Region', value=f'{ctx.guild.region}')
+        embed.add_field(name='Users', value=f'{ctx.guild.member_count}/{ctx.guild.max_members}')
+        embed.add_field(name='Text Channels', value=f'{len(ctx.guild.text_channels)}')
+        embed.add_field(name='Voice Channels', value=f'{len(ctx.guild.voice_channels)}')
+        embed.add_field(name='Roles', value=f'{len(ctx.guild.roles)}')
+        embed.add_field(name='Owner', value=f'{ctx.guild.owner}')
+        await ctx.send(embed=embed)
+
 #SETUP function to add this cog to the client when loaded.
 def setup(client):
     client.add_cog(MembersCog(client))
