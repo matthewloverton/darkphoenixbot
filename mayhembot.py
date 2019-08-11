@@ -1,52 +1,57 @@
 import discord
-import random
 from discord.ext import commands
-import json
+import json, sys, traceback, asyncio, random
 
 config = json.load(open('config.json', 'r'))
-client = commands.Bot(command_prefix = '/')
 
+#Define channels to auto-delete messages that do not contain the image_types.
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
+#Define bot statuses
+statuses = [['with the Empire', 0],
+            ['over the Empire', 3],
+            ['to some lo-fi beats', 2],
+            ['with Aku\'s son', 0],
+            ['alliances go to war', 3],
+            ['to complaints about MSF', 2]]
+
+#INITIALIZE BOT CLIENT
+def get_prefix(bot, message):
+    prefixes = ['/']
+
+    if not message.guild:
+        return '?'
+
+    return commands.when_mentioned_or(*prefixes)(bot, message)
+
+initial_extensions = ['cogs.members',
+                      'cogs.moderation',
+                      'cogs.owner']
+
+client = commands.Bot(command_prefix = get_prefix, description = "Minion of Aku, the Mayhem empire's very own server manager.")
+
+#FUNCTIONS
+
+async def status_task():
+    while True:
+        status = random.choice(statuses)
+        await client.change_presence(activity=discord.Activity(name=status[0], type=status[1]))
+        await asyncio.sleep(180)
+
+
+#LOAD COGS
+if __name__ == '__main__':
+    for extension in initial_extensions:
+        client.load_extension(extension)
+
+# Print information about the bot if it successfully activates.
 @client.event
 async def on_ready():
-    print('MINION OF AKU STARTED..')
+    print (f'\n\nLogged in as: {client.user.name} - {client.user.id}\nVersion: {discord.__version__}\n')
 
-@client.event
-async def on_message(message):
-    if message.author == client.user:
-        return
-    
-    if message.channel.name in image_channels:
-        if not message.attachments:
-            await message.delete()
-        else:
-            try:
-                for attachment in message.attachments:
-                    if attachment.filename.split('.')[-1] not in image_types:
-                        await message.delete()
-                        await message.author.send('{0.channel.name} accepts only images. Please send an image!'.format(message))
-            except:
-                print('Unknown error')
-    
-    await client.process_commands(message)
+    # Change the bot status
+    client.loop.create_task(status_task())
+    print(f'Successfully logged in and running...!')
 
-@client.command()
-async def snap(ctx, *, member: discord.Member):
-    for role in ctx.author.roles:
-        if role.name == 'Administrator':
-            await member.kick()
-            await ctx.send('{0} has been dusted.. :Thanos:'.format(member))
-
-@client.command()
-async def ping(ctx):
-    await ctx.send(f'Pong! {round(client.latency * 1000)}ms')
-
-@client.command()
-async def joined(ctx, *, member: discord.Member):
-    for role in ctx.author.roles:
-        if role.name == 'Administrator':
-            await ctx.author.send('{0} joined on {0.joined_at}'.format(member))
-
-client.run(config['discord']['token'])
+client.run(config['discord']['token'], bot = True, reconnect = True)
