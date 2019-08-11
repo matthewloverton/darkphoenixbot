@@ -1,5 +1,21 @@
-import discord, datetime
+import discord, datetime, random
 from discord.ext import commands
+
+#List of burns
+burns = ["it's better to let someone think you are an Idiot than to open your mouth and prove it.",
+         "if I had a face like yours, I'd sue my parents.",
+         "i’m jealous of people that don’t know you!",
+         "I don't know what makes you so stupid, but it really works.",
+         "calling you an idiot would be an insult to all the stupid people.",
+         "roses are red violets are blue, God made me pretty, what happened to you?",
+         "stop trying to be a smart ass, you're just an ass.",
+         "the last time I saw something like you, I flushed it.",
+         "you are not as bad as people say, you are much, much worse.",
+         "you're like Monday mornings, nobody likes you.",
+         "have you been shopping lately? They're selling lives, you should go get one.",
+         "every time I'm next to you, I get a fierce desire to be alone.",
+         "you make my A.I mouth want to throw up.",
+         "I spend my every waking minute protecting my creator from your stupidity."]
 
 class ServerCog(commands.Cog):
     def __init__(self, client):
@@ -27,7 +43,7 @@ class ServerCog(commands.Cog):
         user = member if member else ctx.author
         title = f'**{user} - {user.nick}**' if user.nick else f'**{user}**'
         colour = user.colour
-        description = f'status: {user.status}'
+        description = f'status: {user.mobile_status} on mobile' if user.is_on_mobile() else f'status: {user.status}'
         creation = user.created_at
         joined = user.joined_at
         c_diff = now - creation
@@ -60,6 +76,13 @@ class ServerCog(commands.Cog):
         embed.add_field(name='Message', value=f'{content}')
         await honcho.send(embed=embed)
         await ctx.author.send(f'Response submitted, thank you for your feedback!')
+    
+    @commands.command(aliases=['burn', 'insult', 'destroy'])
+    async def send_insult(self, ctx, *, member: discord.Member=None):
+        if not member:
+            await ctx.send(f'Please specify a member to be ripped into by {self.client.mention}')
+            return
+        await ctx.send(f'{member.mention} {random.choice(burns)}')
 
     #SETUP function to add this cog to the client when loaded.
 def setup(client):
