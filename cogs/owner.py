@@ -7,13 +7,10 @@ class OwnerCog(commands.Cog):
         self.client = client
     
     # Hidden means it won't show up on the default help.
-    # 
+    # Loads a Module (use cogs.cogname).
     @commands.command(name='load', hidden=True)
     @commands.is_owner()
     async def load_cog(self, ctx, *, cog: str):
-        """Command which Loads a Module.
-        Remember to use dot path. e.g: cogs.owner"""
-
         try:
             self.client.load_extension(cog)
         except Exception as e:
@@ -21,12 +18,10 @@ class OwnerCog(commands.Cog):
         else:
             await ctx.send('**`SUCCESS`**')
 
+    # Unloads a Module.
     @commands.command(name='unload', hidden=True)
     @commands.is_owner()
     async def unload_cog(self, ctx, *, cog: str):
-        """Command which Unloads a Module.
-        Remember to use dot path. e.g: cogs.owner"""
-
         try:
             self.client.unload_extension(cog)
         except Exception as e:
@@ -34,12 +29,11 @@ class OwnerCog(commands.Cog):
         else:
             await ctx.send('**`SUCCESS`**')
 
+    # Unloads a Module and the Loads it again.
+    # Useful for developing to test if code is working without restarting the bot!
     @commands.command(name='reload', hidden=True)
     @commands.is_owner()
     async def reload_cogs(self, ctx, *, cog: str):
-        """Command which Reloads a Module.
-        Remember to use dot path. e.g: cogs.owner"""
-
         try:
             self.client.unload_extension(cog)
             self.client.load_extension(cog)

@@ -1,7 +1,6 @@
 import discord
-import random
 from discord.ext import commands
-import json, sys, traceback
+import json, sys, traceback, asyncio, random
 
 config = json.load(open('config.json', 'r'))
 
@@ -9,7 +8,15 @@ config = json.load(open('config.json', 'r'))
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
-#FUNCTIONS
+#Define bot statuses
+statuses = [['with the Empire', 0],
+            ['over the Empire', 3],
+            ['to some lo-fi beats', 2],
+            ['with Aku\'s son', 0],
+            ['alliances go to war', 3],
+            ['to complaints about MSF', 2]]
+
+#INITIALIZE BOT CLIENT
 def get_prefix(bot, message):
     prefixes = ['/']
 
@@ -22,8 +29,16 @@ initial_extensions = ['cogs.members',
                       'cogs.moderation',
                       'cogs.owner']
 
-#INITIALIZE BOT CLIENT
 client = commands.Bot(command_prefix = get_prefix, description = "Minion of Aku, the Mayhem empire's very own server manager.")
+
+#FUNCTIONS
+
+async def status_task():
+    while True:
+        status = random.choice(statuses)
+        await client.change_presence(activity=discord.Activity(name=status[0], type=status[1]))
+        await asyncio.sleep(180)
+
 
 #LOAD COGS
 if __name__ == '__main__':
@@ -36,7 +51,7 @@ async def on_ready():
     print (f'\n\nLogged in as: {client.user.name} - {client.user.id}\nVersion: {discord.__version__}\n')
 
     # Change the bot status
-    await client.change_presence(activity=discord.Game(name='with the Mayhem Server'))
+    client.loop.create_task(status_task())
     print(f'Successfully logged in and running...!')
 
 client.run(config['discord']['token'], bot = True, reconnect = True)
