@@ -59,6 +59,7 @@ class ServerCog(commands.Cog):
         embed.add_field(name='Role', value=f'{ctx.author.top_role}')
         embed.add_field(name='Message', value=f'{content}')
         await honcho.send(embed=embed)
+        await ctx.author.send(f'Response submitted, thank you for your feedback!')
 
     #SETUP function to add this cog to the client when loaded.
 def setup(client):
