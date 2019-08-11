@@ -40,7 +40,7 @@ class ServerCog(commands.Cog):
         if user.premium_since:
             nitro = user.premium_since
             n_diff = now - nitro
-            embed.add_field(name='Nitro boosted server on:', value=f'{nitro.strftime("%d %B %Y &H:%M")}\n(n_diff.days) days ago')
+            embed.add_field(name='Nitro boosted server on:', value=f'{nitro.strftime("%d %B %Y &H:%M")}\n({n_diff.days}) days ago')
         embed.add_field(name='Roles:', value=f'{", ".join(str(role) for role in user.roles[1:])}')
         await ctx.send(embed=embed)
 
