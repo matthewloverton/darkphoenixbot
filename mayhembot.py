@@ -8,13 +8,18 @@ config = json.load(open('config.json', 'r'))
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
+#0 = Playing
+#1 = Streaming
+#2 = Listening to
+#3 = Watching
+
 #Define bot statuses
 statuses = [['with the Empire', 0],
             ['over the Empire', 3],
-            ['to some lo-fi beats', 2],
+            ['some lo-fi beats', 2],
             ['with Aku\'s son', 0],
             ['alliances go to war', 3],
-            ['to complaints about MSF', 2]]
+            ['complaints about MSF', 2]]
 
 #INITIALIZE BOT CLIENT
 def get_prefix(bot, message):
