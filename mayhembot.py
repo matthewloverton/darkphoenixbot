@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json, sys, traceback, asyncio, random
 
-config = json.load(open('config-dev.json', 'r'))
+config = json.load(open('config.json', 'r'))
 
 #Define channels to auto-delete messages that do not contain the image_types.
 image_channels = ['resource-channel']
