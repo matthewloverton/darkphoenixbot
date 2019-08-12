@@ -1,2 +1,2 @@
 git+https://github.com/Rapptz/discord.py.git
-git+https://github.com/deadphoenix8091/tinydb.git
+git+https://github.com/msiemens/tinydb.git
