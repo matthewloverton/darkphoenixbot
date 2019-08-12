@@ -1,0 +1,4926 @@
+{
+  "default_": {},
+  "Characters": {
+    "0": {
+      "Name": "Human Torch",
+      "Aliases": [
+      	"humantorch",
+      	"fantastic four",
+      	"flameon",
+      	"flame on",
+      	"johnny storm",
+      	"johnny",
+      	"ht"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Blaster",
+        "FatasticFour",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/wB6Yp80d/humantorch.png",
+      "Health": 93247,
+      "Damage": 15022,
+      "Armor": 4040,
+      "Focus": 2122,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 127,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Hotshot",
+      		"Description": "Attack primary target for 210% damage + apply **Bleed** for 2 turns."
+      		},
+      	"Special": {
+      		"Name": "Heating Up",
+      		"Description": "Gain +2 **Offense Up**, up to a maximum of 5.\nApply +1 **Offense Up**, up to a maximum of 3, to all **Fantastic Four** or **Namor** allies.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Supernova",
+      		"Description": "Attack all enemies for 400% damage. Apply **Offense Down** to all enemies.\nThis attack is Unavoidable and cannot be countered.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 8
+      	},
+      	"Passive": {
+      		"Name": "Flame On!",
+      		"Description": "On turn, flip 2 negative effects on self to positive effects.\nGain +30% damage. **Fantastic Four** and **Namor** allies gain +30% damage.\nGain +10000% resistance against **Bleed**."
+      	}
+      }
+    },
+    "1": {
+      "Name": "Mister Fantastic",
+      "Aliases": [
+      	"fantastic four",
+      	"misterfantastic",
+      	"reed richards",
+      	"reed",
+      	"stretchyman",
+      	"mf"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Controller",
+        "FantasticFour",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/BQBGwnBC/misterfantastic.png",
+      "Health": 155411,
+      "Damage": 9101,
+      "Armor": 3109,
+      "Focus": 3608,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 102,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Tensile Strength",
+      		"Description": "Attack primary target for 230% damage. Chain to 3 adjacent targets for 190% damage.\nCounter attack breaks this Chain."
+      		},
+      	"Special": {
+      		"Name": "Entangle",
+      		"Description": "Attack primary target for 400% damage + apply **Stun**.",
+      		"Starting Energy": 6,
+  			"Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Orbital Assault",
+      		"Description": "Clear Defense Up from primary target.\nAttack primary target for 450% damage.\nGain +100000% Extra Focus for this attack.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 3
+      	},
+      	"Passive": {
+      		"Name": "For Science!",
+      		"Description": "Gain +20% Resistance. **Fantastic Four** and **Namor** allies gain +20% Resistance.\nGain +20% Focus. **Fantastic Four** and **Namor** allies gain +20% Focus.\nOn self and each **Fantastic Four** ally's turn, 100% chance to apply **Assist Now** to self, **Namor**, or a random **Fantastic Four** ally. If **Assist Now** is applied, clear **Blind** on that target.\nOn Turn, choose 3 random enemies. If they have a positive effect, remove 1."
+      	}
+      }
+    },
+    "2": {
+      "Name": "Namor",
+      "Aliases": [
+      	"fantastic four"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/PJnB2gLc/namor.png",
+      "Health": 173024,
+      "Damage": 8254,
+      "Armor": 5658,
+      "Focus": 2122,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Neptune's Trident",
+      		"Description": "Attack primary target for 210% damage + 50% Piercing."
+      		},
+      	"Special": {
+      		"Name": "Tidal Wave",
+      		"Description": "Attack primary target for 350% damage. Attack adjacent targets for 340% damage.\nOn target Block, Bonus Attack 2 times for 100% Piercing to primary and adjacent targets.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Ultimate": {
+      		"Name": "Giganto",
+      		"Description": "Attack all enemies for 300% damage.\nOn **War Offense**:\n> This attack always Crits\n> Clear all positive effects from each target\n> Change Speed Bar of all targets by -50%\nThis attack is Unavoidable and cannot be Countered.",
+      		"Starting Energy": 7,
+      		"Energy Cost": 7
+      	},
+      	"Passive": {
+      		"Name": "Imperius Rex",
+      		"Description": "Gain +20% damage.\nGain +30% armor.\nOn **War Offense**:\n> On Spawn, apply **Offense Up** for 2 turns to all **Fantastic Four** allies and self.\n> On Spawn, apply **Deflect** for 2 turns to all **Fantastic Four** allies or self.\n> Gain additional +30% Damage.\n> **Fantastic Four** allies gain+30% Damage."
+      	}
+      }
+    },
+    "3": {
+      "Name": "The Thing",
+      "Aliases": [
+      	"rockman",
+      	"thing",
+      	"fantastic four"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Brawler",
+        "FantasticFour",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/xTCPBsKF/thething.png",
+      "Health": 176132,
+      "Damage": 15022,
+      "Armor": 8268,
+      "Focus": 2122,
+      "Resistance": 3332,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 86,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Knuckle Sandwich",
+      		"Description": "Attack primary target for 350% damage."
+      		},
+      	"Special": {
+      		"Name": "Pummeling Stone",
+      		"Description": "Attack primary target for 280% damage. Bonus Attack 2 times for 220% damage.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Ultimate": {
+      		"Name": "Haymaker",
+      		"Description": "Attack primary target for 550% damage.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
+      	},
+      	"Passive": {
+      		"Name": "It's Clobberin' Time",
+      		"Description": "When attacked, attack that enemy for 150% damage.\nGain +20% Armor. **Fantastic Four** and **Namor** allies gain +20% Armor."
+      	}
+      }
+    },
+    "4": {
+      "Name": "A.I.M. Assaulter",
+      "Aliases": [
+      	"aim assaulter",
+      	"assaulter",
+      	"aim assault",
+      	"aimassault",
+      	"a.i.m"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Aim",
+        "Minion"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/XNxGS4Ln/aimassaulter.png",
+      "Health": 93258,
+      "Damage": 17276,
+      "Armor": 6218,
+      "Focus": 2122,
+      "Resistance": 1167,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 118,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Submachine Gun",
+      		"Description": "Attack primary target for 160% damage + apply **Bleed**."
+      		},
+      	"Special": {
+      		"Name": "Hyperdose",
+      		"Description": "Gain **Speed Up** for 4 turns + **Heal Block** for 2 turns. Fill Speed Bar by 60%.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Passive": {
+      		"Name": "Juicer",
+      		"Description": "Gain +15% damage and +10% max health."
+      	}
+      }
+    },
+    "5": {
+      "Name": "A.I.M. Infector",
+      "Aliases": [
+      	"aim infector",
+      	"infector",
+      	"aiminfector",
+      	"a.i.m"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Bio",
+        "Controller",
+        "Aim",
+        "Minion"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8P5FT9XM/aiminfector.png",
+      "Health": 88082,
+      "Damage": 7595,
+      "Armor": 8702,
+      "Focus": 3077,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 114,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Puncture",
+      		"Description": "Attack primary target for 270% damage. Pass any negative effects on this character to target. 70% chance to apply **Offense Down**, **Defense Down**, or **Slow** to target."
+      		},
+      	"Special": {
+      		"Name": "Biohazard",
+      		"Description": "Gain 3 random negative effects for 2 turns. Heal self for 10000 Health + 20% of Max Health.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Passive": {
+      		"Name": "Metabolism",
+      		"Description": "Gain +10% Speed and +15% Max Health."
+      	}
+      }
+    },
+    "6": {
+      "Name": "A.I.M. Monstrosity",
+      "Aliases": [
+      	"aim monstrosity",
+      	"aimmonstrosity",
+      	"monstrosity",
+      	"a.i.m"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Bio",
+        "Brawler",
+        "Aim",
+        "Minion"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/W4Rt63Nw/aimmonstrosity.png",
+      "Health": 95320,
+      "Damage": 16462,
+      "Armor": 5718,
+      "Focus": 2590,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 77,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Bash",
+      		"Description": "Attack primary target for 280% damage. Apply **Defense Down** for 1 turn."
+      		},
+      	"Special": {
+      		"Name": "Sudden Evolution",
+      		"Description": "Gain **Offense Up** for 3 turns + **Defense Down** for 2 turns. Heal self for 3000 Health + 5% of Max Health.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Passive": {
+      		"Name": "Growth Spurt",
+      		"Description": "On Turn, 50% chance to Heal for 10% of Max Health."
+      	}
+      }
+    },
+    "7": {
+      "Name": "A.I.M. Researcher",
+      "Aliases": [
+      	"aim researcher",
+      	"researcher",
+      	"aimresearcher",
+      	"a.i.m"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Skill",
+        "Support",
+        "Aim",
+        "Minion"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/JnxnL5bp/aimresearcher.png",
+      "Health": 173054,
+      "Damage": 7595,
+      "Armor": 6218,
+      "Focus": 1656,
+      "Resistance": 2590,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 81,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "8": {
+      "Name": "A.I.M. Security",
+      "Aliases": [
+      	"aim security",
+      	"security",
+      	"aimsecurity",
+      	"a.i.m"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Tech",
+        "Protector",
+        "Aim",
+        "Minion"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/XJ4JmzyZ/aimsecurity.png",
+      "Health": 173036,
+      "Damage": 8331,
+      "Armor": 9139,
+      "Focus": 2122,
+      "Resistance": 2978,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 76,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "9": {
+      "Name": "Agent Coulson",
+      "Aliases": [
+      	"coulson"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Tech",
+        "Protector",
+        "Avenger",
+        "Shield"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/j28Lz42D/agentcoulson.png",
+      "Health": 98427,
+      "Damage": 9101,
+      "Armor": 7274,
+      "Focus": 2122,
+      "Resistance": 3119,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "10": {
+      "Name": "America Chavez",
+      "Aliases": [
+      	"chavez",
+      	"star spangled brawler"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Mystic",
+        "Brawler"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/ZKMWnHXg/americachavez.png",
+      "Health": 137818,
+      "Damage": 15022,
+      "Armor": 3109,
+      "Focus": 2823,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 115,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "11": {
+      "Name": "Ant-Man",
+      "Aliases": [
+      	"antman",
+      	"ant man",
+      	"giantman",
+      	"giant man",
+      	"scott lang",
+      	"hank pym"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Tech",
+        "Controller",
+        "Avenger"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/t4nYxPjg/antman.png",
+      "Health": 89486,
+      "Damage": 8331,
+      "Armor": 4663,
+      "Focus": 2590,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "12": {
+      "Name": "Black Panther",
+      "Aliases": [
+      	"wakandan",
+      	"king of wakanda",
+      	"panther",
+      	"tchalla",
+      	"t'challa"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mystic",
+        "Brawler",
+        "Avenger",
+        "Wakanda",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/jjz28bC0/blackpanther.png",
+      "Health": 88067,
+      "Damage": 12517,
+      "Armor": 8080,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 125,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "13": {
+      "Name": "Black Widow",
+      "Aliases": [
+      	"widow",
+      	"bw",
+      	"romanoff"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Skill",
+        "Controller",
+        "Avenger",
+        "Shield",
+        "Wave1Avenger",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/x8ddTN5n/blackwidow.png",
+      "Health": 88067,
+      "Damage": 9101,
+      "Armor": 4663,
+      "Focus": 3077,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 155,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "14": {
+      "Name": "Bullseye",
+      "Aliases": [
+      	"dex"
+      ],
+      "Tags": [
+        "Villain",
+        "City",
+        "Skill",
+        "Blaster",
+        "Mercenary"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/FznHfFCc/bullseye.png",
+      "Health": 88067,
+      "Damage": 14424,
+      "Armor": 5060,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 110,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 140,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "15": {
+      "Name": "Cable",
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Mutant",
+        "Blaster",
+        "Xforce"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/9XxMg1XM/cable.png",
+      "Health": 103608,
+      "Damage": 14424,
+      "Armor": 8393,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 91,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "16": {
+      "Name": "Captain America",
+      "Aliases": [
+      	"americas ass",
+      	"cap",
+      	"steve rogers"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Bio",
+        "Protector",
+        "Avenger",
+        "Shield",
+        "Military",
+        "Wave1Avenger",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/bNsv7bdR/captainamerica.png",
+      "Health": 97020,
+      "Damage": 8331,
+      "Armor": 8080,
+      "Focus": 2122,
+      "Resistance": 2653,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 114,
+      "Dodge Chance": 0,
+      "Block Chance": 25,
+      "Block Amount": 35,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "17": {
+      "Name": "Captain Marvel",
+      "Aliases": [
+      	"carol danvers",
+      	"binary",
+      	"kree"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Brawler",
+        "Kree",
+        "Military",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/WbC4T3kc/captainmarvel.png",
+      "Health": 142978,
+      "Damage": 14423,
+      "Armor": 5597,
+      "Focus": 2759,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 127,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "18": {
+      "Name": "Carnage",
+      "Aliases": [
+      	"spiderverse",
+      	"spider-verse",
+      	"spider verse"
+      ],
+      "Tags": [
+        "Villain",
+        "City",
+        "Bio",
+        "Brawler",
+        "SpiderVerse"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MpBpTS7M/carnage.png",
+      "Health": 155412,
+      "Damage": 9101,
+      "Armor": 622,
+      "Focus": 2653,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 126,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "19": {
+      "Name": "Colossus",
+      "Aliases": [
+      	"tinman",
+      	"xmen",
+      	"x-men"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mutant",
+        "Protector",
+        "Xmen"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/hjDDpQHT/colossus.png",
+      "Health": 145050,
+      "Damage": 12517,
+      "Armor": 9324,
+      "Focus": 1635,
+      "Resistance": 3395,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 88,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "20": {
+      "Name": "Crossbones",
+      "Aliases": [
+      	"xbones",
+      	"xb",
+      	"hydra"
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Tech",
+        "Protector",
+        "Hydra"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/7LyYJW9B/crossbones.png",
+      "Health": 103628,
+      "Damage": 10237,
+      "Armor": 7646,
+      "Focus": 1061,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 99,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "21": {
+      "Name": "Cyclops",
+      "Aliases": [
+      	"scott summers",
+      	"summers",
+      	"xmen",
+      	"x-men"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mutant",
+        "Blaster",
+        "Xmen"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/LXxH76p7/cyclops.png",
+      "Health": 118112,
+      "Damage": 28701,
+      "Armor": 3731,
+      "Focus": 3735,
+      "Resistance": 1952,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 200,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "22": {
+      "Name": "Daredevil",
+      "Aliases": [
+      	"dd",
+      	"blind guy",
+      	"defenders"
+      ],
+      "Tags": [
+        "Hero",
+        "City",
+        "Bio",
+        "Brawler",
+        "Defender",
+        "MartialArtist"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/zfSDCFPq/daredevil.png",
+      "Health": 93248,
+      "Damage": 13769,
+      "Armor": 4975,
+      "Focus": 3077,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 119,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 200,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "23": {
+      "Name": "Deadpool",
+      "Aliases": [
+      	"dp",
+      	"wade wilson",
+      	"wade"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Xforce",
+        "Mercenary",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8cs1VQkC/deadpool.png",
+      "Health": 108789,
+      "Damage": 14424,
+      "Armor": 2488,
+      "Focus": 1699,
+      "Resistance": 1699,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 112,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "24": {
+      "Name": "Doctor Strange",
+      "Aliases": [
+      	"drstrange",
+      	"dr strange",
+      	"strange",
+      	"ds"
+      ],      
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Mystic",
+        "Support",
+        "Marvel80th"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/44FfQdwH/drstrange.png",
+      "Health": 89103,
+      "Damage": 7595,
+      "Armor": 2797,
+      "Focus": 3608,
+      "Resistance": 2590,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 108,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "25": {
+      "Name": "Drax",
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Protector",
+        "GotG"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8c3TpKsm/drax.png",
+      "Health": 176134,
+      "Damage": 12517,
+      "Armor": 7459,
+      "Focus": 1486,
+      "Resistance": 1486,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 66,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "26": {
+      "Name": "Elektra",
+      "Aliases": [
+      	"hand"
+      ],
+      "Tags": [
+        "Villain",
+        "City",
+        "Mystic",
+        "Brawler",
+        "Hand",
+        "MartialArtist"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Nf3QZz3g/elektra.png",
+      "Health": 88067,
+      "Damage": 14424,
+      "Armor": 4353,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 7,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "27": {
+      "Name": "Falcon",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/y807KTK0/falcon.png",
+      "Health": 98437,
+      "Damage": 15022,
+      "Armor": 4663,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 0,
+      "Block Chance": 25,
+      "Block Amount": 35,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "28": {
+      "Name": "Gamora",
+      "Aliases": [
+      	"guardians"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/0NxPyJ5F/gamora.png",
+      "Health": 103608,
+      "Damage": 9101,
+      "Armor": 622,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 20,
+      "Speed": 130,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "29": {
+      "Name": "Green Goblin",
+      "Aliases": [
+      	"gg",
+      	"greengoblin",
+      	"spiderverse",
+      	"spider verse",
+      	"spider-verse"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/R0R96VNF/greengoblin.png",
+      "Health": 137819,
+      "Damage": 11971,
+      "Armor": 6218,
+      "Focus": 2122,
+      "Resistance": 2611,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 88,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "30": {
+      "Name": "Groot",
+      "Aliases": [
+      	"i am groot",
+      	"guardians",
+      	"stick"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/4dxGzk91/groot.png",
+      "Health": 129510,
+      "Damage": 13453,
+      "Armor": 9325,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 70,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "31": {
+      "Name": "Hand Archer",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/KjKyHPQk/handarcher.png",
+      "Health": 88067,
+      "Damage": 9557,
+      "Armor": 4353,
+      "Focus": 2122,
+      "Resistance": 1486,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 107,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 105,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "32": {
+      "Name": "Hand Assassin",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/269DGcdN/handassassin.png",
+      "Health": 88067,
+      "Damage": 13123,
+      "Armor": 4878,
+      "Focus": 2547,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 109,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "33": {
+      "Name": "Hand Blademaster",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MHh82nrs/handblademaster.png",
+      "Health": 88067,
+      "Damage": 14517,
+      "Armor": 4975,
+      "Focus": 2122,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 111,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "34": {
+      "Name": "Hand Sentry",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/9XS2qkFG/handsentry.png",
+      "Health": 124330,
+      "Damage": 7579,
+      "Armor": 6218,
+      "Focus": 2590,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 103,
+      "Dodge Chance": 5,
+      "Block Chance": 20,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "35": {
+      "Name": "Hand Sorceress",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/dtyYR9Lg/handsorceress.png",
+      "Health": 103608,
+      "Damage": 8331,
+      "Armor": 4663,
+      "Focus": 2122,
+      "Resistance": 2590,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 105,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "36": {
+      "Name": "Hawkeye",
+      "Aliases": [
+      	"clint"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/g2bPg6hj/hawkeye.png",
+      "Health": 91175,
+      "Damage": 9101,
+      "Armor": 5472,
+      "Focus": 3077,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 116,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 170,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "37": {
+      "Name": "Hulk",
+      "Aliases": [
+      	"bruce"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/P5bn9rb4/hulk.png",
+      "Health": 193746,
+      "Damage": 14424,
+      "Armor": 6841,
+      "Focus": 1592,
+      "Resistance": 1738,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 87,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "38": {
+      "Name": "Hydra Armored Guard",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/5tnd97RQ/hydraarmoredguard.png",
+      "Health": 111912,
+      "Damage": 10745,
+      "Armor": 3109,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 92,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "39": {
+      "Name": "Hydra Grenadier",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/ydxqDmMQ/hydragrenadier.png",
+      "Health": 129510,
+      "Damage": 13453,
+      "Armor": 4663,
+      "Focus": 2388,
+      "Resistance": 1592,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 87,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "40": {
+      "Name": "Hydra Rifle Trooper",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/j5FpPWKs/hydrarifletrooper.png",
+      "Health": 93258,
+      "Damage": 14395,
+      "Armor": 3109,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 95,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "41": {
+      "Name": "Hydra Scientist",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/vTxpzQH5/hydrascientist.png",
+      "Health": 103608,
+      "Damage": 12517,
+      "Armor": 3109,
+      "Focus": 2122,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 94,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "42": {
+      "Name": "Hydra Sniper",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MXkg3hvN/hydrasniper.png",
+      "Health": 93248,
+      "Damage": 12357,
+      "Armor": 1244,
+      "Focus": 2122,
+      "Resistance": 1592,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 93,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "43": {
+      "Name": "Iron Fist",
+      "Aliases": [
+      	"danny rand",
+      	"defenders"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/kMV4ZK2v/ironfist.png",
+      "Health": 124330,
+      "Damage": 10745,
+      "Armor": 3732,
+      "Focus": 2547,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 106,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "44": {
+      "Name": "Iron Man",
+      "Aliases": [
+      	"tony stark",
+      	"3000"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/59Z0Myvd/ironman.png",
+      "Health": 100500,
+      "Damage": 16462,
+      "Armor": 9325,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 25,
+      "Speed": 101,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "45": {
+      "Name": "Jessica Jones",
+      "Aliases": [
+      	"jj",
+      	"defenders"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Qx1MNDkB/jessicajones.png",
+      "Health": 134691,
+      "Damage": 14177,
+      "Armor": 1866,
+      "Focus": 3077,
+      "Resistance": 10612,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "46": {
+      "Name": "Juggernaut",
+      "Aliases": [
+      	"juggs",
+      	"brotherhood"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/wjzj7r0w/juggernaut.png",
+      "Health": 148164,
+      "Damage": 11971,
+      "Armor": 9325,
+      "Focus": 1126,
+      "Resistance": 4284,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 77,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "47": {
+      "Name": "Killmonger",
+      "Aliases": [
+      	"wakandan"
+      ],
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8CKpXzDY/killmonger.png",
+      "Health": 129509,
+      "Damage": 11971,
+      "Armor": 7458,
+      "Focus": 3119,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 104,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "48": {
+      "Name": "Kingpin",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/NjxfTxnB/kingpin.png",
+      "Health": 207216,
+      "Damage": 7595,
+      "Armor": 0,
+      "Focus": 2547,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 75,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "49": {
+      "Name": "Korath the Pursuer",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/vmH8vVR9/korath.png",
+      "Health": 113969,
+      "Damage": 10745,
+      "Armor": 4353,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 114,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "50": {
+      "Name": "Kree Cyborg",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Hxrpq1kk/kreecyborg.png",
+      "Health": 119150,
+      "Damage": 11614,
+      "Armor": 6218,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 79,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "51": {
+      "Name": "Kree Noble",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/0Qh8xXzd/kreenoble.png",
+      "Health": 137799,
+      "Damage": 8331,
+      "Armor": 6218,
+      "Focus": 2590,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 86,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "52": {
+      "Name": "Kree Oracle",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/4ytX3vtC/kreeoracle.png",
+      "Health": 145050,
+      "Damage": 9101,
+      "Armor": 1866,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 97,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "53": {
+      "Name": "Kree Reaper",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Vsbf4wh7/kreereaver.png",
+      "Health": 124330,
+      "Damage": 10744,
+      "Armor": 9325,
+      "Focus": 2759,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 25,
+      "Speed": 83,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "54": {
+      "Name": "Kree Royal Guard",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Z5JJTd5g/kreeroyalguard.png",
+      "Health": 134690,
+      "Damage": 11614,
+      "Armor": 7834,
+      "Focus": 2122,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 117,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "55": {
+      "Name": "Loki",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/bwLpdwGv/loki.png",
+      "Health": 88067,
+      "Damage": 10745,
+      "Armor": 3732,
+      "Focus": 3608,
+      "Resistance": 2722,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 115,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "56": {
+      "Name": "Luke Cage",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/Yq6pK3MY/lukecage.png",
+      "Health": 124345,
+      "Damage": 7595,
+      "Armor": 9791,
+      "Focus": 1699,
+      "Resistance": 1699,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 80,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "57": {
+      "Name": "M'Baku",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8chVGpQN/mbaku.png",
+      "Health": 173024,
+      "Damage": 11971,
+      "Armor": 7274,
+      "Focus": 1635,
+      "Resistance": 1635,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 88,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "58": {
+      "Name": "Magneto",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/FKRmSXcV/magneto.png",
+      "Health": 108789,
+      "Damage": 14424,
+      "Armor": 8393,
+      "Focus": 3290,
+      "Resistance": 2611,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 90,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "59": {
+      "Name": "Mantis",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/qqfdWtF1/mantis.png",
+      "Health": 137798,
+      "Damage": 7595,
+      "Armor": 3109,
+      "Focus": 3119,
+      "Resistance": 3119,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "60": {
+      "Name": "Mercenary Lieutenant",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/RFJBP1g3/mercliutenant.png",
+      "Health": 84305,
+      "Damage": 7595,
+      "Armor": 4975,
+      "Focus": 2590,
+      "Resistance": 2590,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "61": {
+      "Name": "Mercenary Riot Guard",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/0NBvdX0R/mercriotguard.png",
+      "Health": 129510,
+      "Damage": 9101,
+      "Armor": 7771,
+      "Focus": 1592,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 90,
+      "Dodge Chance": 0,
+      "Block Chance": 25,
+      "Block Amount": 50,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "62": {
+      "Name": "Mercenary Sniper",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/QN5D1bBw/mercsniper.png",
+      "Health": 82886,
+      "Damage": 16587,
+      "Armor": 1866,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 96,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "63": {
+      "Name": "Mercenary Soldier",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/qMTTL3yR/mercsoldier.png",
+      "Health": 103623,
+      "Damage": 10922,
+      "Armor": 6218,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "64": {
+      "Name": "Minn-Erva",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MpZ8kJsJ/minnerva.png",
+      "Health": 147122,
+      "Damage": 10744,
+      "Armor": 3109,
+      "Focus": 3119,
+      "Resistance": 3119,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "65": {
+      "Name": "Mordo",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/y8fCsp5g/mordo.png",
+      "Health": 103608,
+      "Damage": 9101,
+      "Armor": 4663,
+      "Focus": 2547,
+      "Resistance": 1699,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "66": {
+      "Name": "Ms. Marvel",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/HLVDx4DS/msmarvel.png",
+      "Health": 155412,
+      "Damage": 14424,
+      "Armor": 3109,
+      "Focus": 1635,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 102,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 35,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "67": {
+      "Name": "Mysterio",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/mrJxFzTT/mysterio.png",
+      "Health": "",
+      "Damage": "",
+      "Armor": 0,
+      "Focus": "",
+      "Resistance": "",
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "68": {
+      "Name": "Mystique",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/63vkVWQn/mystique.png",
+      "Health": 137799,
+      "Damage": 10745,
+      "Armor": 3109,
+      "Focus": 2122,
+      "Resistance": 2611,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 120,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "69": {
+      "Name": "Nebula",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/gjy15g80/nebula.png",
+      "Health": 113969,
+      "Damage": 10745,
+      "Armor": 4663,
+      "Focus": 2590,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 107,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "70": {
+      "Name": "Nick Fury",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/SQW0Jx3p/nickfury.png",
+      "Health": 113969,
+      "Damage": 10745,
+      "Armor": 6559,
+      "Focus": 2709,
+      "Resistance": 2785,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 99,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "71": {
+      "Name": "Night Nurse",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/ZKZG3hzv/nightnurse.png",
+      "Health": 103608,
+      "Damage": 6890,
+      "Armor": 1866,
+      "Focus": 3077,
+      "Resistance": 3077,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "72": {
+      "Name": "Nobu",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/c4mVB5d9/nobu.png",
+      "Health": 93248,
+      "Damage": 9101,
+      "Armor": 4663,
+      "Focus": 2547,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 106,
+      "Dodge Chance": 5,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "73": {
+      "Name": "Okoye",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/dVVgHm1q/okoye.png",
+      "Health": 103608,
+      "Damage": 12517,
+      "Armor": 4663,
+      "Focus": 2229,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 126,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "74": {
+      "Name": "Phoenix",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
+      "Health": 98427,
+      "Damage": 15022,
+      "Armor": 3109,
+      "Focus": 3119,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 118,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "75": {
+      "Name": "Psylocke",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/0N6FxkDF/psylocke.png",
+      "Health": 119149,
+      "Damage": 16462,
+      "Armor": 3731,
+      "Focus": 3608,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 93,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "76": {
+      "Name": "Punisher",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MGh4pCYT/punisher.png",
+      "Health": 98428,
+      "Damage": 18108,
+      "Armor": 7771,
+      "Focus": 1656,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 98,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "77": {
+      "Name": "Pyro",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/zBKQbxdk/pyro.png",
+      "Health": 88067,
+      "Damage": 10237,
+      "Armor": 4975,
+      "Focus": 3979,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 95,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "78": {
+      "Name": "Quake",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/hvn59V6R/quake.png",
+      "Health": 88067,
+      "Damage": 12517,
+      "Armor": 3109,
+      "Focus": 3108,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 102,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "79": {
+      "Name": "Ravager Boomer",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/PJMFKPnp/ravagerboomer.png",
+      "Health": 103608,
+      "Damage": 10745,
+      "Armor": 6218,
+      "Focus": 1656,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 108,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "80": {
+      "Name": "Ravager Bruiser",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/y6h57r31/ravagerbruiser.png",
+      "Health": 113969,
+      "Damage": 10745,
+      "Armor": 6528,
+      "Focus": 1167,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 111,
+      "Dodge Chance": 0,
+      "Block Chance": 25,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "81": {
+      "Name": "Ravager Stitcher",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/CLF25Hbj/ravagerstitcher.png",
+      "Health": 113994,
+      "Damage": 7595,
+      "Armor": 5821,
+      "Focus": 1656,
+      "Resistance": 1656,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 110,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "82": {
+      "Name": "Red Skull",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/yYvbZgT2/redskull.png",
+      "Health": 124345,
+      "Damage": 8331,
+      "Armor": 5597,
+      "Focus": 2547,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 85,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "83": {
+      "Name": "Rescue",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/HknP4YZn/rescue.png",
+      "Health": 98427,
+      "Damage": 8331,
+      "Armor": 3109,
+      "Focus": 3119,
+      "Resistance": 3608,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 117,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "84": {
+      "Name": "Rhino",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/DwNpx9Hg/rhino.png",
+      "Health": 142978,
+      "Damage": 15022,
+      "Armor": 8268,
+      "Focus": 637,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 90,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "85": {
+      "Name": "Rocket Raccoon",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/N0rJSNww/rocketracoon.png",
+      "Health": 88067,
+      "Damage": 18633,
+      "Armor": 4353,
+      "Focus": 2122,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 102,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "86": {
+      "Name": "Ronan the Accuser",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/JnV6Lb1H/ronan.png",
+      "Health": 134690,
+      "Damage": 12517,
+      "Armor": 7771,
+      "Focus": 3396,
+      "Resistance": 3183,
+      "Crit Damage": 130,
+      "Crit Chance": 20,
+      "Speed": 90,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "87": {
+      "Name": "S.H.I.E.L.D. Assault",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/VsF7xr25/shieldassault.png",
+      "Health": 98428,
+      "Damage": 10745,
+      "Armor": 8702,
+      "Focus": 2122,
+      "Resistance": 2430,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 97,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "88": {
+      "Name": "S.H.I.E.L.D. Medic",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/DyyCnfK6/shieldmedic.png",
+      "Health": 103608,
+      "Damage": 8331,
+      "Armor": 6218,
+      "Focus": 2866,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 109,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "89": {
+      "Name": "S.H.I.E.L.D. Operative",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/kX1T4rJm/shieldoperative.png",
+      "Health": 100500,
+      "Damage": 9101,
+      "Armor": 6218,
+      "Focus": 2760,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 115,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "90": {
+      "Name": "S.H.I.E.L.D. Security",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/pLmq50rn/shieldsecurity.png",
+      "Health": 103608,
+      "Damage": 7595,
+      "Armor": 9014,
+      "Focus": 2122,
+      "Resistance": 2972,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 94,
+      "Dodge Chance": 0,
+      "Block Chance": 20,
+      "Block Amount": 35,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "91": {
+      "Name": "S.H.I.E.L.D. Trooper",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/K8CQPn3p/shieldtrooper.png",
+      "Health": 102572,
+      "Damage": 8948,
+      "Armor": 6156,
+      "Focus": 2086,
+      "Resistance": 2086,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 98,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "92": {
+      "Name": "Sabretooth",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/kG7TVqRn/sabretooth.png",
+      "Health": 134691,
+      "Damage": 8485,
+      "Armor": 3109,
+      "Focus": 1911,
+      "Resistance": 1061,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 101,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "93": {
+      "Name": "Scarlet Witch",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/9MdxFrM8/scarlettwitch.png",
+      "Health": 103608,
+      "Damage": 16462,
+      "Armor": 0,
+      "Focus": 3608,
+      "Resistance": 3608,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 107,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "94": {
+      "Name": "Scientist Supreme",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/QCS01wcc/scientistsupreme.png",
+      "Health": 124330,
+      "Damage": 7168,
+      "Armor": 2488,
+      "Focus": 2122,
+      "Resistance": 3545,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 97,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "95": {
+      "Name": "Shocker",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/HL5zBVQY/shocker.png",
+      "Health": 93247,
+      "Damage": 13936,
+      "Armor": 8578,
+      "Focus": 1635,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "96": {
+      "Name": "Shuri",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/tRD5S0Vx/shuri.png",
+      "Health": 103607,
+      "Damage": 8331,
+      "Armor": 6218,
+      "Focus": 3119,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 112,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "97": {
+      "Name": "Spider-Man",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MHsmvR8D/spiderman.png",
+      "Health": 88067,
+      "Damage": 13453,
+      "Armor": 931,
+      "Focus": 2590,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 116,
+      "Dodge Chance": 30,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "98": {
+      "Name": "Spider-Man (Miles)",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/NMc4VB41/spidermanmiles.png",
+      "Health": 103608,
+      "Damage": 7595,
+      "Armor": 1554,
+      "Focus": 2972,
+      "Resistance": 2611,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 117,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "99": {
+      "Name": "Star-Lord",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/sxfJjmbx/starlord.png",
+      "Health": 93248,
+      "Damage": 9101,
+      "Armor": 6841,
+      "Focus": 2122,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 120,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "100": {
+      "Name": "Storm",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MTmDJNPg/storm.png",
+      "Health": 113969,
+      "Damage": 15425,
+      "Armor": 2488,
+      "Focus": 3608,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 117,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "101": {
+      "Name": "Thanos",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/m25S4QjZ/thanos.png",
+      "Health": 207216,
+      "Damage": 11614,
+      "Armor": 4850,
+      "Focus": 2122,
+      "Resistance": 1699,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 97,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "102": {
+      "Name": "Thor",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/L8g38nQt/thor.png",
+      "Health": 124330,
+      "Damage": 14395,
+      "Armor": 6218,
+      "Focus": 1656,
+      "Resistance": 1167,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 80,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "103": {
+      "Name": "Ultimus",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/XvMcG4tT/ultimus.png",
+      "Health": 134691,
+      "Damage": 14424,
+      "Armor": 6528,
+      "Focus": 2122,
+      "Resistance": 2547,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 71,
+      "Dodge Chance": 0,
+      "Block Chance": 20,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "104": {
+      "Name": "Ultron",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/g0vy31Wr/ultron.png",
+      "Health": 134691,
+      "Damage": 16462,
+      "Armor": 9325,
+      "Focus": 2122,
+      "Resistance": 3183,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 107,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "105": {
+      "Name": "Venom",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/d1w26ns6/venom.png",
+      "Health": 155412,
+      "Damage": 9908,
+      "Armor": 931,
+      "Focus": 2441,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 93,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "106": {
+      "Name": "Vision",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/gj0vFJ66/vision.png",
+      "Health": 88067,
+      "Damage": 11971,
+      "Armor": 7275,
+      "Focus": 3077,
+      "Resistance": 1196,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 113,
+      "Dodge Chance": 25,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "107": {
+      "Name": "Vulture",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/xC5K4Hq2/vulture.png",
+      "Health": 88066,
+      "Damage": 10744,
+      "Armor": 4663,
+      "Focus": 2610,
+      "Resistance": 1635,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 127,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "108": {
+      "Name": "War Machine",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/RhbwMBcp/warmachine.png",
+      "Health": 93247,
+      "Damage": 11819,
+      "Armor": 8268,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "109": {
+      "Name": "Wasp",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/DfCrQqtQ/wasp.png",
+      "Health": 90139,
+      "Damage": 11971,
+      "Armor": 4663,
+      "Focus": 2122,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 112,
+      "Dodge Chance": 25,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "110": {
+      "Name": "Winter Soldier",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/X7pwsrbR/wintersoldier.png",
+      "Health": 103608,
+      "Damage": 15425,
+      "Armor": 6218,
+      "Focus": 2122,
+      "Resistance": 637,
+      "Crit Damage": 130,
+      "Crit Chance": 25,
+      "Speed": 91,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "111": {
+      "Name": "Wolverine",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/KvwtwmcR/wolverine.png",
+      "Health": 134691,
+      "Damage": 10745,
+      "Armor": 1244,
+      "Focus": 1699,
+      "Resistance": 1061,
+      "Crit Damage": 130,
+      "Crit Chance": 20,
+      "Speed": 95,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "112": {
+      "Name": "Yondu",
+      "Tags": [
+        "Test",
+        "Test2",
+        "Test3"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/7ZzSyjbX/yondu.png",
+      "Health": 98428,
+      "Damage": 13453,
+      "Armor": 3109,
+      "Focus": 2547,
+      "Resistance": 2122,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 112,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 130,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    }
+  },
+  "_default": {}
+}
