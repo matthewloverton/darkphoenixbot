@@ -3,7 +3,7 @@ from discord.ext import commands
 import json, sys, traceback, asyncio, random
 #from tinydb import TinyDB, Query
 
-config = json.load(open('config-dev.json', 'r'))
+config = json.load(open('config.json', 'r'))
 #db = TinyDB('db.json')
 
 #Define channels to auto-delete messages that do not contain the image_types.
