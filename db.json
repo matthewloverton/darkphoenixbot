@@ -545,7 +545,8 @@
       	"giantman",
       	"giant man",
       	"scott lang",
-      	"hank pym"
+      	"hank pym",
+      	"piss ant"
       ],
       "Tags": [
         "Hero",
@@ -795,7 +796,8 @@
       "Aliases": [
       	"americas ass",
       	"cap",
-      	"steve rogers"
+      	"steve rogers",
+      	"capsicle"
       ],
       "Tags": [
         "Hero",
@@ -1348,9 +1350,12 @@
     "27": {
       "Name": "Falcon",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Avenger",
+        "Power Armor"
       ],
       "Portrait_URL": "https://i.postimg.cc/y807KTK0/falcon.png",
       "Health": 98437,
@@ -1394,9 +1399,11 @@
       	"guardians"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Skill",
+        "Brawler",
+        "GotG"
       ],
       "Portrait_URL": "https://i.postimg.cc/0NxPyJ5F/gamora.png",
       "Health": 103608,
@@ -1441,12 +1448,17 @@
       	"greengoblin",
       	"spiderverse",
       	"spider verse",
-      	"spider-verse"
+      	"spider-verse",
+      	"sinistersix",
+      	"sinister six"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Bio",
+        "Blaster",
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "Portrait_URL": "https://i.postimg.cc/R0R96VNF/greengoblin.png",
       "Health": 137819,
@@ -1492,9 +1504,12 @@
       	"stick"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Support",
+        "GotG",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/4dxGzk91/groot.png",
       "Health": 129510,
@@ -1535,9 +1550,13 @@
     "31": {
       "Name": "Hand Archer",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Skill",
+        "Blaster",
+        "Hand",
+        "MartialArtist",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/KjKyHPQk/handarcher.png",
       "Health": 88067,
@@ -1720,7 +1739,8 @@
     "36": {
       "Name": "Hawkeye",
       "Aliases": [
-      	"clint"
+      	"clint",
+      	"legolas"
       ],
       "Tags": [
         "Test",
@@ -3749,6 +3769,12 @@
     },
     "85": {
       "Name": "Rocket Raccoon",
+      "Aliases": [
+      	"guardians",
+      	"rocket",
+      	"buildabear",
+      	"build-a-bear"
+      ],
       "Tags": [
         "Test",
         "Test2",
@@ -4450,6 +4476,12 @@
     },
     "102": {
       "Name": "Thor",
+      "Aliases": [
+      	"strongest avenger",
+      	"odinson",
+      	"point break",
+      	"lebowski"
+      ],
       "Tags": [
         "Test",
         "Test2",
