@@ -215,8 +215,7 @@
       	"aim assaulter",
       	"assaulter",
       	"aim assault",
-      	"aimassault",
-      	"a.i.m"
+      	"aimassault"
       ],
       "Tags": [
         "Villain",
@@ -261,8 +260,7 @@
       "Aliases": [
       	"aim infector",
       	"infector",
-      	"aiminfector",
-      	"a.i.m"
+      	"aiminfector"
       ],
       "Tags": [
         "Villain",
@@ -307,8 +305,7 @@
       "Aliases": [
       	"aim monstrosity",
       	"aimmonstrosity",
-      	"monstrosity",
-      	"a.i.m"
+      	"monstrosity"
       ],
       "Tags": [
         "Villain",
@@ -353,8 +350,7 @@
       "Aliases": [
       	"aim researcher",
       	"researcher",
-      	"aimresearcher",
-      	"a.i.m"
+      	"aimresearcher"
       ],
       "Tags": [
         "Villain",
@@ -399,8 +395,7 @@
       "Aliases": [
       	"aim security",
       	"security",
-      	"aimsecurity",
-      	"a.i.m"
+      	"aimsecurity"
       ],
       "Tags": [
         "Villain",
@@ -443,7 +438,8 @@
     "9": {
       "Name": "Agent Coulson",
       "Aliases": [
-      	"coulson"
+      	"coulson",
+      	"s.h.i.e.l.d"
       ],
       "Tags": [
         "Hero",
@@ -1260,7 +1256,7 @@
         "Cosmic",
         "Bio",
         "Protector",
-        "GotG"
+        "Guardian"
       ],
       "Portrait_URL": "https://i.postimg.cc/8c3TpKsm/drax.png",
       "Health": 176134,
@@ -1355,7 +1351,7 @@
         "Tech",
         "Blaster",
         "Avenger",
-        "Power Armor"
+        "PowerArmor"
       ],
       "Portrait_URL": "https://i.postimg.cc/y807KTK0/falcon.png",
       "Health": 98437,
@@ -1403,7 +1399,7 @@
         "Cosmic",
         "Skill",
         "Brawler",
-        "GotG"
+        "Guardian"
       ],
       "Portrait_URL": "https://i.postimg.cc/0NxPyJ5F/gamora.png",
       "Health": 103608,
@@ -1508,7 +1504,7 @@
         "Cosmic",
         "Bio",
         "Support",
-        "GotG",
+        "Guardian",
         "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/4dxGzk91/groot.png",
@@ -1591,9 +1587,13 @@
     "32": {
       "Name": "Hand Assassin",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Mystic",
+        "Controller",
+        "Hand",
+        "MartialArtist",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/269DGcdN/handassassin.png",
       "Health": 88067,
@@ -1628,9 +1628,13 @@
     "33": {
       "Name": "Hand Blademaster",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Skill",
+        "Brawler",
+        "Hand",
+        "MartialArtist",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/MHh82nrs/handblademaster.png",
       "Health": 88067,
@@ -1664,10 +1668,17 @@
     },
     "34": {
       "Name": "Hand Sentry",
+      "Aliases": [
+      	"sentry"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Mystic",
+        "Protector",
+        "Hand",
+        "MartialArtist",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/9XS2qkFG/handsentry.png",
       "Health": 124330,
@@ -1702,9 +1713,13 @@
     "35": {
       "Name": "Hand Sorceress",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Mystic",
+        "Support",
+        "Hand",
+        "MartialArtist",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/dtyYR9Lg/handsorceress.png",
       "Health": 103608,
@@ -1743,9 +1758,14 @@
       	"legolas"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Controller",
+        "Avenger",
+        "Shield",
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/g2bPg6hj/hawkeye.png",
       "Health": 91175,
@@ -1789,9 +1809,13 @@
       	"bruce"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Bio",
+        "Protector",
+        "Avenger",
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/P5bn9rb4/hulk.png",
       "Health": 193746,
@@ -1832,9 +1856,12 @@
     "38": {
       "Name": "Hydra Armored Guard",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Protector",
+        "Hydra",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/5tnd97RQ/hydraarmoredguard.png",
       "Health": 111912,
@@ -1869,9 +1896,12 @@
     "39": {
       "Name": "Hydra Grenadier",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Hydra",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/ydxqDmMQ/hydragrenadier.png",
       "Health": 129510,
@@ -1906,9 +1936,12 @@
     "40": {
       "Name": "Hydra Rifle Trooper",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Hydra",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/j5FpPWKs/hydrarifletrooper.png",
       "Health": 93258,
@@ -1943,9 +1976,12 @@
     "41": {
       "Name": "Hydra Scientist",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Skill",
+        "Support",
+        "Hydra",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/vTxpzQH5/hydrascientist.png",
       "Health": 103608,
@@ -1980,9 +2016,12 @@
     "42": {
       "Name": "Hydra Sniper",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Hydra",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/MXkg3hvN/hydrasniper.png",
       "Health": 93248,
@@ -2021,9 +2060,12 @@
       	"defenders"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Mystic",
+        "Brawler",
+        "Defender",
+        "MartialArtist"
       ],
       "Portrait_URL": "https://i.postimg.cc/kMV4ZK2v/ironfist.png",
       "Health": 124330,
@@ -2065,12 +2107,19 @@
       "Name": "Iron Man",
       "Aliases": [
       	"tony stark",
-      	"3000"
+      	"3000",
+      	"shwarma",
+      	"legendary"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Avenger",
+        "Blaster",
+        "Wave1Avenger",
+        "PowerArmor",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/59Z0Myvd/ironman.png",
       "Health": 100500,
@@ -2115,9 +2164,11 @@
       	"defenders"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Bio",
+        "Controller",
+        "Defender"
       ],
       "Portrait_URL": "https://i.postimg.cc/Qx1MNDkB/jessicajones.png",
       "Health": 134691,
@@ -2162,9 +2213,11 @@
       	"brotherhood"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Mystic",
+        "Protector",
+        "Brotherhood"
       ],
       "Portrait_URL": "https://i.postimg.cc/wjzj7r0w/juggernaut.png",
       "Health": 148164,
@@ -2208,9 +2261,12 @@
       	"wakandan"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Skill",
+        "Blaster",
+        "Wakanda",
+        "Mercenary"
       ],
       "Portrait_URL": "https://i.postimg.cc/8CKpXzDY/killmonger.png",
       "Health": 129509,
@@ -2251,9 +2307,10 @@
     "48": {
       "Name": "Kingpin",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Skill",
+        "Protector"
       ],
       "Portrait_URL": "https://i.postimg.cc/NjxfTxnB/kingpin.png",
       "Health": 207216,
@@ -2293,10 +2350,17 @@
     },
     "49": {
       "Name": "Korath the Pursuer",
+      "Aliases": [
+      	"korath",
+      	"kree"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Blaster",
+        "Kree",
+        "Mercenary"
       ],
       "Portrait_URL": "https://i.postimg.cc/vmH8vVR9/korath.png",
       "Health": 113969,
@@ -2336,10 +2400,16 @@
     },
     "50": {
       "Name": "Kree Cyborg",
+      "Aliases": [
+      	"cyborg"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Blaster",
+        "Kree",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/Hxrpq1kk/kreecyborg.png",
       "Health": 119150,
@@ -2373,10 +2443,16 @@
     },
     "51": {
       "Name": "Kree Noble",
+      "Aliases": [
+      	"noble"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Bio",
+        "Controller",
+        "Kree",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/0Qh8xXzd/kreenoble.png",
       "Health": 137799,
@@ -2410,10 +2486,16 @@
     },
     "52": {
       "Name": "Kree Oracle",
+      "Aliases": [
+      	"oracle"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Support",
+        "Kree",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/4ytX3vtC/kreeoracle.png",
       "Health": 145050,
@@ -2447,10 +2529,16 @@
     },
     "53": {
       "Name": "Kree Reaper",
+      "Aliases": [
+      	"reaper"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Bio",
+        "Brawler",
+        "Kree",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/Vsbf4wh7/kreereaver.png",
       "Health": 124330,
@@ -2484,10 +2572,17 @@
     },
     "54": {
       "Name": "Kree Royal Guard",
+      "Aliases": [
+      	"royal guard",
+      	"krg"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Bio",
+        "Protector",
+        "Kree",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/Z5JJTd5g/kreeroyalguard.png",
       "Health": 134690,
@@ -2522,9 +2617,11 @@
     "55": {
       "Name": "Loki",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Controller",
+        "Asgard"
       ],
       "Portrait_URL": "https://i.postimg.cc/bwLpdwGv/loki.png",
       "Health": 88067,
@@ -2564,10 +2661,16 @@
     },
     "56": {
       "Name": "Luke Cage",
+      "Aliases": [
+      	"defenders",
+      	"lc"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Bio",
+        "Protector",
+        "Defender"
       ],
       "Portrait_URL": "https://i.postimg.cc/Yq6pK3MY/lukecage.png",
       "Health": 124345,
@@ -2607,10 +2710,15 @@
     },
     "57": {
       "Name": "M'Baku",
+      "Aliases": [
+      	"mbaku"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mystic",
+        "Protector",
+        "Wakanda"
       ],
       "Portrait_URL": "https://i.postimg.cc/8chVGpQN/mbaku.png",
       "Health": 173024,
@@ -2650,10 +2758,17 @@
     },
     "58": {
       "Name": "Magneto",
+      "Aliases": [
+      	"mags",
+      	"brotherhood",
+      	"legendary"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Controller",
+        "Mutant",
+        "Brotherhood"
       ],
       "Portrait_URL": "https://i.postimg.cc/FKRmSXcV/magneto.png",
       "Health": 108789,
@@ -2693,10 +2808,15 @@
     },
     "59": {
       "Name": "Mantis",
+      "Aliases": [
+      	"guardians"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Controller",
+        "Guardian"
       ],
       "Portrait_URL": "https://i.postimg.cc/qqfdWtF1/mantis.png",
       "Health": 137798,
@@ -2736,10 +2856,17 @@
     },
     "60": {
       "Name": "Mercenary Lieutenant",
+      "Aliases": [
+      	"merc lieutenant",
+      	"merc lt"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Tech",
+        "Support",
+        "Mercenary",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/RFJBP1g3/mercliutenant.png",
       "Health": 84305,
@@ -2773,10 +2900,18 @@
     },
     "61": {
       "Name": "Mercenary Riot Guard",
+      "Aliases": [
+      	"merc riot guard",
+      	"merc rg",
+      	"mrg"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Skill",
+        "Protector",
+        "Mercenary",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/0NBvdX0R/mercriotguard.png",
       "Health": 129510,
@@ -2810,10 +2945,16 @@
     },
     "62": {
       "Name": "Mercenary Sniper",
+      "Aliases": [
+      	"merc sniper"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Tech",
+        "Blaster",
+        "Mercenary",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/QN5D1bBw/mercsniper.png",
       "Health": 82886,
@@ -2847,10 +2988,16 @@
     },
     "63": {
       "Name": "Mercenary Soldier",
+      "Aliases": [
+      	"merc soldier"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Skill",
+        "Blaster",
+        "Mercenary",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/qMTTL3yR/mercsoldier.png",
       "Health": 103623,
@@ -2884,10 +3031,18 @@
     },
     "64": {
       "Name": "Minn-Erva",
+      "Aliases": [
+      	"minnerva",
+      	"minny",
+      	"god healer",
+      	"kree"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Support",
+        "Tech",
+        "Kree"
       ],
       "Portrait_URL": "https://i.postimg.cc/MpZ8kJsJ/minnerva.png",
       "Health": 147122,
@@ -2928,9 +3083,11 @@
     "65": {
       "Name": "Mordo",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Controller",
+        "MartialArtist"
       ],
       "Portrait_URL": "https://i.postimg.cc/y8fCsp5g/mordo.png",
       "Health": 103608,
@@ -2970,10 +3127,17 @@
     },
     "66": {
       "Name": "Ms. Marvel",
+      "Aliases": [
+      	"msmarvel",
+      	"ms marvel"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Bio",
+        "Brawler",
+        "Inhuman",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/HLVDx4DS/msmarvel.png",
       "Health": 155412,
@@ -3013,10 +3177,17 @@
     },
     "67": {
       "Name": "Mysterio",
+      "Aliases": [
+      	"sinistersix",
+      	"sinister six"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Tech",
+        "Controller",
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "Portrait_URL": "https://i.postimg.cc/mrJxFzTT/mysterio.png",
       "Health": "",
@@ -3056,10 +3227,15 @@
     },
     "68": {
       "Name": "Mystique",
+      "Aliases": [
+      	"brotherhood"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Mutant",
+        "Controller",
+        "Brotherhood"
       ],
       "Portrait_URL": "https://i.postimg.cc/63vkVWQn/mystique.png",
       "Health": 137799,
@@ -3100,9 +3276,10 @@
     "69": {
       "Name": "Nebula",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Brawler"
       ],
       "Portrait_URL": "https://i.postimg.cc/gjy15g80/nebula.png",
       "Health": 113969,
@@ -3142,10 +3319,19 @@
     },
     "70": {
       "Name": "Nick Fury",
+      "Aliases": [
+      	"director",
+      	"fury",
+      	"s.h.i.e.l.d",
+      	"legendary"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Support",
+        "Avenger",
+        "Shield"
       ],
       "Portrait_URL": "https://i.postimg.cc/SQW0Jx3p/nickfury.png",
       "Health": 113969,
@@ -3186,9 +3372,10 @@
     "71": {
       "Name": "Night Nurse",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Skill",
+        "Support"
       ],
       "Portrait_URL": "https://i.postimg.cc/ZKZG3hzv/nightnurse.png",
       "Health": 103608,
@@ -3228,10 +3415,16 @@
     },
     "72": {
       "Name": "Nobu",
+      "Aliases": [
+      	"hand"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Mystic",
+        "Controller",
+        "Hand",
+        "MartialArtist"
       ],
       "Portrait_URL": "https://i.postimg.cc/c4mVB5d9/nobu.png",
       "Health": 93248,
@@ -3271,10 +3464,15 @@
     },
     "73": {
       "Name": "Okoye",
+      "Aliases": [
+      	"wakandan"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Controller",
+        "Wakanda"
       ],
       "Portrait_URL": "https://i.postimg.cc/dVVgHm1q/okoye.png",
       "Health": 103608,
@@ -3314,10 +3512,18 @@
     },
     "74": {
       "Name": "Phoenix",
+      "Aliases": [
+      	"jean",
+      	"dark phoenix",
+      	"xmen",
+      	"legendary"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mutant",
+        "Controller",
+        "Xmen"
       ],
       "Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
       "Health": 98427,
@@ -3357,10 +3563,16 @@
     },
     "75": {
       "Name": "Psylocke",
+      "Aliases": [
+      	"xmen"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Xmen",
+        "MartialArtist"
       ],
       "Portrait_URL": "https://i.postimg.cc/0N6FxkDF/psylocke.png",
       "Health": 119149,
@@ -3400,10 +3612,15 @@
     },
     "76": {
       "Name": "Punisher",
+      "Aliases": [
+      	"defenders",
+      	"frank"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Skill",
+        "Blaster"
       ],
       "Portrait_URL": "https://i.postimg.cc/MGh4pCYT/punisher.png",
       "Health": 98428,
@@ -3443,10 +3660,15 @@
     },
     "77": {
       "Name": "Pyro",
+      "Aliases": [
+      	"brotherhood"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Mutant",
+        "Blaster",
+        "Brotherhood"
       ],
       "Portrait_URL": "https://i.postimg.cc/zBKQbxdk/pyro.png",
       "Health": 88067,
@@ -3486,10 +3708,17 @@
     },
     "78": {
       "Name": "Quake",
+      "Aliases": [
+      	"skye",
+      	"tremors"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Bio",
+        "Controller",
+        "Shield",
+        "Inhuman"
       ],
       "Portrait_URL": "https://i.postimg.cc/hvn59V6R/quake.png",
       "Health": 88067,
@@ -3529,10 +3758,16 @@
     },
     "79": {
       "Name": "Ravager Boomer",
+      "Aliases": [
+      	"boomer"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Blaster",
+        "Ravager",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/PJMFKPnp/ravagerboomer.png",
       "Health": 103608,
@@ -3566,10 +3801,16 @@
     },
     "80": {
       "Name": "Ravager Bruiser",
+      "Aliases": [
+      	"bruiser"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Bio",
+        "Protector",
+        "Ravager",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/y6h57r31/ravagerbruiser.png",
       "Health": 113969,
@@ -3603,10 +3844,16 @@
     },
     "81": {
       "Name": "Ravager Stitcher",
+      "Aliases": [
+      	"stitcher"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Tech",
+        "Support",
+        "Ravager",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/CLF25Hbj/ravagerstitcher.png",
       "Health": 113994,
@@ -3640,10 +3887,15 @@
     },
     "82": {
       "Name": "Red Skull",
+      "Aliases": [
+      	"hydra"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Bio",
+        "Controller",
+        "Hydra"
       ],
       "Portrait_URL": "https://i.postimg.cc/yYvbZgT2/redskull.png",
       "Health": 124345,
@@ -3683,10 +3935,16 @@
     },
     "83": {
       "Name": "Rescue",
+      "Aliases": [
+      	"pepper",
+      	"potts"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Support",
+        "PowerArmor"
       ],
       "Portrait_URL": "https://i.postimg.cc/HknP4YZn/rescue.png",
       "Health": 98427,
@@ -3726,10 +3984,16 @@
     },
     "84": {
       "Name": "Rhino",
+      "Aliases": [
+      	"sinistersix"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Bio",
+        "Protector",
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "Portrait_URL": "https://i.postimg.cc/DwNpx9Hg/rhino.png",
       "Health": 142978,
@@ -3773,12 +4037,16 @@
       	"guardians",
       	"rocket",
       	"buildabear",
-      	"build-a-bear"
+      	"build-a-bear",
+      	"rabbit"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Tech",
+        "Blaster",
+        "Guardian",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/N0rJSNww/rocketracoon.png",
       "Health": 88067,
@@ -3818,10 +4086,16 @@
     },
     "86": {
       "Name": "Ronan the Accuser",
+      "Aliases": [
+      	"ronan",
+      	"kree"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Controller",
+        "Kree"
       ],
       "Portrait_URL": "https://i.postimg.cc/JnV6Lb1H/ronan.png",
       "Health": 134690,
@@ -3861,10 +4135,17 @@
     },
     "87": {
       "Name": "S.H.I.E.L.D. Assault",
+      "Aliases": [
+      	"shield assault",
+      	"assault"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Blaster",
+        "Shield",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/VsF7xr25/shieldassault.png",
       "Health": 98428,
@@ -3898,10 +4179,17 @@
     },
     "88": {
       "Name": "S.H.I.E.L.D. Medic",
+      "Aliases": [
+      	"shield medic",
+      	"medic"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Support",
+        "Shield",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/DyyCnfK6/shieldmedic.png",
       "Health": 103608,
@@ -3935,10 +4223,17 @@
     },
     "89": {
       "Name": "S.H.I.E.L.D. Operative",
+      "Aliases": [
+      	"shield operative",
+      	"operative"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Support",
+        "Shield",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/kX1T4rJm/shieldoperative.png",
       "Health": 100500,
@@ -3972,10 +4267,17 @@
     },
     "90": {
       "Name": "S.H.I.E.L.D. Security",
+      "Aliases": [
+      	"shield security",
+      	"security"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Protector",
+        "Shield",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/pLmq50rn/shieldsecurity.png",
       "Health": 103608,
@@ -4009,10 +4311,17 @@
     },
     "91": {
       "Name": "S.H.I.E.L.D. Trooper",
+      "Aliases": [
+      	"shield trooper",
+      	"trooper"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Skill",
+        "Blaster",
+        "Shield",
+        "Minion"
       ],
       "Portrait_URL": "https://i.postimg.cc/K8CQPn3p/shieldtrooper.png",
       "Health": 102572,
@@ -4046,10 +4355,15 @@
     },
     "92": {
       "Name": "Sabretooth",
+      "Aliases": [
+      	"brotherhood"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Brotherhood"
       ],
       "Portrait_URL": "https://i.postimg.cc/kG7TVqRn/sabretooth.png",
       "Health": 134691,
@@ -4090,9 +4404,12 @@
     "93": {
       "Name": "Scarlet Witch",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mystic",
+        "Controller",
+        "Avenger",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/9MdxFrM8/scarlettwitch.png",
       "Health": 103608,
@@ -4132,10 +4449,15 @@
     },
     "94": {
       "Name": "Scientist Supreme",
+      "Aliases": [
+      	"a.i.m"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Support",
+        "Aim"
       ],
       "Portrait_URL": "https://i.postimg.cc/QCS01wcc/scientistsupreme.png",
       "Health": 124330,
@@ -4175,10 +4497,16 @@
     },
     "95": {
       "Name": "Shocker",
+      "Aliases": [
+      	"sinistersix"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Tech",
+        "Blaster",
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "Portrait_URL": "https://i.postimg.cc/HL5zBVQY/shocker.png",
       "Health": 93247,
@@ -4218,10 +4546,16 @@
     },
     "96": {
       "Name": "Shuri",
+      "Aliases": [
+      	"wakandan",
+      	"legendary"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Support",
+        "Wakanda"
       ],
       "Portrait_URL": "https://i.postimg.cc/tRD5S0Vx/shuri.png",
       "Health": 103607,
@@ -4261,10 +4595,21 @@
     },
     "97": {
       "Name": "Spider-Man",
+      "Aliases": [
+      	"spiderman",
+      	"spider man",
+      	"peter parker",
+      	"spider-verse",
+      	"spiderverse",
+      	"spider verse"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Bio",
+        "Brawler",
+        "SpiderVerse",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/MHsmvR8D/spiderman.png",
       "Health": 88067,
@@ -4304,10 +4649,21 @@
     },
     "98": {
       "Name": "Spider-Man (Miles)",
+      "Aliases": [
+      	"miles",
+      	"spiderman miles",
+      	"ultimate spiderman",
+      	"ultimate spider man",
+      	"spiderverse",
+      	"spider verse",
+      	"spider-verse"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "City",
+        "Bio",
+        "Brawler",
+        "SpiderVerse"
       ],
       "Portrait_URL": "https://i.postimg.cc/NMc4VB41/spidermanmiles.png",
       "Health": 103608,
@@ -4347,10 +4703,19 @@
     },
     "99": {
       "Name": "Star-Lord",
+      "Aliases": [
+      	"starlord",
+      	"quill",
+      	"peter quill",
+      	"legendary",
+      	"guardians"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Tech",
+        "Controller",
+        "Guardian"
       ],
       "Portrait_URL": "https://i.postimg.cc/sxfJjmbx/starlord.png",
       "Health": 93248,
@@ -4390,10 +4755,16 @@
     },
     "100": {
       "Name": "Storm",
+      "Aliases": [
+      	"xmen"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mutant",
+        "Controller",
+        "Xmen",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/MTmDJNPg/storm.png",
       "Health": 113969,
@@ -4433,10 +4804,16 @@
     },
     "101": {
       "Name": "Thanos",
+      "Aliases": [
+      	"inevitable"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Protector",
+        "Eternal",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/m25S4QjZ/thanos.png",
       "Health": 207216,
@@ -4483,9 +4860,14 @@
       	"lebowski"
       ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Cosmic",
+        "Mystic",
+        "Blaster",
+        "Avenger",
+        "Asgard",
+        "Wave1Avenger",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/L8g38nQt/thor.png",
       "Health": 124330,
@@ -4525,10 +4907,16 @@
     },
     "103": {
       "Name": "Ultimus",
+      "Aliases": [
+      	"kree"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Vilain",
+        "Cosmic",
+        "Mystic",
+        "Brawler",
+        "Kree",
+        "Eternal"
       ],
       "Portrait_URL": "https://i.postimg.cc/XvMcG4tT/ultimus.png",
       "Health": 134691,
@@ -4569,9 +4957,11 @@
     "104": {
       "Name": "Ultron",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Tech",
+        "Blaster",
+        "Ultron"
       ],
       "Portrait_URL": "https://i.postimg.cc/g0vy31Wr/ultron.png",
       "Health": 134691,
@@ -4611,10 +5001,18 @@
     },
     "105": {
       "Name": "Venom",
+      "Aliases": [
+      	"eddie brock",
+      	"spiderverse",
+      	"spider-verse",
+      	"spider verse"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Bio",
+        "Controller",
+        "SpiderVerse"
       ],
       "Portrait_URL": "https://i.postimg.cc/d1w26ns6/venom.png",
       "Health": 155412,
@@ -4655,9 +5053,11 @@
     "106": {
       "Name": "Vision",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Controller",
+        "Avenger"
       ],
       "Portrait_URL": "https://i.postimg.cc/gj0vFJ66/vision.png",
       "Health": 88067,
@@ -4697,10 +5097,16 @@
     },
     "107": {
       "Name": "Vulture",
+      "Aliases": [
+      	"sinistersix"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "City",
+        "Tech",
+        "Brawler",
+        "SpiderVerse",
+        "SinisterSix"
       ],
       "Portrait_URL": "https://i.postimg.cc/xC5K4Hq2/vulture.png",
       "Health": 88066,
@@ -4740,10 +5146,17 @@
     },
     "108": {
       "Name": "War Machine",
+      "Aliases": [
+      	"rhodey"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Avenger",
+        "Blaster",
+        "Military",
+        "PowerArmor"
       ],
       "Portrait_URL": "https://i.postimg.cc/RhbwMBcp/warmachine.png",
       "Health": 93247,
@@ -4784,9 +5197,10 @@
     "109": {
       "Name": "Wasp",
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Tech",
+        "Blaster"
       ],
       "Portrait_URL": "https://i.postimg.cc/DfCrQqtQ/wasp.png",
       "Health": 90139,
@@ -4826,10 +5240,18 @@
     },
     "110": {
       "Name": "Winter Soldier",
+      "Aliases": [
+      	"hydra",
+      	"bucky",
+      	"white wolf"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Global",
+        "Bio",
+        "Blaster",
+        "Hydra",
+        "Military"
       ],
       "Portrait_URL": "https://i.postimg.cc/X7pwsrbR/wintersoldier.png",
       "Health": 103608,
@@ -4869,10 +5291,18 @@
     },
     "111": {
       "Name": "Wolverine",
+      "Aliases": [
+      	"logan",
+      	"wolvie",
+      	"xmen"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Hero",
+        "Global",
+        "Mutant",
+        "Brawler",
+        "Xmen",
+        "Marvel80th"
       ],
       "Portrait_URL": "https://i.postimg.cc/KvwtwmcR/wolverine.png",
       "Health": 134691,
@@ -4912,10 +5342,17 @@
     },
     "112": {
       "Name": "Yondu",
+      "Aliases": [
+      	"mary poppins",
+      	"daddy",
+      	"ravager"
+      ],
       "Tags": [
-        "Test",
-        "Test2",
-        "Test3"
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Support",
+        "Ravager"
       ],
       "Portrait_URL": "https://i.postimg.cc/7ZzSyjbX/yondu.png",
       "Health": 98428,
