@@ -109,6 +109,8 @@ class MarvelCog(commands.Cog):
                 print(search)
                 embed = discord.Embed(title=f'{search[0]["Name"]}', description=f'{search[0]["Description"]}',colour=ctx.author.colour, timestamp=datetime.datetime.now())
                 embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+                embed.add_field(name='Expires: ', value=f'{search[0]["Expires"]}.')
+                embed.add_field(name='Opposite Effect: ', value=f'{search[0]["Opposite"]}')
                 await ctx.send(embed=embed)
             else:
                 await ctx.send('Unable to find any effects that match.')
