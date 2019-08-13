@@ -10,9 +10,9 @@ db = TinyDB(path)
 
 tags = {'Side': ['Hero', 'Villain'],
         'Trait': ['Bio', 'Mutant', 'Mystic', 'Skill', 'Tech'],
-        'Origin': ['Asguard', 'City', 'Cosmic', 'Global'],
-        'Team': ['A.I.M', 'Avenger', 'Brotherhood', 'Defender', 'FantasticFour', 'Guardian', 'Hand', 'Hydra', 'Kree',
-                 'Mercenary', 'Ravager', 'S.H.I.E.L.D', 'SinisterSix', 'SpiderVerse', 'Wave1Avenger', 'Xmen', 'Xforce'],
+        'Origin': ['Asgard', 'City', 'Cosmic', 'Global'],
+        'Team': ['Aim', 'Avenger', 'Brotherhood', 'Defender', 'FantasticFour', 'Guardian', 'Hand', 'Hydra', 'Kree',
+                 'Mercenary', 'Ravager', 'Shield', 'SinisterSix', 'SpiderVerse', 'Wave1Avenger', 'Xmen', 'Xforce'],
         'Role': ['Blaster', 'Brawler','Controller', 'Protector', 'Support'],
         'Other': ['Eternal','Inhuman', 'MartialArtist', 'Minion', 'Mutant', 'Marvel80th', 'Military', 'PowerArmor']
         }
