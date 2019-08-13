@@ -90,7 +90,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Tensile Strength",
-      		"Description": "Attack primary target for 230% damage. Chain to 3 adjacent targets for 190% damage.\nCounter attack breaks this Chain."
+      		"Description": "Attack primary target for 230% damage. Chain to 3 adjacent targets for 190% damage.\nCounter breaks this Chain."
       		},
       	"Special": {
       		"Name": "Entangle",
@@ -481,7 +481,7 @@
       	},
       	"Passive": {
       		"Name": "The Agent",
-      		"Description": "For each __Shield__ __Minion__ or __Nick Fury__ ally, gain +X% chance to assist on non-attack abilities. x% chance to gain **Assist Now** on each __Shield__ ally's turn. When __Nick Fury__ is attacked, Gain **Counterattack** and apply **Taunt** to __Shield Security__.\nGain +X% Max Health. __Shield__ allies gain +X% Max Health."
+      		"Description": "For each __Shield__ __Minion__ or __Nick Fury__ ally, gain +X% chance to assist on non-attack abilities. x% chance to gain **Assist Now** on each __Shield__ ally's turn. When __Nick Fury__ is attacked, Gain **Counter** and apply **Taunt** to __Shield Security__.\nGain +X% Max Health. __Shield__ allies gain +X% Max Health."
       	}
       }
     },
@@ -631,7 +631,7 @@
   		},
       	"Ultimate": {
       		"Name": "Panther Rush",
-      		"Description": "Attack primary target for 280% damage. Chain to 1-3 adjacent targets for 200% damage. **Counterattack** breaks this Chain.\nWhile in **Charged**, instead attack all enemies for 250% damage, then lose all **Charged**. This attack gains +20% Damage per **Charged**.\nAll attacks have +30% Piercing and +20% Extra Crit Chance.",
+      		"Description": "Attack primary target for 280% damage. Chain to 1-3 adjacent targets for 200% damage. **Counter** breaks this Chain.\nWhile in **Charged**, instead attack all enemies for 250% damage, then lose all **Charged**. This attack gains +20% Damage per **Charged**.\nAll attacks have +30% Piercing and +20% Extra Crit Chance.",
       		"Starting Energy": 4,
       		"Energy Cost": 6
       	},
@@ -684,7 +684,7 @@
   		},
       	"Ultimate": {
       		"Name": "Widow's Bite",
-      		"Description": "Attack primary target for 290% damage + apply **Stun**. 60% chance to Chain up to 3 adjacent targets for 220% damage + apply 2 **Bleed** for 2 turns.\n**Counterattack** breaks this Chain.",
+      		"Description": "Attack primary target for 290% damage + apply **Stun**. 60% chance to Chain up to 3 adjacent targets for 220% damage + apply 2 **Bleed** for 2 turns.\n**Counter** breaks this Chain.",
       		"Starting Energy": 1,
       		"Energy Cost": 4
       	},
@@ -821,7 +821,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Shield Bash",
-      		"Description": "Attack primary target for 220% damage. 30% chance to Chain to up to 2 adjacent targets for 170% damage. Gain **Defense Up** for 1 turn.\n**Counterattack** breaks this Chain."
+      		"Description": "Attack primary target for 220% damage. 30% chance to Chain to up to 2 adjacent targets for 170% damage. Gain **Defense Up** for 1 turn.\n**Counter** breaks this Chain."
       		},
       	"Special": {
       		"Name": "Inspire",
@@ -873,7 +873,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Princess Sparkle Fist",
-      		"Description": "Attack primary target for 320% damage. 50% chance to Chain to 1 adjacent target for 220% damage.\nIf not in Binary, gain +1 **Charged**, up to a maximum of 5. If in Binary, lose 1 **Charged**. On losing all **Charged**, end Binary.\n**Counterattack** breaks this Chain."
+      		"Description": "Attack primary target for 320% damage. 50% chance to Chain to 1 adjacent target for 220% damage.\nIf not in Binary, gain +1 **Charged**, up to a maximum of 5. If in Binary, lose 1 **Charged**. On losing all **Charged**, end Binary.\n**Counter** breaks this Chain."
       		},
       	"Special": {
       		"Name": "Warbird",
@@ -923,7 +923,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Cleave",
-      		"Description": "Attack primary target for 280% damage. If the primary target has a negative effect, Chain to 1-2 adjacent targets for 90% damage + spread 2 negative effects from the primary target to secondary targets.\nThis will not spread **Stun**.\n**Counterattack** breaks this Chain."
+      		"Description": "Attack primary target for 280% damage. If the primary target has a negative effect, Chain to 1-2 adjacent targets for 90% damage + spread 2 negative effects from the primary target to secondary targets.\nThis will not spread **Stun**.\n**Counter** breaks this Chain."
       		},
       	"Special": {
       		"Name": "Slaughter",
@@ -1099,7 +1099,8 @@
       "Aliases": [
       	"dd",
       	"blind guy",
-      	"defenders"
+      	"defenders",
+      	"punfenders"
       ],
       "Tags": [
         "Hero",
@@ -1135,7 +1136,7 @@
   		},
       	"Ultimate": {
       		"Name": "Brawl",
-      		"Description": "Attack primary target for 400% damage + Chain to 4-6 adjacent targets for 240% damage.\n**Counterattack** breaks this Chain.",
+      		"Description": "Attack primary target for 400% damage + Chain to 4-6 adjacent targets for 240% damage.\n**Counter** breaks this Chain.",
       		"Starting Energy": 5,
       		"Energy Cost": 5
       	},
@@ -1187,7 +1188,7 @@
   		},
       	"Ultimate": {
       		"Name": "Hack 'n' Slash",
-      		"Description": "Attack primary target for 260% damage + Rebound Chain 3-4 additional targets for 200% damage. Apply **Bleed** to __Minion__ targets.\n**Counterattack** breaks this Chain.",
+      		"Description": "Attack primary target for 260% damage + Rebound Chain 3-4 additional targets for 200% damage. Apply **Bleed** to __Minion__ targets.\n**Counter** breaks this Chain.",
       		"Starting Energy": 4,
       		"Energy Cost": 4
       	},
@@ -1283,7 +1284,7 @@
   		},
       	"Ultimate": {
       		"Name": "Good Fighting",
-      		"Description": "Attack primary target for 300% damage + 50% Drain. Chain to 3-5 adjacent targets for 240% damage + 50% Drain.\nCounterattack breaks this Chain.",
+      		"Description": "Attack primary target for 300% damage + 50% Drain. Chain to 3-5 adjacent targets for 240% damage + 50% Drain.\nCounter breaks this Chain.",
       		"Starting Energy": 3,
       		"Energy Cost": 6
       	},
@@ -1420,7 +1421,7 @@
       		},
       	"Special": {
       		"Name": "Ruthless Blade",
-      		"Description": "Attack primary target for 270% damage. Chain to 1-2 adjacent targets for 200% damage. On Kill, fill Speed Bar by 100%.\n**Counterattack** breaks this Chain.",
+      		"Description": "Attack primary target for 270% damage. Chain to 1-2 adjacent targets for 200% damage. On Kill, fill Speed Bar by 100%.\n**Counter** breaks this Chain.",
       		"Starting Energy": 3,
   			"Energy Cost": 3
   		},
@@ -2056,7 +2057,8 @@
       "Name": "Iron Fist",
       "Aliases": [
       	"danny rand",
-      	"defenders"
+      	"defenders",
+      	"punfenders"
       ],
       "Tags": [
         "Hero",
@@ -2082,7 +2084,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Martial Arts",
-      		"Description": "Attack primary target for 250% damage. Chain to 2 adjacent targets for 130% damage.\n**Counterattack** breaks this Chain."
+      		"Description": "Attack primary target for 250% damage. Chain to 2 adjacent targets for 130% damage.\n**Counter** breaks this Chain."
       		},
       	"Special": {
       		"Name": "Inner Peace",
@@ -2136,7 +2138,7 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Repulsor Blast",
-      		"Description": "Attack primary target for 280% damage. 30% chance to Chain to up to 2 adjacent targets for 230% damage.\n**Counterattack** breaks this Chain."
+      		"Description": "Attack primary target for 280% damage. 30% chance to Chain to up to 2 adjacent targets for 230% damage.\n**Counter** breaks this Chain."
       		},
       	"Special": {
       		"Name": "Rocket Barrage",
@@ -2160,7 +2162,8 @@
       "Name": "Jessica Jones",
       "Aliases": [
       	"jj",
-      	"defenders"
+      	"defenders",
+      	"punfenders"
       ],
       "Tags": [
         "Hero",
@@ -2293,13 +2296,13 @@
   		},
       	"Ultimate": {
       		"Name": "Battle Frenzy",
-      		"Description": "Attack primary target for 300% damage. Chain to all adjacent targets for 240% damage.\nOn Crit, attack all enemies for 200% damage and lose **Charged**. Otherwise, gain +1 **Charged** up to a maximum of 5.\n**Counterattack** breaks this Chain.",
+      		"Description": "Attack primary target for 300% damage. Chain to all adjacent targets for 240% damage.\nOn Crit, attack all enemies for 200% damage and lose **Charged**. Otherwise, gain +1 **Charged** up to a maximum of 5.\n**Counter** breaks this Chain.",
       		"Starting Energy": 4,
       		"Energy Cost": 6
       	},
       	"Passive": {
       		"Name": "Retribution",
-      		"Description": "On **Defense Up**, attack the most injured enemy for 330% damage.\nOn Kill, heal for 10% of this character's Max Health.\nGain +20% Drain.\nGain +20% Crit Chance per **Charged**.\nIn Raids, +20% chance to **Counterattack**. In Raids, gain +20% chance to **Counterattack** for each __Wakandan__ ally."
+      		"Description": "On **Defense Up**, attack the most injured enemy for 330% damage.\nOn Kill, heal for 10% of this character's Max Health.\nGain +20% Drain.\nGain +20% Crit Chance per **Charged**.\nIn Raids, +20% chance to **Counter**. In Raids, gain +20% chance to **Counter** for each __Wakandan__ ally."
       	}
       }
     },
@@ -2662,7 +2665,7 @@
       "Name": "Luke Cage",
       "Aliases": [
       	"defenders",
-      	"lc"
+      	"punfenders"
       ],
       "Tags": [
         "Hero",
@@ -2734,24 +2737,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Cudgel Slam",
+      		"Description": "Attack primary target for 300% damage. On target Dodge, Bonus Attack for 300% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Call of the Mountain",
+      		"Description": "Gain **Taunt** + 2 **Counter**. Gain +2 Charged, up to a maximum of 5.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Jabari Avalanche",
+      		"Description": "Attack primary target and all adjacent targets for 320% damage. On Kill, Chain to target adjacent to primary and attack that target and all adjacent targets for 320% damage.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Ancestral Might",
+      		"Description": "On **Defense Up**, Heal for 15% of Max Health. If already at Max Health, gain +1 **Defense Up**.\nWhile **Charged**, gain +100% Block Chance and +50% Block Amount.\nOn Block, lose 1 **Charged**.\nIn Raids, on Block, Heal for 10% of Max Health.\nIn Raids gain +25% Block chance."
       	}
       }
     },
@@ -2774,7 +2777,7 @@
       "Damage": 14424,
       "Armor": 8393,
       "Focus": 3290,
-      "Resistance": 2611,
+      "Resistance": 2611,	
       "Crit Damage": 130,
       "Crit Chance": 10,
       "Speed": 90,
@@ -2784,24 +2787,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Magnetic Force",
+      		"Description": "Attack primary target for 220% damage + 20% Piercing. Chain to 1-2 additional targets for 190% damage + 20% Piercing."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Polarized Beam",
+      		"Description": "Attack primary target for 240% damage + 20% Piercing + apply **Disrupted** for 2 turns + apply **Slow** for 2 turns + remove all positive effects.\nThis attack is Unavoidable.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Magnetic Vortex",
+      		"Description": "Pull all enemies up to 2 spaces toward the primary target, then attack primary and targets within 2 spaces for 240% damage + apply **Blind**.\nThis attack is Unavoidable and cannot be Counterattacked.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Brotherhood of Mutants",
+      		"Description": "On Spawn, fill 15% Speed Bar. Fill 15% Speed Bar per __Brotherhood__ ally. On enemy Crit, apply Speed Up to self and all __Brotherhood__ allies.\nGain +50% Focus. __Brotherhood__ allies gain +50% Focus.\nGain +30% Max Health. __Brotherhood__ allies gain +30% Max Health."
       	}
       }
     },
@@ -2832,24 +2835,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Sleeeeep",
+      		"Description": "Attack primary target for 240% damage. If **Charged**, then in addition, **Stun** the target. Then lose **Charged**.\nIf __Drax__ is an ally, apply **Deflect** to __Drax__."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Empathy",
+      		"Description": "Heal self and adjacent allies for 3000 Health + 15% of this character's Max Health. Heal all additional allies for 1750 Health + 10% of this character's Max Health. Apply **Regeneration** to self and adjacent allies.\nIn Raids, apply additional **Regeneration** to all allies.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Soothe",
+      		"Description": "Redistribute Health between self and lowest health ally evenly + heal self and that ally for 2000.\nIn Raids, Transfer 2 negative effects from both self and that ally to primary target. Clear 2 positive effects from primary target.\nThis ability cannot target summoned allies.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 3
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Will to Power",
+      		"Description": "On Spawn, gain **Charged**.\nOn Turn, Heal for 15% of this character's Max Health.\nGain +5% Max Health per __Guardian__ ally."
       	}
       }
     },
@@ -2882,18 +2885,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Cover Fire",
+      		"Description": "Attack primary target for 290% damage. Grant 1 ability energy to an ally."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Call the Shots",
+      		"Description": "Apply **Offense Up** to all allies for 1 turn. Apply **Speed Up** to all allies for 1 turn.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 2
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Squad Coherency",
+      		"Description": "On Turn, 40% chance to heal Lowest Health ally for 20% of this character's Max Health. If ally is __Mercenary__, heal for +30% of this character's Max Health."
       	}
       }
     },
@@ -2927,18 +2930,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Combat Pistol",
+      		"Description": "Attack primary target for 340% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Rampart",
+      		"Description": "Gain **Taunt** for 1 turn. Gain **Defense Up** on self for 3 turns. Apply **Defense Up** to 4 Lowest Health allies for 1 turn.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 2
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Riot Suppression",
+      		"Description": "Gain +25% Block chance."
       	}
       }
     },
@@ -2970,18 +2973,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Sniper Shot",
+      		"Description": "Attack primary target for 290% damage and 25% Piercing."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Steady Aim",
+      		"Description": "Attack primary target for 450% damage and 50% Piercing.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "High Velocity",
+      		"Description": "Gain +15% Damage and +10% Piercing"
       	}
       }
     },
@@ -3013,18 +3016,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Assault Rifle",
+      		"Description": "Attack primary target for 340% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Frag Grenade",
+      		"Description": "Attack primary target for 240% damage + adjacent targets for 190% damage.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Tactical Loadout",
+      		"Description": "Gain 20% Damage and 15% Health."
       	}
       }
     },
@@ -3058,24 +3061,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Bio-Weapon",
+      		"Description": "Attack primary target for 200% damage + apply **Bleed**.\nApply **Regeneration** to the most injured non-summoned ally."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Genetic Reconstruction",
+      		"Description": "Heal most injured ally for 5000 Health + 15% of this character's Max Health.\nGenerate Ability Energy to a random __Kree__ ally.\nRevive dead ally with 40% Max Health + apply 2 **Deathproof**.",
+      		"Starting Energy": 5,
+  			"Energy Cost": 5
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Mass Phlebotomy",
+      		"Description": "Steal 15% Health from all enemies and redistribute to all allies. All allies receive an additional 5000 Health. This bypasses **Heal Block**.\nAlways apply **Regeneration** for 2 turns to all allies.\nAlways apply **Bleed** for 2 turns to all enemies.Apply Deflect to all __Kree__ allies.",
+      		"Starting Energy": 7,
+      		"Energy Cost": 7
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Kree Nanotech",
+      		"Description": "On ally Death, change Speed Bar by 25%.\nOn enemy Death, heal the most injured non-summoned ally for 15% of this character's Max Health. If that ally is __Kree__, also apply a random positive effect."
       	}
       }
     },
@@ -3103,24 +3106,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Arcane Scourge",
+      		"Description": "Attack primary target for 220% damage + apply 2 random negative effects."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Mesmerize",
+      		"Description": "Stun primary target + 50% chance to **Blind** up to 3 targets. 50% chance to **Slow** up to 2 targets.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Demons of Denak",
+      		"Description": "Attack all targets for 240% damage + apply **Heal Block** for 2 turns. This attack cannot miss.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Too Many Sorcerers",
+      		"Description": "On Death of any Character, Heals self for 10% of this character's Max Health. On Death of a __Mystic__, Heal self for 15% of this character's Max Health + gain 1-2 Ability Energy."
       	}
       }
     },
@@ -3153,24 +3156,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Big Bash",
+      		"Description": "Attack primary target for 200% damage. Gain **Deflect**."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Rejuvenate",
+      		"Description": "Heal self for 20000 Health + 50% of this character's Max Health. If Health started below 50%, also gain **Slow**.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 5
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Embiggen",
+      		"Description": "Attack all enemies for 220% damage + 60% chance to generate 1 Ability Energy per target hit. Energy is granted to random __Hero__ allies.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Fangirl",
+      		"Description": "Gain **Assist Now** on each __Hero__ __Brawler__ ally's turn. On Turn, grant **Assist Now** to a random __Hero__ __Brawler__ ally.\nWhen a __Hero__ ally drops below 50% Health, gain **Taunt**. If that ally is a __Brawler__, also gain 2 **Deflect**."
       	}
       }
     },
@@ -3203,24 +3206,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "The Ol' One-Two",
+      		"Description": "Clear 3 positive effects from primary target. Attack primary target for 250% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Master of Illusion",
+      		"Description": "Apply **Blind** to primary target.\nGain an assist from a random __SinisterSix__ ally.\nGain an assist from a random ally.\nIf target is a __City__ __Hero__, apply **Ability Block**.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Smoke and Mirrors",
+      		"Description": "Attack all enemies for 350% damage. Apply **Heal Block** to all enemies.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Grand Masquerade",
+      		"Description": "On Spawn, apply 2 **Deflect** to self and all __SinisterSix__ allies.\nGain +20% Focus for self per __SpiderVerse__ ally.\n__SpiderVerse__ allies gain +20% Focus.\nOn Death, summon 2 Mirror Images at 260% of normal Damage and 150% of normal Health."
       	}
       }
     },
@@ -3251,24 +3254,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Mimic Strike",
+      		"Description": "Attack primary target for 210% damage + Bonus Attack 1-2 times for 160% damage + copy 2 positive effects and apply them to self.\nIf __Magneto__ is an ally, copy all positive effects."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Infiltrate",
+      		"Description": "Attack primary target for 240% damage. Attack 3 additional targets that do not have **Stealth** for 170% damage.\nAttack all additional targets that do have **Stealth** for 170% damage + clear **Stealth** from each target.\nIf no enemies had **Stealth**, gain **Stealth**.\nIf __Magneto__ is ally, this attack is Unavoidable.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Shapeshifter",
+      		"Description": "Attack primary target for 150% damage.\nTrick 1 random enemy to attack the primary target. The tricked enemy gains +200% Damage for this attack.\nGain **Evade**.",
+      		"Starting Energy": 7,
+      		"Energy Cost": 7
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Subterfuge",
+      		"Description": "On Spawn, gain **Evade**. Gain 1000% Resistance against **Bleed**.\nOn __Magneto__'s turn, prolong all positive effects on self and __Magneto__ by a duration of 1, up to a maximum of 3."
       	}
       }
     },
@@ -3295,24 +3298,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Relentless Pursuit",
+      		"Description": "Attack primary target for 280% damage. Gain **Speed Up** for 1 turn."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Challenging Foe",
+      		"Description": "Attack primary target for 200% damage + gain 2 **Counter**.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Mayhem",
+      		"Description": "Attack primary target for 320% damage. 60% chance to Chain to up to 2 adjacent targets for 250% damage. Gain 2 **Evade**.\n**Counter** breaks this Chain.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 3
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Exploit Weakness",
+      		"Description": "15% chance to Assist when an ally attacks. 15% chance to Revive on Death with 10% of Max Health."
       	}
       }
     },
@@ -3347,24 +3350,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Custom I.C.E.R.",
+      		"Description": "Attack primary target for 230% damage + Chain to 1 adjacent target for 180% damage. Generate 1 ability energy on each Crit. Energy is granted to adjacent allies.\n**Counter** breaks this Chain."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Rally",
+      		"Description": "Gain **Defense Up**. Spread all positive effects on self to all allies.\nHeal self and all __Shield__ __Minion__ allies for 10000 Health + 15% of this character's Max Health.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Reinforcements",
+      		"Description": "Summon 2-3 __Shield__ Agent at 340% normal Damage and 150% of normal Health + gain positive effect for 2 turns.\nPossible Summons:\n> __S.H.I.E.L.D. Operative__ + __Nick Fury__ gains **Speed Up**.\n> __S.H.I.E.L.D. Security__ + __Nick Fury__ gains **Offense Up**.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Director of S.H.I.E.L.D.",
+      		"Description": "On Spawn, grant **Speed Up** to self and all __Shield__ __Minion__ allies. On Turn, 50% chance to grant __Speed Up__ to self + __Shield__ __Minion__ allies.\n30% chance to grant **Assist Now** to self or a random ally on each __Hero__ ally's turn. If the ally granted **Assist Now** is a __Shield__ __Minion__ or __Nick Fury__, they also gain **Offense Up**.\n__Shield__ __Minion__ allies gain +10% Armor. __Shield__ __Minion__ allies gain +30% Resistance"
       	}
       }
     },
@@ -3391,24 +3394,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Self Defense",
+      		"Description": "Attack primary target for 250% damage + 50% chance to apply **Slow** for 2 turn(s)."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "First Aid",
+      		"Description": "Heal lowest Health ally for 4200 Health + 20% of this character's Max Health.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
+      		"Name": "Urgent Care",
+      		"Description": "Heal all allies for 3200 Health + 10% of this character's Max Health. Apply 2 **Regeneration** to each ally.",
       		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Energy Cost": 4
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Triage",
+      		"Description": "On turn, if the ally with the least Health has less than 100% Health, 25% chance to Heal them for 15% of this character's Max Health."
       	}
       }
     },
@@ -3440,24 +3443,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Shadow Strike",
+      		"Description": "Attack primary target for 310% damage + 70% chance to gain **Stealth** for 1 turn. +40% chance to gain assist from __Hand__ ally."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Unseen Army",
+      		"Description": "Summon 2-3 Hand Ninjas at 340% normal damage and 100% of normal Health.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Ready the Trap",
+      		"Description": "Gain 2 **Counter** + apply 1-2 **Counter** to all allies.",
+      		"Starting Energy": 2,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Secrets of Death",
+      		"Description": "__Hand__ allies get a +10% chance to Revive on Death with 20% Health. Non-Hand allies get a +5% chance to Revive on Death with 15% Health."
       	}
       }
     },
@@ -3488,24 +3491,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Spear Strike",
+      		"Description": "Attack primary target for 200% damage + clear a positive effect.\nGain +50% Extra Focus for this attack."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Precision Strike",
+      		"Description": "Attack primary target for 220% damage + apply **Defense Down**. Chain to 1 adjacent target for 190% damage.\n**Counter** breaks this Chain.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Aerial Impalement",
+      		"Description": "Gain **Offense Up**.\nAttack primary target for 280% Piercing + change Speed Bar by -50%.",
+      		"Starting Energy": 4,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Dora Milaje",
+      		"Description": "Gain +50% Piercing. On **Defense Up**, gain **Immunity**.\nOn self or __Wakandan__ ally Crit, gain +1 **Charged**, up to a maximum of 5.\nOn __Wakandan__ ally's turn, while in **Charged**, gain **Assist Now** and lose 1 **Charged**. Otherwise, 20% chance to gain **Assist Now**."
       	}
       }
     },
@@ -3539,24 +3542,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Psychic Blast",
+      		"Description": "Attack primary target for 250% damage + clear 2 positive effects."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Bestow Light",
+      		"Description": "Apply **Stealth** to all allies to 2 turns. Apply **Defense Up** to all allies.\nRedistribute 25% of Max Health from self to all allies. All allies receive an additional 10000 Health. This bypasses **Heal Block**.\nTransfer all negative effects from allies to self.\nIf there are no allies, attack self for 5000% Piercing damage.\nIf __Phoenix__ dies, her Passive Ability is triggered.",
+      		"Starting Energy": 5,
+  			"Energy Cost": 5
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Phoenix Force",
+      		"Description": "Attack primary target for 400% damage + clear all positive effects.\nGain +50000% Extra Focus for this attack.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 8
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Phoenix Rising",
+      		"Description": "On Death, summon __Dark Phoenix_.\n__Phoenix__ cannot be revived.\nOn ally **Taunt**, gain **Taunt**.\nGain +30% Damage. __Xmen__ allies gain +30% Damage.\nGain +30% Max Health. __Xmen__ allies gain +30% Max Health."
       	}
       }
     },
@@ -3588,31 +3591,31 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Psi Knife",
+      		"Description": "Attack primary target for 270% Piercing damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Telekinetic Armament",
+      		"Description": "Attack primary target for 200% Piercing damage. Chain to 3 adjacent targets for 200% Piercing damage. Clear 2 positive effects from each target.\n**Counter** breaks this Chain.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Astral Butterflies",
+      		"Description": "Transfer 2 negative effects from each ally to primary target. Transfer all negative effects from self and __Xmen__ allies to primary target.\nAttack primary target for 300% Piercing damage.\nThis attack cannot miss.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Reinvigorate",
+      		"Description": "On Spawn, gain **Evade** + **Counter**. When an __Xmen__ ally drops below 50% Max Health, apply **Evade** + **Counter** to that ally.\nGain +1000% Resistance against **Disrupted**."
       	}
       }
     },
     "76": {
       "Name": "Punisher",
       "Aliases": [
-      	"defenders",
+      	"punfenders",
       	"frank"
       ],
       "Tags": [
@@ -3636,24 +3639,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "M4 Carbine",
+      		"Description": "Attack primary target for 240% damage + 20% Piercing. 30% chance to Chain to up to 2 additional targets for 200% damage + 20% Piercing.\n**Counter** breaks this Chain."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
+      		"Name": "Grenade Launcher",
+      		"Description": "Attack primary target for 200% damage + 10% Piercing. Attack all adjacent enemies for 160% damage + 10% Piercing.",
       		"Starting Energy": 0,
   			"Energy Cost": 0
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
+      		"Name": "Fully Loaded",
+      		"Description": "Attack all enemies for 200% damage + 20% Piercing.",
       		"Starting Energy": 0,
       		"Energy Cost": 0
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Lock and Load",
+      		"Description": "If at least one ally is a __City__ __Hero__, gain +20% chance to assist on non-attack abilities. Gain +20% chance to assist on non-attack abilities per __Defender__ ally.\nIf __Daredevil__ is an ally, when an enemy attacks him, attack that enemy for 200% damage + 10% Piercing.\nGain +10% Damage. Gain +50% Damage against __Villain__ targets.\n__City__ allies gain +5% Damage. __City__ __Hero__ allies gain +10% Damage instead.\n__City__ __Hero__ allies gain an additional +30% Damage against __Villain__ targets."
       	}
       }
     },
@@ -3684,24 +3687,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Flame Thrower",
+      		"Description": "Attack primary target and adjacent targets for 150% damage. Apply **Bleed** to each target."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Pyrotechnics",
+      		"Description": "Attack primary target and adjacent targets for 180% damage. Apply 2 **Bleed** for 2 turns + Clear 2 positive effects from each target.\nIf __Magneto__ is ally, clear all positive effects from each target.",
+      		"Starting Energy": 5,
+  			"Energy Cost": 5
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Firecrafting",
+      		"Description": "Attack primary target and adjacent targets for 230% damage + apply **Disrupted** for 2 turns.\nIf __Magneto__ is ally, each target has **Bleed** prolonged by a duration of 1.",
+      		"Starting Energy": 4,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Stoke the Flames",
+      		"Description": "Gain +25% Extra Focus.\nWhen __Pyro__ is attacked, fill +15% Speed Bar.\nIf __Magneto__ is ally, when an enemy drops below 50% health, apply **Heal Block**."
       	}
       }
     },
@@ -3734,24 +3737,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Seismic Blast",
+      		"Description": "Attack primary target and adjacent targets for 150% damage. Apply **Slow** to primary target and adjacent targets for 2 turns."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Shockwave",
+      		"Description": "Attack primary target for 210% damage + clear 2 positive effects. 40% chance to Chain up to 2 targets for 160% damage + clear 2 positive effects.\n**Counter** breaks this Chain.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Earthquake",
+      		"Description": "Attack all enemies for 320% damage. Apply **Offense Down** on 5 enemies for 1 turn.",
+      		"Starting Energy": 2,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Secret Warrior",
+      		"Description": "Gain +20% Extra Focus. __Shield__ allies gain +5% damage. __Inhuman__ allies gain +5% Extra Focus."
       	}
       }
     },
@@ -3783,18 +3786,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Plasma Blast",
+      		"Description": "Attack primary target for 340% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Full Blast",
+      		"Description": "Attack primary target for 270% damage and adjacent targets for 220% damage.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Heavy Artillery",
+      		"Description": "15% chance to Assist __Ravager__ allies. 10% chance to Assist non-Ravager allies."
       	}
       }
     },
@@ -3826,18 +3829,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Cutlazz",
+      		"Description": "Attack primary target for 290% damage. 70% chance to **Taunt** for 1 turn."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Avast!",
+      		"Description": "Gain **Defense Up** for 3 turns. Heal self for 2000 Health + 5% of this character's Max Health.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 2
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Seasoned Fighter",
+      		"Description": "Gain +25% Block chance."
       	}
       }
     },
@@ -3869,18 +3872,18 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Disintegrator",
+      		"Description": "Attack primary target for 160% damage + apply **Bleed**."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Stitcher Kit",
+      		"Description": "Heal most injured ally for 3500 Health + 8% of this character's Max Health. Then Heal most injured ally for 3500 Health + 8% of this character's Max Health.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
   		},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Stimutox Treatment",
+      		"Description": "Gain +25% Max Health."
       	}
       }
     },
@@ -3911,24 +3914,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Hydra-99 Pistol",
+      		"Description": "Attack primary target for 200% damage + apply **Defense Down**. 60% chance to Chain for 160% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Elite Guard",
+      		"Description": "Summon 2-3 Hydra Agents at 340% normal damage and 100% of normal Health.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Storm Assault",
+      		"Description": "Apply **Offense Up** to all allies + Attack primary target for 400% damage. Call Assists from 3-5 __Hydra__ allies",
+      		"Starting Energy": 3,
+      		"Energy Cost": 6
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Hail Hydra",
+      		"Description": "Chance to gain ability energy when any ally dies + Chance to gain ability energy when __Hydra__ allies die"
       	}
       }
     },
@@ -3960,24 +3963,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Sonic Repulsor",
+      		"Description": "Attack primary target for 200% damage. Chain to an adjacent target for 140% damage. Always apply **Slow** to each target."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Tech Shield",
+      		"Description": "Barrier all allies for 3500 + 10% of this character's Max Health. Apply **Regeneration** to all allies. In War, apply 2 **Regeneration** to all allies instead.",
+      		"Starting Energy": 6,
+  			"Energy Cost": 6
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Firewall",
+      		"Description": "Clear all negative effects from all allies. Apply **Offense Up** to self and __PowerArmor_ allies for 2 turns.\nIn War, apply **Immunity** to self and all allies for 2 turns.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Stark Upgrade",
+      		"Description": "In War, on Spawn, Barrier __PowerArmor_ allies for 2000 + 10% of this character's Max Health.\nWhen an ally drops below 50% Health, Barrier them for 2000 + 5% of this character's Max Health.\nGain +15% Max Health.\nIn War, Barrier for an additional 5% of this character's Max Health.\n__PowerArmor__ allies gain +15% Max Health."
       	}
       }
     },
@@ -4009,24 +4012,24 @@
       "Accuracy": 100,
       "Abilities": {
       	"Basic": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Pummel",
+      		"Description": "Attack primary target for 290% damage."
       		},
       	"Special": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-  			"Energy Cost": 0
+      		"Name": "Furious Charge",
+      		"Description": "Gain **Taunt**.\nClear 1 negative effect from self and each adjacent ally.\nAttack primary and all adjacent targets for 350% damage.\nThis attack cannot be blocked.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
   		},
       	"Ultimate": {
-      		"Name": "",
-      		"Description": "",
-      		"Starting Energy": 0,
-      		"Energy Cost": 0
+      		"Name": "Stampede",
+      		"Description": "Attack primary and all adjacent targets for 380% damage.\nThis attack gains +20% damage per __City__ __Hero__ enemy.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
       	},
       	"Passive": {
-      		"Name": "",
-      		"Description": ""
+      		"Name": "Rhino Hide",
+      		"Description": "On Spawn, gain **Counter**.\nGain 25% Max Health per __SinisterSix__ ally.\nOn **Blind**, change Speed Bar by 100%.\nOn **Blind**, clear 1 negative effect from self and each ally."
       	}
       }
     },
@@ -5388,6 +5391,58 @@
       		"Description": ""
       	}
       }
+    },
+    "113": {
+      "Name": "Dark Phoenix",
+      "Aliases": [
+      	"jean",
+      	"phoenix",
+      	"dark phoenix",
+      	"xmen",
+      	"legendary"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mutant",
+        "Controller",
+        "Xmen"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
+      "Health": 98427,
+      "Damage": 15022,
+      "Armor": 3109,
+      "Focus": 3119,
+      "Resistance": 2610,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 118,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Immolation",
+      		"Description": "Attack primary target and all adjacent targets for 250% damage. Clear 2 positive effects on each target."
+      		},
+      	"Special": {
+      		"Name": "Vitality Drain",
+      		"Description": "Steal 20% Health from all enemies and redistribute to self. Apply **Regeneration** to all allies. Apply an additional **Regeneration** to all __Xmen__ allies.",
+      		"Starting Energy": 5,
+  			"Energy Cost": 5
+  		},
+      	"Ultimate": {
+      		"Name": "Phoenix Unleashed",
+      		"Description": "Attack all enemies for 400% damage.\nClear all positive effects on each target.\nGain +50000% Extra Focus for this attack.\nThis attack is Unavoidable.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 8
+      	},
+      	"Passive": {
+      		"Name": "From the Ashes",
+      		"Description": "On Spawn, attack all enemies for 250% damage + apply **Defense Down** for 2 turns."
+      	}
+      }
     }
   },
   "Tags": {
@@ -5466,7 +5521,7 @@
   "Effects": {
   	"0": {
   		"Category": "Positive",
-  		"Name": "Counterattack",
+  		"Name": "Counter",
   		"Description": "Upon being attacked by an enemy, attack them back.",
   		"Expires": "On Counter",
   		"Opposite": "Bleed"
@@ -5602,7 +5657,7 @@
   		"Name": "Stun",
   		"Description": "Miss next turn. *Cannot Dodge or Block while stunned*.",
   		"Expires": "End of turn",
-  		"Opposite": "Counterattack"
+  		"Opposite": "Counter"
   	}
   },
   "_default": {}
