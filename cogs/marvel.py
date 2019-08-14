@@ -43,7 +43,7 @@ class MarvelCog(commands.Cog):
             embed = discord.Embed(title='**Abilities Help**', description='`/moves | /abilities <character(s)>`\nExamples:\n> /moves black panther\n> /abilities a.i.m', colour=ctx.author.colour, timestamp=datetime.datetime.now())
             embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
             embed.add_field(name='__Ability - Name - (Starting Energy/Energy Cost)__', value='Ability description is here')
-            embed.add_field(name='__Status Effects and Tags__', value='**Bold** items are Status Effects\n`/effect | /status | /buff /debuff <status effect>`\nExample:\n> /effect Defense Up\n __Underlined__ items are Tags\n`/tags <tag1> <tag2> etc.`\nExample: \n> /tags Hero Brawler', inline=False)
+            embed.add_field(name='__Status Effects, Tags and Characters__', value='**Bold** items are Status Effects\n`/effect | /status | /buff /debuff <status effect>`\nExample:\n> /effect Defense Up\n __Underlined__ items are Tags or Characters\n`/tags <tag1> <tag2> etc.`\n`/stats <character>`\nExample: \n> /tags Hero Brawler\n> /stats Colossus', inline=False)
             await ctx.send(embed=embed)
             return
         Character = Query()
