@@ -1497,7 +1497,8 @@
       "Aliases": [
       	"i am groot",
       	"guardians",
-      	"stick"
+      	"stick",
+        "technerva"
       ],
       "Tags": [
         "Hero",
@@ -3037,7 +3038,8 @@
       	"minnerva",
       	"minny",
       	"god healer",
-      	"kree"
+      	"kree",
+		"technerva"
       ],
       "Tags": [
         "Villain",
@@ -4040,7 +4042,8 @@
       	"rocket",
       	"buildabear",
       	"build-a-bear",
-      	"rabbit"
+      	"rabbit",
+        "technerva"
       ],
       "Tags": [
         "Hero",
@@ -4710,7 +4713,8 @@
       	"quill",
       	"peter quill",
       	"legendary",
-      	"guardians"
+      	"guardians",
+        "technerva"
       ],
       "Tags": [
         "Hero",
@@ -4807,7 +4811,8 @@
     "101": {
       "Name": "Thanos",
       "Aliases": [
-      	"inevitable"
+      	"inevitable",
+        "technerva"
       ],
       "Tags": [
         "Villain",
@@ -5054,6 +5059,9 @@
     },
     "106": {
       "Name": "Vision",
+      "Aliases": [
+        "technerva"
+      ],
       "Tags": [
         "Hero",
         "Global",
@@ -5517,6 +5525,348 @@
   			"PowerArmor"
   		]
   	}
+  },
+  "Teams": {
+  	"0": {
+		"Name": "Avengers",
+		"Characters": [
+			"Captain America",
+			"Black Widow",
+			"Quake",
+			"Iron Man",
+			"War Machine",
+			"Hawkeye",
+			"Hulk",
+			"Vision"
+		],
+		"Hard Counters": [
+			"Guardians",
+			"Warvengers"
+		],
+		"Soft Counters": [
+			"Avengers",
+			"Mystic Controllers"
+		]
+	},
+  	"1": {
+		"Name": "Brawlers",
+		"Characters": [
+			"Ms. Marvel",
+			"Gamora",
+			"Captain Marvel",
+			"Spider-Man",
+			"Spider-Man (Miles)",
+			"Deadpool",
+			"Cable",
+			"Black Panther",
+			"America Chavez"
+		],
+		"Hard Counters": [
+			"S.H.I.E.L.D.",
+			"Guardians",
+			"Warvengers"
+		],
+		"Soft Counters": [
+			"Defenders",
+			"Mystic Controllers"
+		]
+	},
+  	"2": {
+		"Name": "Brotherhood",
+		"Characters": [
+			"Magneto",
+			"Juggernaut",
+			"Pyro",
+			"Mystique",
+			"Sabretooth",
+			"Venom",
+			"Scarlett Witch"
+		],
+		"Hard Counters": [
+			"Brotherhood"
+		],
+		"Soft Counters": [
+			"Defenders"
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/85VPJrWJ/brotherhood.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/TYCrGTmv/brotherhood.jpg"
+	},
+  	"3": {
+		"Name": "Defenders",
+		"Aliases": [
+			"punfenders"
+		],
+		"Characters": [
+			"Luke Cage",
+			"Daredevil",
+			"Iron Fist",
+			"Jessica Jones",
+			"Punisher",
+			"Ms. Marvel"
+		],
+		"Hard Counters": [
+			"S.H.I.E.L.D.",
+			"Power Armor"
+		],
+		"Soft Counters": [
+			"Defenders",
+			"Brawlers"
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/XNL7qqvq/punfenders.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/JhBJbJFR/defenders.jpg"
+	},
+  	"4": {
+		"Name": "Guardians",
+		"Aliases": [
+			"gotg"
+		],
+		"Characters": [
+			"Drax",
+			"Starlord",
+			"Gamora",
+			"Groot",
+			"Rocket Racoon",
+			"Mantis"
+		],
+		"Hard Counters": [
+			"S.H.I.E.L.D.",
+			"Power Armor",
+			"Wakandans",
+			"Brotherhood"
+		],
+		"Soft Counters": [
+			"Defenders",
+			"Mystic Controllers"
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/Nf0GHty4/guardians.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+	},
+  	"5": {
+		"Name": "Kree",
+		"Characters": [
+			"Minn-erva",
+			"Ronan the Acuser",
+			"Kree Royal Guard",
+			"Kree Noble",
+			"Kree Cyborg",
+			"Kree Reaper",
+			"Kree Oracle",
+			"Captain Marvel"
+		],
+		"Hard Counters": [
+			"Warvengers",
+			"Defenders"
+		],
+		"Soft Counters": [
+			"Kree",
+			"Mystic Controllers",
+			"Brawlers"
+		],
+		"T4MatPrio_URL": "https://i.postimg.cc/qqQCkGNx/kree.jpg"
+	},
+  	"6": {
+		"Name": "Mystic Controllers",
+		"Aliases": [
+			"mystics",
+			"wizards"
+		],
+		"Characters": [
+			"Thanos",
+			"Loki",
+			"Quake",
+			"Mordo",
+			"Scarlett Witch",
+			"Doctor Strange",
+			"Vision",
+			"Yondu"
+		],
+		"Hard Counters": [
+			"Mystic Controllers",
+			"Kree"
+		]
+	},
+  	"7": {
+		"Name": "Power Armor",
+		"Aliases": [
+			"iron legion",
+			"machines"
+		],
+		"Characters": [
+			"Iron Man",
+			"Rescue",
+			"Falcon",
+			"War Machine",
+			"Vision",
+			"Mercenary Lieutenant"
+		],
+		"Hard Counters": [
+			"Brotherhood",
+			"Power Armor",
+			"Guardians"
+		],
+		"Soft Counters": [
+			"S.H.I.E.L.D.",
+			"Warvengers",
+			"Wakandans"
+		],
+		"T4MatPrio_URL": "https://i.postimg.cc/HnTyDNkL/powerarmor.jpg"
+	},
+  	"8": {
+		"Name": "S.H.I.E.L.D.",
+		"Aliases": [
+			"shield",
+			"agents of shield"
+		],
+		"Characters": [
+			"Nick Fury",
+			"S.H.I.E.L.D. Security",
+			"S.H.I.E.L.D. Assault",
+			"S.H.I.E.L.D. Medic",
+			"S.H.I.E.L.D. Operative",
+			"S.H.I.E.L.D. Trooper"
+		],
+		"Hard Counters": [
+			"Brotherhood",
+			"Power Armor"
+		],
+		"Soft Counters": [
+			"SpiderVerse",
+			"Guardians",
+			"S.H.I.E.L.D."
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
+	},
+  	"9": {
+		"Name": "SpiderVerse",
+		"Aliases": [
+			"spider-verse",
+			"spider verse"
+		],
+		"Characters": [
+			"Spider-Man",
+			"Spider-Man (Miles)",
+			"Venom",
+			"Carnage",
+			"Green Goblin",
+			"Kingpin",
+			"Scarlett Witch"
+		],
+		"Hard Counters": [
+			"Defenders",
+			"Mystic Controllers"
+		],
+		"Soft Counters": [
+			"SpiderVerse"
+		],
+		"T4MatPrio_URL": "https://i.postimg.cc/L8WLYvNy/spiderverse.jpg"
+	},
+  	"10": {
+		"Name": "Technerva",
+		"Aliases": [
+			"minntech",
+			"groot-tech",
+			"minn-guardians"
+		],
+		"Characters": [
+			"Minn-erva",
+			"Thanos",
+			"Drax",
+			"Starlord",
+			"Vision",
+			"Rocket Racoon",
+			"Groot"
+		],
+		"Hard Counters": [
+			"Power Armor",
+			"Brotherhood"
+		],
+		"Soft Counters": [
+			"S.H.I.E.L.D.",
+			"Warvengers",
+			"Guardians",
+			"Wakandans",
+			"Technerva"
+		],
+		"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+	},
+  	"11": {
+		"Name": "X-Men",
+		"Aliases": [
+			"xmen",
+			"x men"
+		],
+		"Characters": [
+			"Phoenix",
+			"Colossus",
+			"Psylocke",
+			"Storm",
+			"Wolverine"
+		],
+		"Hard Counters": [
+			"X-Men",
+			"Ultron"
+		],
+		"Soft Counters": [
+			"Power Armor"
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/MKr60LV8/Xmen.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/ZRtNjnkp/xmen.jpg"
+	},
+  	"12": {
+		"Name": "Wakandans",
+		"Characters": [
+			"Shuri",
+			"M'Baku",
+			"Black Panther",
+			"Okoye",
+			"Killmonger"
+		],
+		"Hard Counters": [
+			"Power Armor",
+			"Brotherhood"
+		],
+		"Soft Counters": [
+			"S.H.I.E.L.D.",
+			"Brawlers"
+		],
+		"UniqueItems_URL": "https://i.postimg.cc/Y0dpsnPY/wakandans.png",
+		"T4MatPrio_URL": "https://i.postimg.cc/B6TKz3sy/wakandans.jpg"
+	},
+  	"13": {
+		"Name": "Warvengers",
+		"Characters": [
+			"Captain America",
+			"Black Widow",
+			"Iron Man",
+			"War Machine",
+			"Captain Marvel",
+			"Doctor Strange",
+			"Winter Soldier"
+		],
+		"Hard Counters": [
+			"Power Armor",
+			"Brotherhood"
+		],
+		"Soft Counters": [
+			"S.H.I.E.L.D.",
+			"Warvengers"
+		]
+	},
+  	"14": {
+		"Name": "Ultron",
+		"Characters": [
+			"Ultron"
+		],
+		"Hard Counters": [
+			"Ultron",
+			"X-men"
+		],
+		"Soft Counters": [
+			"Power Armor",
+			"Brotherhood"
+		]
+	}
   },
   "Effects": {
   	"0": {
