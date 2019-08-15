@@ -24,10 +24,6 @@ class ModerationCog(commands.Cog):
                         await message.author.send(f'#{message.channel.name} accepts only images. Please send an image!')
                         await message.delete()
 
-    @commands.Cog.listener()
-    async def on_member_update(self, before, after):
-        print('UPDATED')
-
 #SETUP function to add this cog to the client when loaded.
 def setup(client):
     client.add_cog(ModerationCog(client))

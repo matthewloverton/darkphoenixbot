@@ -13,7 +13,13 @@ class MarvelCog(commands.Cog):
         self.client = client
 
     @commands.command(aliases=['stat', 'char', 'character', 'hero'])
-    async def stats(self, ctx, *, hero: str):
+    async def stats(self, ctx, *, hero: str = None):
+        if not hero:
+            embed = discord.Embed(title='**Stats Help**', description='`/stats | /hero | /character <character(s)>`\nExamples:\n> /hero captain marvel\n> /stats s.h.i.e.l.d', colour=ctx.author.colour, timestamp=datetime.datetime.now())
+            embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+            embed.add_field(name='Description', value='Displays the stats of the selected character(s).')
+            await ctx.send(embed=embed)
+            return
         Character = Query()
         characters = db.table('Characters')
         search = characters.search((Character.Aliases.any(f'{hero.lower()}')) | (Character.Name.matches(f'{hero}', flags=re.IGNORECASE)))
@@ -106,7 +112,6 @@ class MarvelCog(commands.Cog):
         else:
             search = effects.search(Effect.Name.matches(effect, flags=re.IGNORECASE))
             if search:
-                print(search)
                 embed = discord.Embed(title=f'{search[0]["Name"]}', description=f'{search[0]["Description"]}',colour=ctx.author.colour, timestamp=datetime.datetime.now())
                 embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
                 embed.add_field(name='Expires: ', value=f'{search[0]["Expires"]}.')
@@ -114,6 +119,42 @@ class MarvelCog(commands.Cog):
                 await ctx.send(embed=embed)
             else:
                 await ctx.send('Unable to find any effects that match.')
+
+    @commands.command(aliases=['uniques', 'items'])
+    async def unique_items(self, ctx, *, team: str = None):
+       Team = Query()
+       teams = db.table('Teams')
+       if not team:
+           embed = discord.Embed(title='**Unique Items Help**', description='Unique Items Help description', colour=ctx.author.colour, timestamp=datetime.datetime.now())
+           embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+           await ctx.send(embed=embed)
+       else:
+            search = teams.search((Team.Aliases.any(f'{team.lower()}')) | (Team.Name.matches(f'{team}', flags=re.IGNORECASE)))
+            if search:
+                embed = discord.Embed(title=f'{search[0]["Name"]}\'s Unique Items',colour=ctx.author.colour, timestamp=datetime.datetime.now())
+                embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+                embed.set_image(url=f'{search[0]["UniqueItems_URL"]}')
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send('Unable to find any teams that match.')
+
+    @commands.command(aliases=['t4', 'orangemats', 'matprio'])
+    async def mats(self, ctx, *, team: str = None):  
+       Team = Query()
+       teams = db.table('Teams')
+       if not team:
+           embed = discord.Embed(title='**T4 Mats Help**', description='T4 Mats Help description', colour=ctx.author.colour, timestamp=datetime.datetime.now())
+           embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+           await ctx.send(embed=embed)
+       else:
+            search = teams.search((Team.Aliases.any(f'{team.lower()}')) | (Team.Name.matches(f'{team}', flags=re.IGNORECASE)))
+            if search:
+                embed = discord.Embed(title=f'{search[0]["Name"]}\'s T4 Mat Priority',colour=ctx.author.colour, timestamp=datetime.datetime.now())
+                embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+                embed.set_image(url=f'{search[0]["T4MatPrio_URL"]}')
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send('Unable to find any teams that match.')
 
 def setup(client):
     client.add_cog(MarvelCog(client))
