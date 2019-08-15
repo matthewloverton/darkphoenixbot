@@ -156,5 +156,27 @@ class MarvelCog(commands.Cog):
             else:
                 await ctx.send('Unable to find any teams that match.')
 
+    @commands.command()
+    async def counters(self, ctx, *, team: str = None):
+        Team = Query()
+        teams = db.table('Teams')
+        if not team: 
+            embed = discord.Embed(title='**Counters Help**', description='Counters Help description', colour=ctx.author.colour, timestamp=datetime.datetime.now())
+            embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+            await ctx.send(embed=embed)
+        else:
+            search = teams.search((Team.Aliases.any(f'{team.lower()}')) | (Team.Name.matches(f'{team}', flags=re.IGNORECASE)))
+            if search:
+                hardcounters = "\n".join(search[0]["Hard Counters"])
+                softcounters = "\n".join(search[0]["Soft Counters"])
+                embed = discord.Embed(title=f'{search[0]["Name"]}\'s Counters', description='For a 200k team:\n> Hard counters can punch up +15% (230k).\n> Soft Counters can punch down -15% (170k).', colour=ctx.author.colour, timestamp=datetime.datetime.now())
+                embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
+                #embed.set_image(url=f'{search[0]["Counters_URL"]}')
+                embed.add_field(name='Hard Counters:', value=f'{hardcounters}')
+                embed.add_field(name='Soft Counters:', value=f'{softcounters}')
+                await ctx.send(embed=embed)
+            else:
+                await ctx.send('Unable to find any teams that match.')
+
 def setup(client):
     client.add_cog(MarvelCog(client))
