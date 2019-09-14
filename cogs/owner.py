@@ -1,3 +1,4 @@
+import discord, traceback, sys
 from discord.ext import commands
 
 
@@ -41,7 +42,6 @@ class OwnerCog(commands.Cog):
             await ctx.send(f'**`ERROR:`** {type(e).__name__} - {e}')
         else:
             await ctx.send('**`SUCCESS`**')
-
 
 def setup(client):
     client.add_cog(OwnerCog(client))

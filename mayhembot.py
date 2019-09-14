@@ -1,20 +1,29 @@
 import discord
 from discord.ext import commands
 import json, sys, traceback, asyncio, random
+#from tinydb import TinyDB, Query
 
 config = json.load(open('config.json', 'r'))
+#db = TinyDB('db.json')
 
 #Define channels to auto-delete messages that do not contain the image_types.
 image_channels = ['resource-channel']
 image_types = ['png', 'gif', 'jpg', 'jpeg', 'svg']
 
+#0 = Playing
+#1 = Streaming
+#2 = Listening to
+#3 = Watching
+
 #Define bot statuses
 statuses = [['with the Empire', 0],
             ['over the Empire', 3],
-            ['to some lo-fi beats', 2],
+            ['some lo-fi beats', 2],
             ['with Aku\'s son', 0],
             ['alliances go to war', 3],
-            ['to complaints about MSF', 2]]
+            ['complaints about MSF', 2],
+            ['ZIO4 annoying Aku with his ideas', 2],
+            ['Blade bragging about his Rocket', 2]]
 
 #INITIALIZE BOT CLIENT
 def get_prefix(bot, message):
@@ -27,6 +36,8 @@ def get_prefix(bot, message):
 
 initial_extensions = ['cogs.members',
                       'cogs.moderation',
+                      'cogs.server',
+                      'cogs.marvel',
                       'cogs.owner']
 
 client = commands.Bot(command_prefix = get_prefix, description = "Minion of Aku, the Mayhem empire's very own server manager.")
@@ -53,5 +64,12 @@ async def on_ready():
     # Change the bot status
     client.loop.create_task(status_task())
     print(f'Successfully logged in and running...!')
+
+#@client.command()
+#async def stats(ctx, *, hero: str):
+#    Character = Query()
+#    characters = db.table('Characters')
+#    print(characters)
+#    await ctx.send('STATS')
 
 client.run(config['discord']['token'], bot = True, reconnect = True)
