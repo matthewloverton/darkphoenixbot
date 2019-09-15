@@ -67,7 +67,7 @@ class ServerCog(commands.Cog):
     
     @commands.command(aliases=['creator', 'owner', 'contact', 'suggestion', 'feedback'])
     async def contact_owner(self, ctx, *, content):
-        owner = self.client.get_user(os.getenv('OWNER'))
+        owner = self.client.get_user(int(os.getenv('OWNER')))
         embed = discord.Embed(title=f'**{ctx.author}**', colour=ctx.author.colour, description=f'User ID: {ctx.author.id}', timestamp=datetime.datetime.now())
         embed.set_thumbnail(url=f'{ctx.author.avatar_url}')
         embed.set_footer(text=f'Server ID: {ctx.guild.id}', icon_url=f'{ctx.guild.icon_url}')
