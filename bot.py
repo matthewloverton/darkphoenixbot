@@ -2,7 +2,7 @@ import discord
 from discord.ext import commands
 import json, sys, traceback, asyncio, random, os
 
-#config = json.load(open('config.json', 'r'))
+config = json.load(open('config.json', 'r'))
 
 #Define channels to auto-delete messages that do not contain the image_types.
 image_channels = ['resource-channel']
@@ -25,9 +25,9 @@ statuses = [['Marvel Strike Force', 0],
 # Define the prefix for the bot, tagging the bot also works. 
 def get_prefix(bot, message):
     # ENV
-    prefixes = os.getenv('PREFIXES').split(' ')
+    #prefixes = os.getenv('PREFIXES').split(' ')
     # LOCAL
-    #prefixes = config['discord']['prefixes']
+    prefixes = config['discord']['prefixes']
 
     if not message.guild:
         return '?'
@@ -70,6 +70,6 @@ async def on_ready():
 
 #START BOT
 # ENV
-client.run(os.getenv('BOT_TOKEN'), bot = True, reconnect = True)
+#client.run(os.getenv('BOT_TOKEN'), bot = True, reconnect = True)
 # LOCAL
-#client.run(config['discord']['token'], bot = True, reconnect = True)
+client.run(config['discord']['token'], bot = True, reconnect = True)
