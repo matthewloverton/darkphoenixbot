@@ -1,4 +1,4 @@
-import discord, datetime, random
+import discord, datetime, random, os
 from discord.ext import commands
 
 #List of burns
@@ -67,14 +67,14 @@ class ServerCog(commands.Cog):
     
     @commands.command(aliases=['creator', 'owner', 'contact', 'suggestion', 'feedback'])
     async def contact_owner(self, ctx, *, content):
-        honcho = self.client.get_user(126901744780181504)
+        owner = self.client.get_user(os.getenv('OWNER'))
         embed = discord.Embed(title=f'**{ctx.author}**', colour=ctx.author.colour, description=f'User ID: {ctx.author.id}', timestamp=datetime.datetime.now())
         embed.set_thumbnail(url=f'{ctx.author.avatar_url}')
         embed.set_footer(text=f'Server ID: {ctx.guild.id}', icon_url=f'{ctx.guild.icon_url}')
         embed.add_field(name='Server', value=f'{ctx.guild.name}')
         embed.add_field(name='Role', value=f'{ctx.author.top_role}')
         embed.add_field(name='Message', value=f'{content}')
-        await honcho.send(embed=embed)
+        await owner.send(embed=embed)
         await ctx.author.send(f'Response submitted, thank you for your feedback!')
     
     @commands.command(aliases=['burn', 'insult', 'destroy'])
