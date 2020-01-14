@@ -68,4 +68,5 @@ __pycache__
 *.pyc
 
 #config
-config-dev.json
+config.json
+changelog.txt
