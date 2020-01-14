@@ -6125,7 +6125,7 @@
         "Graviton",
         "Scientist Supreme"
 		  ],
-		  "Counters": "https://i.postimg.cc/DwmNXkkv/aim.jpg"
+		  "Counters_URL": "https://i.postimg.cc/DwmNXkkv/aim.jpg"
     },
   	"1": {
 		  "Name": "Asgardians",
@@ -6136,7 +6136,7 @@
 			  "Sif",
 			  "Thor"
 		  ],
-		  "Counters": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg"
+		  "Counters_URL": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg"
     },
     "2": {
 		  "Name": "Avengers",
@@ -6154,7 +6154,7 @@
         "Vision",
         "War Machine"
       ],
-      "Counters": "https://i.postimg.cc/vTMjg4Mk/avengers.jpg"
+      "Counters_URL": "https://i.postimg.cc/vTMjg4Mk/avengers.jpg"
     },
   	"3": {
 		  "Name": "Brawlers",
@@ -6167,7 +6167,7 @@
         "Deadpool",
         "America Chavez"
       ],
-      "Counters": "https://i.postimg.cc/PqY2Wd6j/brawlers.jpg"
+      "Counters_URL": "https://i.postimg.cc/PqY2Wd6j/brawlers.jpg"
 	  },
   	"4": {
       "Name": "Brotherhood",
@@ -6178,7 +6178,7 @@
         "Mystique",
         "Sabretooth"
       ],
-      "Counters": "https://i.postimg.cc/wBCnzWr6/brotherhood.jpg",
+      "Counters_URL": "https://i.postimg.cc/wBCnzWr6/brotherhood.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/85VPJrWJ/brotherhood.png",
       "T4MatPrio_URL": "https://i.postimg.cc/TYCrGTmv/brotherhood.jpg"
     },
@@ -6195,7 +6195,7 @@
         "Punisher",
         "Ms. Marvel"
       ],
-      "Counters": "https://i.postimg.cc/T3Zt5KJ0/defenders.jpg",
+      "Counters_URL": "https://i.postimg.cc/T3Zt5KJ0/defenders.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/XNL7qqvq/punfenders.png",
       "T4MatPrio_URL": "https://i.postimg.cc/JhBJbJFR/defenders.jpg"
     },
@@ -6208,7 +6208,7 @@
 			  "Namor",
 			  "The Thing"
       ],
-      "Counters": "https://i.postimg.cc/fR3Hbcmk/fantasticfour.jpg"
+      "Counters_URL": "https://i.postimg.cc/fR3Hbcmk/fantasticfour.jpg"
     },
   	"7": {
       "Name": "Guardians",
@@ -6223,7 +6223,7 @@
         "Rocket Racoon",
         "Mantis"
       ],
-		  "Counters": "https://i.postimg.cc/kXg1035Q/guardians.jpg",
+		  "Counters_URL": "https://i.postimg.cc/kXg1035Q/guardians.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/Nf0GHty4/guardians.png",
       "T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
     },
@@ -6241,7 +6241,7 @@
         "Ronan the Accuser",
         "Ultimus"
       ],
-      "Counters": "https://i.postimg.cc/kXY191Vk/kree.jpg",
+      "Counters_URL": "https://i.postimg.cc/kXY191Vk/kree.jpg",
       "T4MatPrio_URL": "https://i.postimg.cc/qqQCkGNx/kree.jpg"
     },
   	"9": {
@@ -6252,7 +6252,7 @@
         "Sabretooth",
         "Stryfe"
       ],
-      "Counters": "https://i.postimg.cc/2y2H1T0L/marauders.jpg"
+      "Counters_URL": "https://i.postimg.cc/2y2H1T0L/marauders.jpg"
     },
   	"10": {
       "Name": "Power Armor",
@@ -6267,7 +6267,7 @@
         "War Machine",
         "Vision"
       ],
-      "Counters": "https://i.postimg.cc/g0ZBgV21/powerarmour.jpg",
+      "Counters_URL": "https://i.postimg.cc/g0ZBgV21/powerarmour.jpg",
       "T4MatPrio_URL": "https://i.postimg.cc/HnTyDNkL/powerarmor.jpg"
     },
   	"11": {
@@ -6284,14 +6284,14 @@
         "S.H.I.E.L.D. Operative",
         "S.H.I.E.L.D. Trooper"
       ],
-      "Counters": "https://i.postimg.cc/Pf4VVrdf/shield.jpg",
+      "Counters_URL": "https://i.postimg.cc/Pf4VVrdf/shield.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
       "T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
     },
   	"12": {
-      "Name": "S.H.I.E.L.D. Coulson",
+      "Name": "Coulson S.H.I.E.L.D.",
       "Aliases": [
-        "shieldcoulson"
+        "coulson"
       ],
       "Characters": [
         "Agent Coulson",
@@ -6302,7 +6302,7 @@
         "S.H.I.E.L.D. Operative",
         "S.H.I.E.L.D. Trooper"
       ],
-      "Counters": "https://i.postimg.cc/0QGXs9mf/shieldcoulson.jpg",
+      "Counters_URL": "https://i.postimg.cc/0QGXs9mf/shieldcoulson.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
       "T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
     },
@@ -6319,7 +6319,7 @@
         "Shocker",
         "Vulture"
       ],
-      "Counters": "https://i.postimg.cc/4yJL4jQT/sinistersix.jpg"
+      "Counters_URL": "https://i.postimg.cc/4yJL4jQT/sinistersix.jpg"
     },
   	"14": {
       "Name": "SpiderVerse",
@@ -6334,7 +6334,7 @@
         "Carnage",
         "Green Goblin"
       ],
-      "Counters": "https://i.postimg.cc/d3Bf8JV1/spiderverse.jpg",
+      "Counters_URL": "https://i.postimg.cc/d3Bf8JV1/spiderverse.jpg",
       "T4MatPrio_URL": "https://i.postimg.cc/L8WLYvNy/spiderverse.jpg"
     },
   	"15": {
@@ -6346,7 +6346,7 @@
         "Ghost Rider",
         "Scarlett Witch"
       ],
-      "Counters": "https://i.postimg.cc/tTGvws1J/supernatural.jpg"
+      "Counters_URL": "https://i.postimg.cc/tTGvws1J/supernatural.jpg"
     },
   	"16": {
       "Name": "Technerva",
@@ -6364,7 +6364,7 @@
         "Rocket Racoon",
         "Groot"
       ],
-      "Counters": "https://i.postimg.cc/vZjN7qbW/technerva.jpg",
+      "Counters_URL": "https://i.postimg.cc/vZjN7qbW/technerva.jpg",
       "T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
     },
   	"17": {
@@ -6382,7 +6382,7 @@
         "Beast",
         "Cyclops"
       ],
-      "Counters": "https://i.postimg.cc/8kBx8mmS/xmen.jpg",
+      "Counters_URL": "https://i.postimg.cc/8kBx8mmS/xmen.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/MKr60LV8/Xmen.png",
       "T4MatPrio_URL": "https://i.postimg.cc/ZRtNjnkp/xmen.jpg"
     },
@@ -6395,7 +6395,7 @@
         "Okoye",
         "Killmonger"
       ],
-      "Counters": "https://i.postimg.cc/Hs6KnWNv/wakandans.jpg",
+      "Counters_URL": "https://i.postimg.cc/Hs6KnWNv/wakandans.jpg",
       "UniqueItems_URL": "https://i.postimg.cc/Y0dpsnPY/wakandans.png",
       "T4MatPrio_URL": "https://i.postimg.cc/B6TKz3sy/wakandans.jpg"
     },
@@ -6404,7 +6404,7 @@
       "Characters": [
         "Ultron"
       ],
-      "Counters": "https://i.postimg.cc/bJ1WwxX1/ultron.jpg"
+      "Counters_URL": "https://i.postimg.cc/bJ1WwxX1/ultron.jpg"
     }
   },
   "Effects": {
