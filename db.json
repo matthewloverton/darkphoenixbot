@@ -17,8 +17,7 @@
         "Cosmic",
         "Bio",
         "Blaster",
-        "FantasticFour",
-        "Marvel80th"
+        "FantasticFour"
       ],
       "Portrait_URL": "https://i.postimg.cc/wB6Yp80d/humantorch.png",
       "Health": 93247,
@@ -71,8 +70,7 @@
         "Cosmic",
         "Bio",
         "Controller",
-        "FantasticFour",
-        "Marvel80th"
+        "FantasticFour"
       ],
       "Portrait_URL": "https://i.postimg.cc/BQBGwnBC/misterfantastic.png",
       "Health": 155411,
@@ -119,8 +117,7 @@
         "Villain",
         "Global",
         "Mutant",
-        "Brawler",
-        "Marvel80th"
+        "Brawler"
       ],
       "Portrait_URL": "https://i.postimg.cc/PJnB2gLc/namor.png",
       "Health": 173024,
@@ -170,8 +167,7 @@
         "Cosmic",
         "Bio",
         "Brawler",
-        "FantasticFour",
-        "Marvel80th"
+        "FantasticFour"
       ],
       "Portrait_URL": "https://i.postimg.cc/xTCPBsKF/thething.png",
       "Health": 176132,
@@ -495,7 +491,8 @@
         "Hero",
         "Cosmic",
         "Mystic",
-        "Brawler"
+        "Brawler",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/ZKMWnHXg/americachavez.png",
       "Health": 137818,
@@ -549,7 +546,8 @@
         "Global",
         "Tech",
         "Controller",
-        "Avenger"
+        "Avenger",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/t4nYxPjg/antman.png",
       "Health": 89486,
@@ -602,8 +600,7 @@
         "Mystic",
         "Brawler",
         "Avenger",
-        "Wakanda",
-        "Marvel80th"
+        "Wakanda"
       ],
       "Portrait_URL": "https://i.postimg.cc/jjz28bC0/blackpanther.png",
       "Health": 88067,
@@ -656,7 +653,7 @@
         "Avenger",
         "Shield",
         "Wave1Avenger",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/x8ddTN5n/blackwidow.png",
       "Health": 88067,
@@ -802,8 +799,7 @@
         "Avenger",
         "Shield",
         "Military",
-        "Wave1Avenger",
-        "Marvel80th"
+        "Wave1Avenger"
       ],
       "Portrait_URL": "https://i.postimg.cc/bNsv7bdR/captainamerica.png",
       "Health": 97020,
@@ -855,7 +851,7 @@
         "Brawler",
         "Kree",
         "Military",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/WbC4T3kc/captainmarvel.png",
       "Health": 142978,
@@ -1159,8 +1155,7 @@
         "Mutant",
         "Brawler",
         "Xforce",
-        "Mercenary",
-        "Marvel80th"
+        "Mercenary"
       ],
       "Portrait_URL": "https://i.postimg.cc/8cs1VQkC/deadpool.png",
       "Health": 108789,
@@ -1211,7 +1206,7 @@
         "Cosmic",
         "Mystic",
         "Support",
-        "Marvel80th"
+        "Supernatural"
       ],
       "Portrait_URL": "https://i.postimg.cc/44FfQdwH/drstrange.png",
       "Health": 89103,
@@ -1256,7 +1251,8 @@
         "Cosmic",
         "Bio",
         "Protector",
-        "Guardian"
+        "Guardian",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/8c3TpKsm/drax.png",
       "Health": 176134,
@@ -1399,7 +1395,8 @@
         "Cosmic",
         "Skill",
         "Brawler",
-        "Guardian"
+        "Guardian",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/0NxPyJ5F/gamora.png",
       "Health": 103608,
@@ -1506,7 +1503,7 @@
         "Bio",
         "Support",
         "Guardian",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/4dxGzk91/groot.png",
       "Health": 129510,
@@ -1766,7 +1763,7 @@
         "Avenger",
         "Shield",
         "Wave1Avenger",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/g2bPg6hj/hawkeye.png",
       "Health": 91175,
@@ -1815,8 +1812,7 @@
         "Bio",
         "Protector",
         "Avenger",
-        "Wave1Avenger",
-        "Marvel80th"
+        "Wave1Avenger"
       ],
       "Portrait_URL": "https://i.postimg.cc/P5bn9rb4/hulk.png",
       "Health": 193746,
@@ -2121,7 +2117,7 @@
         "Blaster",
         "Wave1Avenger",
         "PowerArmor",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/59Z0Myvd/ironman.png",
       "Health": 100500,
@@ -2385,7 +2381,7 @@
       		},
       	"Special": {
       		"Name": "Target Lock",
-      		"Description": "Attack primary target for 260% damage. Apply **Taunt** to target for 1 turn. Gain an Assist from an ally (greater assist chance from __Mercenary__ and __Kree__ allies).",
+      		"Description": "Attack primary target for 260% damage. Apply **Taunt** to target for 1 turn. Gain an Assist from an ally (greater assist chance from __Mercenary__ and __Kree__ allies).\nGain +750% Extra Focus for this attack.",
       		"Starting Energy": 3,
   			"Energy Cost": 3
   		},
@@ -2440,7 +2436,7 @@
   		},
       	"Passive": {
       		"Name": "Integrated Systems",
-      		"Description": "On Enemy **Taunt**, gain **Offense Up** for 2 turns and apply **Offense Up** to a __Kree__ ally for 2 turns.\nGain +5% Speed per __Kree__ ally."
+      		"Description": "On Enemy **Taunt**, gain **Offense Up** for 2 turns and apply **Offense Up** to a __Kree__ ally for 2 turns.\nGain +5% Speed per __Kree__ ally.\nOn Turn, copy all positive effects from an ally __Ultimus__ to this character."
       	}
       }
     },
@@ -2624,7 +2620,8 @@
         "Cosmic",
         "Mystic",
         "Controller",
-        "Asgard"
+        "Asgard",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/bwLpdwGv/loki.png",
       "Health": 88067,
@@ -2646,7 +2643,7 @@
       		},
       	"Special": {
       		"Name": "Mind Control",
-      		"Description": "Apply **Defense Down** to primary target for 2 turns.\nMind Control 2 enemies to attack the primary target. The controlled enemies gain +25% Damage for this attack.",
+      		"Description": "Apply **Defense Down** to primary target for 2 turns.\nOn WAR DEFENSE, with 4 or more __Asgard__ allies, apply **Taunt** to primary target.\nMind Control 2 enemies to attack the primary target. The controlled enemies gain +25% Damage for this attack.",
       		"Starting Energy": 4,
   			"Energy Cost": 4
   		},
@@ -2658,7 +2655,7 @@
       	},
       	"Passive": {
       		"Name": "God of Mischief",
-      		"Description": "On Spawn, gain 15% Speed Bar. __Mystic__ __Controller__ allies gain 10% Speed Bar.\nApply -30% Resistance to all enemies.\nGain +20% Focus. __Mystic__ __Controller__ allies gain +20% Focus.\nGain +20% Resistance. __Mystic__ __Controller__ allies gain 20% Resistance."
+      		"Description": "On Spawn, gain 15% Speed Bar. __Mystic__ __Controller__ allies gain 10% Speed Bar.\nApply -30% Resistance to all enemies.\nGain +20% Focus. __Mystic__ __Controller__ allies gain +20% Focus.\nGain +20% Resistance. __Mystic__ __Controller__ allies gain 20% Resistance.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally.\nWhen an __Asgard__ ally drops below 50% Max Health, apply **Stealth** to that ally."
       	}
       }
     },
@@ -2819,7 +2816,8 @@
         "Cosmic",
         "Bio",
         "Controller",
-        "Guardian"
+        "Guardian",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/qqfdWtF1/mantis.png",
       "Health": 137798,
@@ -3091,7 +3089,8 @@
         "Cosmic",
         "Mystic",
         "Controller",
-        "MartialArtist"
+        "MartialArtist",
+        "Supernatural"
       ],
       "Portrait_URL": "https://i.postimg.cc/y8fCsp5g/mordo.png",
       "Health": 103608,
@@ -3140,8 +3139,7 @@
         "City",
         "Bio",
         "Brawler",
-        "Inhuman",
-        "Marvel80th"
+        "Inhuman"
       ],
       "Portrait_URL": "https://i.postimg.cc/HLVDx4DS/msmarvel.png",
       "Health": 155412,
@@ -3239,7 +3237,8 @@
         "Global",
         "Mutant",
         "Controller",
-        "Brotherhood"
+        "Brotherhood",
+        "Marauders"
       ],
       "Portrait_URL": "https://i.postimg.cc/63vkVWQn/mystique.png",
       "Health": 137799,
@@ -3283,7 +3282,8 @@
         "Villain",
         "Cosmic",
         "Tech",
-        "Brawler"
+        "Brawler",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/gjy15g80/nebula.png",
       "Health": 113969,
@@ -3335,7 +3335,8 @@
         "Skill",
         "Support",
         "Avenger",
-        "Shield"
+        "Shield",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/SQW0Jx3p/nickfury.png",
       "Health": 113969,
@@ -3527,7 +3528,8 @@
         "Global",
         "Mutant",
         "Controller",
-        "Xmen"
+        "Xmen",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
       "Health": 98427,
@@ -3744,7 +3746,7 @@
       		},
       	"Special": {
       		"Name": "Shockwave",
-      		"Description": "Attack primary target for 210% damage + clear 2 positive effects. 40% chance to Chain up to 2 targets for 160% damage + clear 2 positive effects.\n**Counter** breaks this Chain.",
+      		"Description": "Attack primary target for 210% damage + clear 2 positive effects. 40% chance to Chain up to 2 targets for 160% damage + clear 2 positive effects.\n**Counter** breaks this Chain.\nIf __Coulson__ or __Yo-Yo__ is an ally, apply **Slow** to primary target and secondary targets.",
       		"Starting Energy": 3,
   			"Energy Cost": 3
   		},
@@ -3771,7 +3773,8 @@
         "Tech",
         "Blaster",
         "Ravager",
-        "Minion"
+        "Minion",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/PJMFKPnp/ravagerboomer.png",
       "Health": 103608,
@@ -3814,7 +3817,8 @@
         "Bio",
         "Protector",
         "Ravager",
-        "Minion"
+        "Minion",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/y6h57r31/ravagerbruiser.png",
       "Health": 113969,
@@ -3857,7 +3861,8 @@
         "Tech",
         "Support",
         "Ravager",
-        "Minion"
+        "Minion",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/CLF25Hbj/ravagerstitcher.png",
       "Health": 113994,
@@ -3948,7 +3953,8 @@
         "Global",
         "Tech",
         "Support",
-        "PowerArmor"
+        "PowerArmor",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/HknP4YZn/rescue.png",
       "Health": 98427,
@@ -4051,7 +4057,7 @@
         "Tech",
         "Blaster",
         "Guardian",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/N0rJSNww/rocketracoon.png",
       "Health": 88067,
@@ -4368,7 +4374,8 @@
         "Global",
         "Mutant",
         "Brawler",
-        "Brotherhood"
+        "Brotherhood",
+        "Marauders"
       ],
       "Portrait_URL": "https://i.postimg.cc/kG7TVqRn/sabretooth.png",
       "Health": 134691,
@@ -4414,7 +4421,7 @@
         "Mystic",
         "Controller",
         "Avenger",
-        "Marvel80th"
+        "Supernatural"
       ],
       "Portrait_URL": "https://i.postimg.cc/9MdxFrM8/scarlettwitch.png",
       "Health": 103608,
@@ -4613,8 +4620,7 @@
         "City",
         "Bio",
         "Brawler",
-        "SpiderVerse",
-        "Marvel80th"
+        "SpiderVerse"
       ],
       "Portrait_URL": "https://i.postimg.cc/MHsmvR8D/spiderman.png",
       "Health": 88067,
@@ -4721,7 +4727,8 @@
         "Cosmic",
         "Tech",
         "Controller",
-        "Guardian"
+        "Guardian",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/sxfJjmbx/starlord.png",
       "Health": 93248,
@@ -4769,8 +4776,7 @@
         "Global",
         "Mutant",
         "Controller",
-        "Xmen",
-        "Marvel80th"
+        "Xmen"
       ],
       "Portrait_URL": "https://i.postimg.cc/MTmDJNPg/storm.png",
       "Health": 113969,
@@ -4820,7 +4826,7 @@
         "Mystic",
         "Protector",
         "Eternal",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/m25S4QjZ/thanos.png",
       "Health": 207216,
@@ -4871,10 +4877,9 @@
         "Cosmic",
         "Mystic",
         "Blaster",
-        "Avenger",
         "Asgard",
         "Wave1Avenger",
-        "Marvel80th"
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/L8g38nQt/thor.png",
       "Health": 124330,
@@ -4896,19 +4901,19 @@
       		},
       	"Special": {
       		"Name": "Hammer Throw",
-      		"Description": "Attack primary target for 250% damage. + 70% chance to Chain to up to 9 adjacent targets for 200% damage.\nDodge breaks this Chain.",
+      		"Description": "Attack primary target for 300% damage. Chain to 3 adjacent targets for 230% damage.\nDodge breaks this Chain.",
       		"Starting Energy": 3,
   			"Energy Cost": 3
   		},
       	"Ultimate": {
       		"Name": "Lightning Storm",
-      		"Description": "Attack all enemies for 300% damage. Apply **Stun** to primary target + 30% chance to apply **Stun** to all additional targets.",
+      		"Description": "Attack all enemies for 320% damage. Apply **Stun** to primary target + 50% chance to apply **Stun** to all additional targets.",
       		"Starting Energy": 3,
       		"Energy Cost": 6
       	},
       	"Passive": {
       		"Name": "God of Thunder",
-      		"Description": "Gain +15% damage. Gain +10% damage for each __Asgard__ ally."
+      		"Description": "Gain +15% damage. Gain +10% damage for each __Asgard__ ally.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally.\nWhen an enemy attacks an __Asgard__ ally:\n> Change Speed Bar by 5%\n> Gain +1 Charged, up to a maximum of 5.\nOn maximum Charged:\n> Generate +1 Ability Energy for self\n> Attack all enemies for 260% damage.\n> Remove all Charged."
       	}
       }
     },
@@ -4941,11 +4946,11 @@
       "Abilities": {
       	"Basic": {
       		"Name": "Overwhelming Assault",
-      		"Description": "Attack primary target for 250% damage + 30% Piercing. 30% chance to apply **Ability Block**."
+      		"Description": "Attack primary target for 300% damage + 30% Piercing. 30% chance to apply **Ability Block**, **Defense Down**, and Mind Control 1 enemy to attack the primary target."
       		},
       	"Special": {
       		"Name": "Energy Beam",
-      		"Description": "Attack primary target for 190% damage + 150% damage to adjacent targets. 50% chance to clear 1 positive effect from primary target.",
+      		"Description": "Attack primary target and adjacent enemies for 280% Piercing.\nTransfer all positive effects, excluding **Stealth** and **Taunt**, from each target to self.\nApply **Regeneration** to self and adjacent allies.",
       		"Starting Energy": 4,
   			"Energy Cost": 4
   		},
@@ -4957,7 +4962,7 @@
       	},
       	"Passive": {
       		"Name": "Kree Eternal",
-      		"Description": "20% Block chance. On Kill, fill Speed Bar by 20% for all non-__Kree__ allies + 15% for all __Kree__ allies."
+      		"Description": "On enemy **Taunt**, change Speed Bar by +30%.\nOn Kill, change Speed Bar by +15% for all non-__Kree__ allies + 20% for all __Kree__ allies.\nGain 20% Block chance + 10% Block chance per non-__Minion__ __Kree__ ally. Non-MINION KREE allies gain 20% Block chance.\nGain 20% Max Health. Non-__Minion__ __Kree__ allies gain 20% Max Health."
       	}
       }
     },
@@ -5067,7 +5072,8 @@
         "Global",
         "Tech",
         "Controller",
-        "Avenger"
+        "Avenger",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/gj0vFJ66/vision.png",
       "Health": 88067,
@@ -5166,7 +5172,8 @@
         "Avenger",
         "Blaster",
         "Military",
-        "PowerArmor"
+        "PowerArmor",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/RhbwMBcp/warmachine.png",
       "Health": 93247,
@@ -5210,7 +5217,8 @@
         "Hero",
         "Global",
         "Tech",
-        "Blaster"
+        "Blaster",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/DfCrQqtQ/wasp.png",
       "Health": 90139,
@@ -5311,8 +5319,7 @@
         "Global",
         "Mutant",
         "Brawler",
-        "Xmen",
-        "Marvel80th"
+        "Xmen"
       ],
       "Portrait_URL": "https://i.postimg.cc/KvwtwmcR/wolverine.png",
       "Health": 134691,
@@ -5362,7 +5369,8 @@
         "Cosmic",
         "Mystic",
         "Support",
-        "Ravager"
+        "Ravager",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/7ZzSyjbX/yondu.png",
       "Health": 98428,
@@ -5414,7 +5422,8 @@
         "Global",
         "Mutant",
         "Controller",
-        "Xmen"
+        "Xmen",
+        "GalacticHeroes"
       ],
       "Portrait_URL": "https://i.postimg.cc/y8ptwgg0/phoenix.png",
       "Health": 98427,
@@ -5449,6 +5458,582 @@
       	"Passive": {
       		"Name": "From the Ashes",
       		"Description": "On Spawn, attack all enemies for 250% damage + apply **Defense Down** for 2 turns."
+      	}
+      }
+    },
+    "114": {
+      "Name": "Black Bolt",
+      "Aliases": [
+        "blackbolt",
+        "bb",
+        "inhuman"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Bio",
+        "Blaster",
+        "Inhuman"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/L86wDFzg/blackbolt.png",
+      "Health": 31068,
+      "Damage": 3050,
+      "Armor": 1060,
+      "Focus": 710,
+      "Resistance": 587,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Royal Strike",
+      		"Description": "If the primary target has **Slow**, flip 2 negative effects on self. Attack primary target for 400% damage + clear 2 positive effects."
+      		},
+      	"Special": {
+      		"Name": "Staggering Voice",
+      		"Description": "Attack primary target for 600% damage. This attack is unavoidable.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Sonic Scream",
+      		"Description": "Attack all enemies for 500% damage.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 6
+      	},
+      	"Passive": {
+      		"Name": "King of Attilan",
+      		"Description": "Characters killed by Black Bolt cannot be revived.\nWhen an enemy drops below 25% Health, attack that enemy for 200% damage. If that enemy is __Villain__ __Tech__, attack that enemy for 400% damage instead.\nOn enemy summon, apply **Disrupted** + clear 3 positive effects on the summoner.\nGain +40% Resistance. __Inhuman__ allies gain +40% Resistance.\nGain +50% Max Health. __Inhuman__ allies gain +50% Max Health."
+      	}
+      }
+    },
+    "116": {
+      "Name": "Beast",
+      "Aliases": [
+
+      ],
+      "Tags": [
+
+      ],
+      "Portrait_URL": "https://i.postimg.cc/WzLxwDns/beast.png",
+      "Health": 0,
+      "Damage": 0,
+      "Armor": 0,
+      "Focus": 0,
+      "Resistance": 0,
+      "Crit Damage": 0,
+      "Crit Chance": 0,
+      "Speed": 0,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 0,
+      "Accuracy": 0,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "",
+      		"Description": ""
+      		},
+      	"Special": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+  			"Energy Cost": 0
+  		},
+      	"Ultimate": {
+      		"Name": "",
+      		"Description": "",
+      		"Starting Energy": 0,
+      		"Energy Cost": 0
+      	},
+      	"Passive": {
+      		"Name": "",
+      		"Description": ""
+      	}
+      }
+    },
+    "117": {
+      "Name": "Elsa Bloodstone",
+      "Aliases": [
+        "elsa"
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Mystic",
+        "Blaster",
+        "Supernatural"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/jdhBySJr/elsa.png",
+      "Health": 25536,
+      "Damage": 2310,
+      "Armor": 958,
+      "Focus": 644,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 114,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Bloody Good Guns",
+      		"Description": "Attack primary target for 45% Piercing + Bonus Attack 5 times for 45% Piercing."
+      		},
+      	"Special": {
+      		"Name": "Trick Shot",
+      		"Description": "Attack primary target for 300% damage.\nAttack the most injured enemy for 350% damage, ignoring **Taunt** and **Stealth**",
+      		"Starting Energy": 2,
+  			"Energy Cost": 5
+  		},
+      	"Ultimate": {
+      		"Name": "Scatterguns",
+      		"Description": "Gain **Offense Up** for 2 turns. Attack primary target and adjacent targets for 250% damage + 25% damage per __Supernatural__ ally.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
+      	},
+      	"Passive": {
+      		"Name": "#%@$!",
+      		"Description": "On Miss or on ally miss, if this character has 3 or more __Supernatural__ allies, attack that target for 270% damage.\nOn enemy dodge, attack that enemy for 270% damage.\nGain +10% Crit Chance. __Mystic__ allies gain +10% Crit Chance.\nGain +20% Accuracy per __Supernatural__ ally."      	}
+      }
+    },
+    "118": {
+      "Name": "Ghost Rider",
+      "Aliases": [
+        "ghostrider",
+        "flameskull"
+      ],
+      "Tags": [
+        "Hero",
+        "City",
+        "Mystic",
+        "Brawler",
+        "Supernatural"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/RCKkVRSh/ghostrider.png",
+      "Health": 30217,
+      "Damage": 2458,
+      "Armor": 958,
+      "Focus": 539,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 127,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Hellfire",
+      		"Description": "Attack primary target for 250% damage + apply **Bleed** for 2 turns."
+      		},
+      	"Special": {
+      		"Name": "Hell Cycle",
+      		"Description": "Attack primary target for 290% damage + apply 2 **Bleed** for 2 turns. Attack all adjacent targets for 270% damage + apply 2 **Bleed**.\nThis attack cannot be blocked and cannot miss.",
+      		"Starting Energy": 6,
+  			"Energy Cost": 6
+  		},
+      	"Ultimate": {
+      		"Name": "Penance Stare",
+      		"Description": "Attack primary target for 500% Piercing + apply **Offense Down** and **Defense Down**.\nIf Charged, this attack gains 200% Drain and lose 1 Charged.",
+      		"Starting Energy": 2,
+      		"Energy Cost": 4
+      	},
+      	"Passive": {
+      		"Name": "Spirit of Vengeance",
+      		"Description": "On Death, grant 2 Ability Energy to all __Supernatural__ allies.\nOn non-summoned ally Death, attack the enemy that killed the target for 500% damage and gain +1 Charged, up to a maximum of 5. Generate 3 Ability Energy for self.\nWhen a negative effect is applied to an enemy, change Speed Bar of self and all __Supernatural__ allies by 3%.\nGain +40% Max Health. __Supernatural__ allies gain +40% Max Health.\nGain +30% Focus. __Mystic__ allies gain +30% Focus."
+      	}
+      }
+    },
+    "119": {
+      "Name": "Graviton",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Vilain",
+        "Global",
+        "Bio",
+        "Controller",
+        "Aim"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/cCR29s9w/graviton.png",
+      "Health": 21280,
+      "Damage": 2162,
+      "Armor": 1494,
+      "Focus": 644,
+      "Resistance": 438,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 106,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Gravity Well",
+      		"Description": "Attack primary target for 250% damage + Bonus attack for 100% damage per negative effect on the target."
+      		},
+      	"Special": {
+      		"Name": "Crushing Force",
+      		"Description": "Attack primary target and adjacent targets for 300% damage. Apply +2 **Slow**, up to a maximum of 5 to primary target and adjacent targets.\nIf Scientist Supreme is an ally, apply **Bleed** to primary target and adjacent targets.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Ultimate": {
+      		"Name": "Singularity",
+      		"Description": "Attack primary target for 300% damage + 100% additional damage per negative effect + apply **Stun**.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
+      	},
+      	"Passive": {
+      		"Name": "Weight of the World",
+      		"Description": "When an enemy drops below 50% health, increase the duration of their negative effects by +1, up to a maximum of 5.\n__Aim__ __Minion__ allies gain +20% Damage.\n__Aim__ __Minion__ allies gain +20% Max Health.\nIn WAR, on Turn, change Speed Bar of the enemy with the highest Speed by -25%.\nIn WAR, when an enemy drops below 75% health, apply **Disrupted**."
+      	}
+      }
+    },
+    "120": {
+      "Name": "Heimdell",
+      "Aliases": [
+        "allseeing"
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Mystic",
+        "Brawler",
+        "Asgard",
+        "GalacticHeroes"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/8Cs8pgcg/heimdell.png",
+      "Health": 28302,
+      "Damage": 2162,
+      "Armor": 1494,
+      "Focus": 438,
+      "Resistance": 438,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Hofund Slash",
+      		"Description": "Attack primary target for 310% damage to primary target.\nGain an assist from a random __Asgard__ ally."
+      		},
+      	"Special": {
+      		"Name": "Divine Foresight",
+      		"Description": "Flip **Stealth** on each enemy.\nAttack all enemies for 330% damage.\nClear **Heal Block** from self and all __Asgard__ allies.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Sworn Oath",
+      		"Description": "Attack primary target for 360% damage. Attack all adjacent targets for 330% damage.\nApply **Heal Block** to primary and secondary targets.",
+      		"Starting Energy": 4,
+      		"Energy Cost": 4
+      	},
+      	"Passive": {
+      		"Name": "The All-Seeing",
+      		"Description": "Gain +10000% Resistance against **Blind**. __Asgard__ allies gain +10000% Resistance against __Blind__.\nGain +30% Focus. __Asgard__ allies gain +30% Focus.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-__Minion__ __Asgard__ ally.\nOn WAR DEFENSE, on Spawn, apply **Defense Up** to all __Asgard__ allies for 2 turns."
+      	}
+      }
+    },
+    "121": {
+      "Name": "Hela",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Villain",
+        "Cosmic",
+        "Mystic",
+        "Controller",
+        "Asgard",
+        "GalacticHeroes"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/FHT5XH9x/hela.png",
+      "Health": 21280,
+      "Damage": 2772,
+      "Armor": 1277,
+      "Focus": 539,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 110,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Black Blade",
+      		"Description": "Attack primary target for 300% damage + flip 1 **Deathproof** on target.\nAttack the most injured enemy for 100% Piercing, ignoring **Taunt**."
+      		},
+      	"Special": {
+      		"Name": "Command Undead",
+      		"Description": "Attack primary target for 350% damage + apply **Disrupted** for 2 turns. Gain an Assist from an Undead Asgardian.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Ultimate": {
+      		"Name": "Death Knives",
+      		"Description": "Clear 3 Deathproof from all enemies. Gain +5000% Extra Focus for this action.\nAttack all enemies for 350% damage. Spread 4 negative effects from the primary target to all secondary targets.\nThis will not spread Stun.\nApply 2 Regeneration to all non-summoned ASGARDIAN allies.",
+      		"Starting Energy": 5,
+      		"Energy Cost": 5
+      	},
+      	"Passive": {
+      		"Name": "Goddess of Death",
+      		"Description": "On Spawn, summon an Undead Asgardian.\nOn an Undead Asgardian's Death, summon an Undead Asgardian.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-summoned __Asgard__ ally.\nGain +15% Max Health. Gain +15% Max Health per non-summoned __Asgard__ ally.\nOn WAR DEFENSE:\n> On non-summoned __Asgard__ ally's Death, summon an Undead Asgardian.\n> Gain +25% Damage.\n> __Asgard__ allies gain +25% Damage."
+      	}
+      }
+    },
+    "122": {
+      "Name": "Invisible Woman",
+      "Aliases": [
+        "iw",
+        "sue",
+        "suestorm"
+      ],
+      "Tags": [
+
+      ],
+      "Portrait_URL": "https://i.postimg.cc/bwyc5tjJ/invisiblewoman.png",
+      "Health": 29791,
+      "Damage": 1663,
+      "Armor": 638,
+      "Focus": 644,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 105,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Cosmic Rays",
+      		"Description": "Attack primary target for 290% damage. Barrier self for 10% of this character's Max Health."
+      		},
+      	"Special": {
+      		"Name": "Bending Light",
+      		"Description": "Clear 2 negative effects from self and all allies. Apply **Stealth** to self and all allies.\nApply **Defense Up** for 2 turns to self and all allies.\nClear **Stealth** from highest Health ally. Apply 3 **Deflect** + **Immunity** for 2 turns to highest Health ally.\nClear **Stealth** from all enemies.",
+      		"Starting Energy": 4,
+  			"Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Psionic Shields",
+      		"Description": "Apply **Offense Down** for 2 turns to all enemies.\nBarrier all allies for 40% of this character's Max Health.",
+      		"Starting Energy": 6,
+      		"Energy Cost": 6
+      	},
+      	"Passive": {
+      		"Name": "Hard Light",
+      		"Description": "When an enemy attacks this character with Barrier, attack that enemy for 250% damage.\nWhen an enemy attacks a __FantasticFour__ ally with Barrier, attack that enemy for 250% damage.\nGain +20% Max Health. __FantasticFour__ and __Namor__ allies gain +20% Max Health."
+      	}
+      }
+    },
+    "123": {
+      "Name": "Mister Sinister",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Marauders",
+        "Support"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/MZBSfwDW/mrsinister.png",
+      "Health": 31919,
+      "Damage": 1848,
+      "Armor": 1494,
+      "Focus": 745,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 100,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Psionic Beam",
+      		"Description": "Attack primary target for 300% damage + 50% damage per non-Cloned __Marauders__ ally.\nGain an assist from a random Cloned ally.\nGain an assist from a random __Marauders__ ally."
+      		},
+      	"Special": {
+      		"Name": "Gene Therapy",
+      		"Description": "Clear **Heal Block** from the 2 most injured allies. Gain **Offense Up** for 2 turns.\nTransfer all positive effects from an ally __Mystique__ to this character. Spread all positive effects from this character to all __Mutant__ or Cloned allies.\nHeal all allies for 2000 Health + 20% of this character's Max Health.\nHeal all Clones for 1500 Health + 10% of this character's Max Health.",
+      		"Starting Energy": 2,
+  			"Energy Cost": 5
+  		},
+      	"Ultimate": {
+      		"Name": "Clone",
+      		"Description": "Summon a Clone of the primary target. This Clone scales with __Mister Sinister__'s stats instead of the primary target.\nClone gains **Defense Up** for 2 turns.\nOn WAR DEFENSE, generate 2 Ability Energy for all __Marauders__ and Cloned allies.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 6
+      	},
+      	"Passive": {
+      		"Name": "Mutant Geneticist",
+      		"Description": "On Spawn, generate 3 Ability Energy for this character if non-Cloned.\nOn turn, Heal 15% of Max Health + 5% of Max Health per __Marauders__ ally. Apply **Regeneration** to the 2 most injured __Mutant__ allies.\nOn __Marauders__ ally's turn, if this character's Health is greater than 50%, redistribute 10% Health from this character to that ally.\nGain +50% Focus. __Marauders__ allies gain +50% Focus.\nGain +20% Max Health. __Marauders__ allies gain +20% Max Health.\nOn WAR DEFENSE, __Marauders__ allies gain +30% Max Health."
+      	}
+      }
+    },
+    "124": {
+      "Name": "Sif",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Hero",
+        "Cosmic",
+        "Skill",
+        "Protector",
+        "Asgard",
+        "GalacticHeroes"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/DyhtWX0g/sif.png",
+      "Health": 28302,
+      "Damage": 1848,
+      "Armor": 1698,
+      "Focus": 337,
+      "Resistance": 539,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 108,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Fending Strike",
+      		"Description": "Attack primary target for 280% damage.\nGain 2 **Deflect**."
+      		},
+      	"Special": {
+      		"Name": "Shield Slam",
+      		"Description": "Attack primary target for 340% damage.\nGain **Taunt** and 3 **Counter**.",
+      		"Starting Energy": 3,
+  			"Energy Cost": 3
+  		},
+      	"Ultimate": {
+      		"Name": "Whirling Blades",
+      		"Description": "Attack primary target for 360% damage.\nRebound chain to 4-5 additional targets for 330% damage.\n**Counter** breaks this Chain.\nIf __Thor__ is an ally, this attack cannot be counterattacked.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 5
+      	},
+      	"Passive": {
+      		"Name": "Defender of Asgard",
+      		"Description": "Gain +35% Block Chance. Gain +15% Block Amount.\nGain +10% Block Chance for each __Asgard__ ally.\nOn Spawn, gain **Defense Up** + 2 **Deflect**.\nOn Turn, heal self for 5% of Max Health + 5% of Max Health per non-minion __Asgard__ ally."
+      	}
+      }
+    },
+    "125": {
+      "Name": "Stryfe",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Villain",
+        "Global",
+        "Mutant",
+        "Protector",
+        "Marauders"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/k5H0DYR6/stryfe.png",
+      "Health": 28302,
+      "Damage": 2458,
+      "Armor": 1494,
+      "Focus": 539,
+      "Resistance": 438,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 88,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Psychic Strike",
+      		"Description": "Attack primary target for 300% damage.\nIf the target has **Taunt**, Gain +1 **Taunt**, up to a maximum of 3. Clear **Taunt** from the target.\nIf __Mister Sinister__ is an ally, transfer all positive effects from the primary target to __Mister Sinister__."
+      		},
+      	"Special": {
+      		"Name": "Superiority",
+      		"Description": "Gain +1 **Taunt**, up to a maximum of 3.\nGain 3 **Deflect** + Barrier self for 15% of this character's Max Health.\nGenerate 2 Ability Energy for 2 random __Marauders__ allies.",
+      		"Starting Energy": 4,
+  			  "Energy Cost": 4
+  		},
+      	"Ultimate": {
+      		"Name": "Nullifying Blast",
+      		"Description": "Apply **Ability Block** to primary target and adjacent targets.\nAttack primary and adjacent targets for 420% damage.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 5
+      	},
+      	"Passive": {
+      		"Name": "Grandeur",
+      		"Description": "On Spawn, fill +10% Speed Bar + 10% Speed Bar per __Mutant__ __Villain__ ally.\nOn turn, if Taunting, gain +1 **Deflect** up to a maximum of 3.\nWhen an allied __Mister Sinister__ drops below 50% Max Health, gain +1 **Taunt**, up to a maximum of 3 + gain Barrier for 15% of this character's Max Health.\nOn WAR DEFENSE:\n> Gain +50% Resistance.\n> __Mutant__ allies gain +50% Resistance.\n> Gain +50% Focus.\n> __Villain__ allies gain +50% Focus."
+      	}
+      }
+    },
+    "126": {
+      "Name": "Yo-Yo",
+      "Aliases": [
+
+      ],
+      "Tags": [
+        "Hero",
+        "Global",
+        "Bio",
+        "Protector",
+        "Shield",
+        "Inhuman"
+      ],
+      "Portrait_URL": "https://i.postimg.cc/nzQ6mKqd/yoyo.png",
+      "Health": 23408,
+      "Damage": 2033,
+      "Armor": 1060,
+      "Focus": 570,
+      "Resistance": 482,
+      "Crit Damage": 130,
+      "Crit Chance": 10,
+      "Speed": 140,
+      "Dodge Chance": 0,
+      "Block Chance": 0,
+      "Block Amount": 25,
+      "Accuracy": 100,
+      "Abilities": {
+      	"Basic": {
+      		"Name": "Rapid Strikes",
+      		"Description": "Attack primary target for 230% damage + clear **Counter**.\nGain an Assist from a random __Inhuman__ ally.\nThis attack cannot be counterattacked."
+      		},
+      	"Special": {
+      		"Name": "Flurry",
+      		"Description": "Attack primary target for 170% damage + Bonus attack 2 times for 170% damage.\nRepeat this attack on 3 additional random targets.\nThis attack cannot be counterattacked.",
+      		"Starting Energy": 5,
+  			"Energy Cost": 5
+  		},
+      	"Ultimate": {
+      		"Name": "Run the Gauntlet",
+      		"Description": "Attack all enemies for 270% damage. Grant 1 ability energy to all __Inhuman__ allies.",
+      		"Starting Energy": 3,
+      		"Energy Cost": 5
+      	},
+      	"Passive": {
+      		"Name": "Swift Protector",
+      		"Description": "On enemy turn, if this character has no other __Protector__ allies, apply **Offense Down** to that enemy. This cannot be dodged.\nOn ally non-__Minion__ __Shield__ or __Inhuman__ turn, 50% chance to apply **Evade** to that ally.\nOn Spawn, apply **Defense Up** to self and all non-__Minion__ __Shield__ or __Inhuman__ allies.\nWhen a non-__Minion__ __Shield__ or __Inhuman__ ally drops below 50% Health, apply **Defense Up** to that ally.\nGain +25% Dodge chance.\nGain +10% Focus per non-__Minion__ __Shield__ and __Inhuman__ ally."
       	}
       }
     }
@@ -5491,7 +6076,8 @@
   			"Guardian",
   			"Hand",
   			"Hydra",
-  			"Kree",
+        "Kree",
+        "Marauders",
   			"Mercenary",
   			"Ravager",
   			"Shield",
@@ -5520,353 +6106,306 @@
   			"MartialArtist",
   			"Minion",
   			"Mutant",
-  			"Marvel80th",
-  			"Military",
-  			"PowerArmor"
+        "Military",
+        "PowerArmor",
+        "Supernatural",
+        "GalacticHeroes"
   		]
   	}
   },
   "Teams": {
-  	"0": {
-		"Name": "Avengers",
-		"Characters": [
-			"Captain America",
-			"Black Widow",
-			"Quake",
-			"Iron Man",
-			"War Machine",
-			"Hawkeye",
-			"Hulk",
-			"Vision"
-		],
-		"Hard Counters": [
-			"Guardians",
-			"Warvengers"
-		],
-		"Soft Counters": [
-			"Avengers",
-			"Mystic Controllers"
-		]
-	},
+    "0": {
+		  "Name": "A.I.M",
+		  "Characters": [
+			  "A.I.M Security",
+			  "A.I.M Infector",
+			  "A.I.M Monstrosity",
+			  "A.I.M Researcher",
+			  "A.I.M Assault",
+        "Graviton",
+        "Scientist Supreme"
+		  ],
+		  "Counters_URL": "https://i.postimg.cc/DwmNXkkv/aim.jpg"
+    },
   	"1": {
-		"Name": "Brawlers",
-		"Characters": [
-			"Ms. Marvel",
-			"Gamora",
-			"Captain Marvel",
-			"Spider-Man",
-			"Spider-Man (Miles)",
-			"Deadpool",
-			"Cable",
-			"Black Panther",
-			"America Chavez"
-		],
-		"Hard Counters": [
-			"S.H.I.E.L.D.",
-			"Guardians",
-			"Warvengers"
-		],
-		"Soft Counters": [
-			"Defenders",
-			"Mystic Controllers"
-		]
-	},
-  	"2": {
-		"Name": "Brotherhood",
-		"Characters": [
-			"Magneto",
-			"Juggernaut",
-			"Pyro",
-			"Mystique",
-			"Sabretooth",
-			"Venom",
-			"Scarlett Witch"
-		],
-		"Hard Counters": [
-			"Brotherhood"
-		],
-		"Soft Counters": [
-			"Defenders"
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/85VPJrWJ/brotherhood.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/TYCrGTmv/brotherhood.jpg"
-	},
+		  "Name": "Asgardians",
+		  "Characters": [
+			  "Heimdell",
+			  "Hela",
+			  "Loki",
+			  "Sif",
+			  "Thor"
+		  ],
+		  "Counters_URL": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg"
+    },
+    "2": {
+		  "Name": "Avengers",
+		  "Characters": [
+			  "Captain America",
+			  "Black Widow",
+			  "Black Panther",
+			  "Ant-Man",
+			  "Hawkeye",
+        "Falcon",
+        "Hulk",
+        "Iron Man",
+        "Scarlett Witch",
+        "Thor",
+        "Vision",
+        "War Machine"
+      ],
+      "Counters_URL": "https://i.postimg.cc/vTMjg4Mk/avengers.jpg"
+    },
   	"3": {
-		"Name": "Defenders",
-		"Aliases": [
-			"punfenders"
-		],
-		"Characters": [
-			"Luke Cage",
-			"Daredevil",
-			"Iron Fist",
-			"Jessica Jones",
-			"Punisher",
-			"Ms. Marvel"
-		],
-		"Hard Counters": [
-			"S.H.I.E.L.D.",
-			"Power Armor"
-		],
-		"Soft Counters": [
-			"Defenders",
-			"Brawlers"
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/XNL7qqvq/punfenders.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/JhBJbJFR/defenders.jpg"
-	},
+		  "Name": "Brawlers",
+		  "Characters": [
+        "Ms. Marvel",
+        "Gamora",
+        "Captain Marvel",
+        "Spider-Man",
+        "Spider-Man (Miles)",
+        "Deadpool",
+        "America Chavez"
+      ],
+      "Counters_URL": "https://i.postimg.cc/PqY2Wd6j/brawlers.jpg"
+	  },
   	"4": {
-		"Name": "Guardians",
-		"Aliases": [
-			"gotg"
-		],
-		"Characters": [
-			"Drax",
-			"Starlord",
-			"Gamora",
-			"Groot",
-			"Rocket Racoon",
-			"Mantis"
-		],
-		"Hard Counters": [
-			"S.H.I.E.L.D.",
-			"Power Armor",
-			"Wakandans",
-			"Brotherhood"
-		],
-		"Soft Counters": [
-			"Defenders",
-			"Mystic Controllers"
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/Nf0GHty4/guardians.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
-	},
+      "Name": "Brotherhood",
+      "Characters": [
+        "Magneto",
+        "Juggernaut",
+        "Pyro",
+        "Mystique",
+        "Sabretooth"
+      ],
+      "Counters_URL": "https://i.postimg.cc/wBCnzWr6/brotherhood.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/85VPJrWJ/brotherhood.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/TYCrGTmv/brotherhood.jpg"
+    },
   	"5": {
-		"Name": "Kree",
-		"Characters": [
-			"Minn-erva",
-			"Ronan the Acuser",
-			"Kree Royal Guard",
-			"Kree Noble",
-			"Kree Cyborg",
-			"Kree Reaper",
-			"Kree Oracle",
-			"Captain Marvel"
-		],
-		"Hard Counters": [
-			"Warvengers",
-			"Defenders"
-		],
-		"Soft Counters": [
-			"Kree",
-			"Mystic Controllers",
-			"Brawlers"
-		],
-		"T4MatPrio_URL": "https://i.postimg.cc/qqQCkGNx/kree.jpg"
-	},
+      "Name": "Defenders",
+      "Aliases": [
+        "punfenders"
+      ],
+      "Characters": [
+        "Luke Cage",
+        "Daredevil",
+        "Iron Fist",
+        "Jessica Jones",
+        "Punisher",
+        "Ms. Marvel"
+      ],
+      "Counters_URL": "https://i.postimg.cc/T3Zt5KJ0/defenders.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/XNL7qqvq/punfenders.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/JhBJbJFR/defenders.jpg"
+    },
   	"6": {
-		"Name": "Mystic Controllers",
-		"Aliases": [
-			"mystics",
-			"wizards"
-		],
-		"Characters": [
-			"Thanos",
-			"Loki",
-			"Quake",
-			"Mordo",
-			"Scarlett Witch",
-			"Doctor Strange",
-			"Vision",
-			"Yondu"
-		],
-		"Hard Counters": [
-			"Mystic Controllers",
-			"Kree"
-		]
-	},
+		  "Name": "Fantastic Four",
+		  "Characters": [
+			  "Human Torch",
+			  "Invisible Woman",
+			  "Mister Fantastic",
+			  "Namor",
+			  "The Thing"
+      ],
+      "Counters_URL": "https://i.postimg.cc/fR3Hbcmk/fantasticfour.jpg"
+    },
   	"7": {
-		"Name": "Power Armor",
-		"Aliases": [
-			"iron legion",
-			"machines"
-		],
-		"Characters": [
-			"Iron Man",
-			"Rescue",
-			"Falcon",
-			"War Machine",
-			"Vision",
-			"Mercenary Lieutenant"
-		],
-		"Hard Counters": [
-			"Brotherhood",
-			"Power Armor",
-			"Guardians"
-		],
-		"Soft Counters": [
-			"S.H.I.E.L.D.",
-			"Warvengers",
-			"Wakandans"
-		],
-		"T4MatPrio_URL": "https://i.postimg.cc/HnTyDNkL/powerarmor.jpg"
-	},
+      "Name": "Guardians",
+      "Aliases": [
+        "gotg"
+      ],
+      "Characters": [
+        "Drax",
+        "Starlord",
+        "Gamora",
+        "Groot",
+        "Rocket Racoon",
+        "Mantis"
+      ],
+		  "Counters_URL": "https://i.postimg.cc/kXg1035Q/guardians.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/Nf0GHty4/guardians.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+    },
   	"8": {
-		"Name": "S.H.I.E.L.D.",
-		"Aliases": [
-			"shield",
-			"agents of shield"
-		],
-		"Characters": [
-			"Nick Fury",
-			"S.H.I.E.L.D. Security",
-			"S.H.I.E.L.D. Assault",
-			"S.H.I.E.L.D. Medic",
-			"S.H.I.E.L.D. Operative",
-			"S.H.I.E.L.D. Trooper"
-		],
-		"Hard Counters": [
-			"Brotherhood",
-			"Power Armor"
-		],
-		"Soft Counters": [
-			"SpiderVerse",
-			"Guardians",
-			"S.H.I.E.L.D."
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
-	},
+      "Name": "Kree",
+      "Characters": [
+        "Captain Marvel",
+        "Korath the Pursuer",
+        "Kree Royal Guard",
+        "Kree Reaper",
+        "Kree Oracle",
+        "Kree Cyborg",
+        "Kree Noble",
+        "Minn-erva",
+        "Ronan the Accuser",
+        "Ultimus"
+      ],
+      "Counters_URL": "https://i.postimg.cc/kXY191Vk/kree.jpg",
+      "T4MatPrio_URL": "https://i.postimg.cc/qqQCkGNx/kree.jpg"
+    },
   	"9": {
-		"Name": "SpiderVerse",
-		"Aliases": [
-			"spider-verse",
-			"spider verse"
-		],
-		"Characters": [
-			"Spider-Man",
-			"Spider-Man (Miles)",
-			"Venom",
-			"Carnage",
-			"Green Goblin",
-			"Kingpin",
-			"Scarlett Witch"
-		],
-		"Hard Counters": [
-			"Defenders",
-			"Mystic Controllers"
-		],
-		"Soft Counters": [
-			"SpiderVerse"
-		],
-		"T4MatPrio_URL": "https://i.postimg.cc/L8WLYvNy/spiderverse.jpg"
-	},
+      "Name": "Marauders",
+      "Characters": [
+        "Mister Sinister",
+        "Mystique",
+        "Sabretooth",
+        "Stryfe"
+      ],
+      "Counters_URL": "https://i.postimg.cc/2y2H1T0L/marauders.jpg"
+    },
   	"10": {
-		"Name": "Technerva",
-		"Aliases": [
-			"minntech",
-			"groot-tech",
-			"minn-guardians"
-		],
-		"Characters": [
-			"Minn-erva",
-			"Thanos",
-			"Drax",
-			"Starlord",
-			"Vision",
-			"Rocket Racoon",
-			"Groot"
-		],
-		"Hard Counters": [
-			"Power Armor",
-			"Brotherhood"
-		],
-		"Soft Counters": [
-			"S.H.I.E.L.D.",
-			"Warvengers",
-			"Guardians",
-			"Wakandans",
-			"Technerva"
-		],
-		"T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
-	},
+      "Name": "Power Armor",
+      "Aliases": [
+        "iron legion",
+        "machines"
+      ],
+      "Characters": [
+        "Iron Man",
+        "Rescue",
+        "Falcon",
+        "War Machine",
+        "Vision"
+      ],
+      "Counters_URL": "https://i.postimg.cc/g0ZBgV21/powerarmour.jpg",
+      "T4MatPrio_URL": "https://i.postimg.cc/HnTyDNkL/powerarmor.jpg"
+    },
   	"11": {
-		"Name": "X-Men",
-		"Aliases": [
-			"xmen",
-			"x men"
-		],
-		"Characters": [
-			"Phoenix",
-			"Colossus",
-			"Psylocke",
-			"Storm",
-			"Wolverine"
-		],
-		"Hard Counters": [
-			"X-Men",
-			"Ultron"
-		],
-		"Soft Counters": [
-			"Power Armor"
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/MKr60LV8/Xmen.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/ZRtNjnkp/xmen.jpg"
-	},
+      "Name": "S.H.I.E.L.D.",
+      "Aliases": [
+        "shield",
+        "agents of shield"
+      ],
+      "Characters": [
+        "Nick Fury",
+        "S.H.I.E.L.D. Security",
+        "S.H.I.E.L.D. Assault",
+        "S.H.I.E.L.D. Medic",
+        "S.H.I.E.L.D. Operative",
+        "S.H.I.E.L.D. Trooper"
+      ],
+      "Counters_URL": "https://i.postimg.cc/Pf4VVrdf/shield.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
+    },
   	"12": {
-		"Name": "Wakandans",
-		"Characters": [
-			"Shuri",
-			"M'Baku",
-			"Black Panther",
-			"Okoye",
-			"Killmonger"
-		],
-		"Hard Counters": [
-			"Power Armor",
-			"Brotherhood"
-		],
-		"Soft Counters": [
-			"S.H.I.E.L.D.",
-			"Brawlers"
-		],
-		"UniqueItems_URL": "https://i.postimg.cc/Y0dpsnPY/wakandans.png",
-		"T4MatPrio_URL": "https://i.postimg.cc/B6TKz3sy/wakandans.jpg"
-	},
+      "Name": "Coulson S.H.I.E.L.D.",
+      "Aliases": [
+        "coulson"
+      ],
+      "Characters": [
+        "Agent Coulson",
+        "Nick Fury",
+        "S.H.I.E.L.D. Security",
+        "S.H.I.E.L.D. Assault",
+        "S.H.I.E.L.D. Medic",
+        "S.H.I.E.L.D. Operative",
+        "S.H.I.E.L.D. Trooper"
+      ],
+      "Counters_URL": "https://i.postimg.cc/0QGXs9mf/shieldcoulson.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/bwDzmR9S/Shield.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/RCTtQvgJ/shield.jpg"
+    },
   	"13": {
-		"Name": "Warvengers",
-		"Characters": [
-			"Captain America",
-			"Black Widow",
-			"Iron Man",
-			"War Machine",
-			"Captain Marvel",
-			"Doctor Strange",
-			"Winter Soldier"
-		],
-		"Hard Counters": [
-			"Power Armor",
-			"Brotherhood"
-		],
-		"Soft Counters": [
-			"S.H.I.E.L.D.",
-			"Warvengers"
-		]
-	},
+      "Name": "Sinister Six",
+      "Aliases": [
+        "sinistersix",
+        "sinister6"
+      ],
+      "Characters": [
+        "Green Goblin",
+        "Mysterio",
+        "Rhino",
+        "Shocker",
+        "Vulture"
+      ],
+      "Counters_URL": "https://i.postimg.cc/4yJL4jQT/sinistersix.jpg"
+    },
   	"14": {
-		"Name": "Ultron",
-		"Characters": [
-			"Ultron"
-		],
-		"Hard Counters": [
-			"Ultron",
-			"X-men"
-		],
-		"Soft Counters": [
-			"Power Armor",
-			"Brotherhood"
-		]
-	}
+      "Name": "SpiderVerse",
+      "Aliases": [
+        "spider-verse",
+        "spider verse"
+      ],
+      "Characters": [
+        "Spider-Man",
+        "Spider-Man (Miles)",
+        "Venom",
+        "Carnage",
+        "Green Goblin"
+      ],
+      "Counters_URL": "https://i.postimg.cc/d3Bf8JV1/spiderverse.jpg",
+      "T4MatPrio_URL": "https://i.postimg.cc/L8WLYvNy/spiderverse.jpg"
+    },
+  	"15": {
+      "Name": "Supernatural",
+      "Characters": [
+        "Mordo",
+        "Dr Strange",
+        "Elsa Bloodstone",
+        "Ghost Rider",
+        "Scarlett Witch"
+      ],
+      "Counters_URL": "https://i.postimg.cc/tTGvws1J/supernatural.jpg"
+    },
+  	"16": {
+      "Name": "Technerva",
+      "Aliases": [
+        "minntech",
+        "groot-tech",
+        "minn-guardians"
+      ],
+      "Characters": [
+        "Minn-erva",
+        "Thanos",
+        "Drax",
+        "Starlord",
+        "Vision",
+        "Rocket Racoon",
+        "Groot"
+      ],
+      "Counters_URL": "https://i.postimg.cc/vZjN7qbW/technerva.jpg",
+      "T4MatPrio_URL": "https://i.postimg.cc/dtty5gfH/guardians.jpg"
+    },
+  	"17": {
+      "Name": "X-Men",
+      "Aliases": [
+        "xmen",
+        "x men"
+      ],
+      "Characters": [
+        "Phoenix",
+        "Colossus",
+        "Psylocke",
+        "Storm",
+        "Wolverine",
+        "Beast",
+        "Cyclops"
+      ],
+      "Counters_URL": "https://i.postimg.cc/8kBx8mmS/xmen.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/MKr60LV8/Xmen.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/ZRtNjnkp/xmen.jpg"
+    },
+  	"18": {
+      "Name": "Wakandans",
+      "Characters": [
+        "Shuri",
+        "M'Baku",
+        "Black Panther",
+        "Okoye",
+        "Killmonger"
+      ],
+      "Counters_URL": "https://i.postimg.cc/Hs6KnWNv/wakandans.jpg",
+      "UniqueItems_URL": "https://i.postimg.cc/Y0dpsnPY/wakandans.png",
+      "T4MatPrio_URL": "https://i.postimg.cc/B6TKz3sy/wakandans.jpg"
+    },
+  	"19": {
+      "Name": "Ultron",
+      "Characters": [
+        "Ultron"
+      ],
+      "Counters_URL": "https://i.postimg.cc/bJ1WwxX1/ultron.jpg"
+    }
   },
   "Effects": {
   	"0": {
