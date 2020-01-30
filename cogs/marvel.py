@@ -60,11 +60,11 @@ class MarvelCog(commands.Cog):
                 embed = discord.Embed(title=f'**{result["Name"]}**', colour=ctx.author.colour, description=f'*{" - ".join(str(tag) for tag in result["Tags"])}*', timestamp=datetime.datetime.now())
                 embed.set_thumbnail(url=f'{result["Portrait_URL"]}')
                 embed.set_footer(text=f'{ctx.author}', icon_url=f'{ctx.author.avatar_url}')
-                embed.add_field(name=f'__Basic - {result["Abilities"]["Basic"]["Name"]}__ :', value=f'{result["Abilities"]["Basic"]["Description"]}')
-                embed.add_field(name=f'__Special - {result["Abilities"]["Special"]["Name"]} - ({result["Abilities"]["Special"]["Starting Energy"]}/{result["Abilities"]["Special"]["Energy Cost"]})__ :', value=f'{result["Abilities"]["Special"]["Description"]}')
+                embed.add_field(name=f'__Basic - {result["Abilities"]["Basic"]["Name"]}__ :', value=f'{result["Abilities"]["Basic"]["Description"]}', inline=False)
+                embed.add_field(name=f'__Special - {result["Abilities"]["Special"]["Name"]} - ({result["Abilities"]["Special"]["Starting Energy"]}/{result["Abilities"]["Special"]["Energy Cost"]})__ :', value=f'{result["Abilities"]["Special"]["Description"]}', inline=False)
                 if 'Minion' not in result["Tags"]:
-                    embed.add_field(name=f'__Ultimate - {result["Abilities"]["Ultimate"]["Name"]} - ({result["Abilities"]["Ultimate"]["Starting Energy"]}/{result["Abilities"]["Ultimate"]["Energy Cost"]})__ :', value=f'{result["Abilities"]["Ultimate"]["Description"]}')
-                embed.add_field(name=f'__Passive - {result["Abilities"]["Passive"]["Name"]}__ :', value=f'{result["Abilities"]["Passive"]["Description"]}')
+                    embed.add_field(name=f'__Ultimate - {result["Abilities"]["Ultimate"]["Name"]} - ({result["Abilities"]["Ultimate"]["Starting Energy"]}/{result["Abilities"]["Ultimate"]["Energy Cost"]})__ :', value=f'{result["Abilities"]["Ultimate"]["Description"]}', inline=False)
+                embed.add_field(name=f'__Passive - {result["Abilities"]["Passive"]["Name"]}__ :', value=f'{result["Abilities"]["Passive"]["Description"]}', inline=False)
                 await ctx.send(embed=embed)
         else:
             await ctx.send('Unable to find a character matching that name.')

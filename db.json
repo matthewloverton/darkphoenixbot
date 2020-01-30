@@ -4462,7 +4462,7 @@
     "94": {
       "Name": "Scientist Supreme",
       "Aliases": [
-      	"a.i.m"
+      	"a.i.m."
       ],
       "Tags": [
         "Villain",
@@ -6115,13 +6115,13 @@
   },
   "Teams": {
     "0": {
-		  "Name": "A.I.M",
+		  "Name": "A.I.M.",
 		  "Characters": [
-			  "A.I.M Security",
-			  "A.I.M Infector",
-			  "A.I.M Monstrosity",
-			  "A.I.M Researcher",
-			  "A.I.M Assault",
+			  "A.I.M. Security",
+			  "A.I.M. Infector",
+			  "A.I.M. Monstrosity",
+			  "A.I.M. Researcher",
+			  "A.I.M. Assault",
         "Graviton",
         "Scientist Supreme"
 		  ],
@@ -6136,7 +6136,8 @@
 			  "Sif",
 			  "Thor"
 		  ],
-		  "Counters_URL": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg"
+      "Counters_URL": "https://i.postimg.cc/Qx8wjKfW/asgardians.jpg",
+      "T4MatPrio_URL": "https://i.postimg.cc/prKB8vRS/asgardianst4.jpg"
     },
     "2": {
 		  "Name": "Avengers",
@@ -6353,7 +6354,8 @@
       "Aliases": [
         "minntech",
         "groot-tech",
-        "minn-guardians"
+        "minn-guardians",
+        "bkt"
       ],
       "Characters": [
         "Minn-erva",
